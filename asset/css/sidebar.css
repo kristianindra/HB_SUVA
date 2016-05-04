@@ -1,0 +1,182 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar{
+	background: #00aeef;
+	width: 200px;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar.visible{
+	left:-200px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li{
+	list-style: none;
+}
+
+ul li{
+	color: #fff;
+	display: block;
+	width: 180px;
+	padding: 10px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+ul li a{
+	color: #fff;
+	display: block;
+	width: 180px;
+	padding: 10px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#sidebar_btn{
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 15px;
+	cursor: pointer;
+	margin: 10px;
+	position: absolute;
+	top: 0px;
+	right: -60px;
+}
+
+#sidebar_btn span{
+	height: 3px;
+	background: #00aeef;
+	margin-bottom: 5px;
+	display: block;
+}
+
+#sidebar_btn span:nth-child(2){
+	width: 75%;
+}
+
+#sidebar_btn span:nth-child(3){
+	width: 50%;
+}
+
+hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.sub_menu{
+	margin-top: 10px;
+	width: 160px;
+	margin-left: 10px;
+	background: #fff;
+}
+
+.sub_menu li{
+	color: #00aeef;
+	border-bottom: 1px solid #00aeef;
+}
+
+.sub_menu li:hover{
+	color: #00aeef;
+	background: #fff;
+}
+
+.nav-header{
+	width: 100%;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+
+.active{
+	background: #fff;
+	color: #00aeef;
+}
+
+.content{
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+/*.nav-header:hover{
+	background-color: #fff;
+	color: #00aeef;
+}
+
+#wrapper {
+    margin-top: -20px;
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 200px;
+}
+
+#wrapper.toggled #sidebar {
+    width: 200px;
+}
+
+#content {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #content {
+    position: absolute;
+    margin-right: -200px;
+} */
+
+.right-side{
+	background: red;
+	width: 80%;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar_btn1{
+	display: inline-block;
+	vertical-align: right;
+	width: 200px;
+	height: 150px;
+	cursor: pointer;
+	margin: 10px;
+	position: absolute;
+	top: 0px;
+	right: -60px;
+	background-color: red;
+}

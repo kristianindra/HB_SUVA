@@ -1,0 +1,238 @@
+#wrapper {
+    margin-top: -20px;
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 200px;
+    width: 0;
+    height: 100%;
+    margin-left: -200px;
+    overflow-y: auto;
+    background: #00aeef;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 200px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -200px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+
+    #wrapper {
+        padding-left: 180px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 180px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+.list-group.panel {
+    border-radius: 0px;
+    border-color: #00aeef;
+    margin-right: -1px;
+}
+
+.list-group.panel > .list-group-item {
+    border-radius: 0px;
+    border-color: #00aeef;
+    border-bottom-color: #fff;
+    margin-right: -1px;
+}
+
+.list-group.panel > .list-group-item.active{
+    background-color: red;
+}
+
+.list-group-submenu {
+    margin-left:10px;
+}
+
+.list-group.panel a:hover{
+    background-color: red;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav .panel .list-group-item{
+    border-radius: 0px;
+    background-color: #00aeef;
+    color: #fff;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav .panel .list-group-item:hover{
+    border-radius: 0px;
+    background-color: #fff;
+    color: #00aeef;
+}
+
+#wrapper #sidebar-wrapper .sidebar-nav .panel .active{
+    border-radius: 0px;
+    background-color: #fff;
+    color: #00aeef;
+}
+
+#content{
+    margin-left: -20px;
+}
+
+div .ini .no{
+    display: none;
+}
+
+.font{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.font1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#inv_title{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #120e42;
+}
+
+#inv_title p{
+    margin: 0;
+    padding: 0;
+}
+
+hr.separator {
+    height: 30px; 
+    border-style: solid; 
+    border-color: #120e42; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px;
+} 
+hr.separator:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #8c8b8b; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+}
+
+.main{
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+}
+
+.val{
+    font-size: 12px;
+    margin: 0;
+}
+
+hr.under{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.navbar-custom{
+    background-color: #00aeef;
+    color:#ffffff;
+    border-radius:0;
+}
+.navbar-custom:hover{
+    color:#ffffff;
+    border-radius:0;
+}
