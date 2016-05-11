@@ -27,10 +27,10 @@
 		</div>
 		<div class="col-sm-4"></div>
 	</div>
-	<script src="../asset/bootstrap/js/bootstrap.min.js"></script>
 	
 	<div class="container">
 		<a href="../C_main/int_contact">Contact</a>
 	</div>
+	<script src="../asset/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
