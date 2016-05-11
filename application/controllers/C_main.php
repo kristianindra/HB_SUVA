@@ -23,6 +23,10 @@ class C_main extends CI_Controller
     public function logout(){
         $this->load->view('v_login_');
     }
+    
+    public function int_contact(){
+      $this->load->view('v_contact_1');
+    }
 
 }
 
