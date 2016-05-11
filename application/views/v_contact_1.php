@@ -63,7 +63,7 @@ body{
     $(document).ready(function() {
         var img = document.getElementById('header');
         var height = img.clientWidth;
-        alert(height);
+        //alert(height);
         document.getElementById("menu_bg").height = "705";
         $("#op").hover(
               function () {
