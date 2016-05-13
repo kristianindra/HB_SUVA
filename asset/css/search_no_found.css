@@ -1,0 +1,184 @@
+@media screen and (min-width: 1000px) and (max-width: 1299px){
+    input:focus{
+        outline: none;
+    }
+
+    #content_left_text{
+        margin-top: 100px;
+        position: absolute;
+    }
+
+    #content_left_image{
+        margin-top: 100px;
+        height: 650px;
+        width: 450px;
+    }
+
+    #content_left_text_title{
+        text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 30px;
+        margin-top: -5px;
+    }
+
+    #another_search_box{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    #another_search_text{
+        border: none;
+        background: #f0f0f0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 92px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 8px;
+    }
+
+    #another_search_icon{
+        height: 25px;
+        margin-top: 2px;
+        margin-left: -4px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #f0f0f0;
+    }
+
+    #content_right p{
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+    #content_right_title{
+        margin-top: 100px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    #content_right_body{
+        text-align: justify;
+        line-height: 16px;
+        margin-right: 80px;
+        margin-bottom: 25px;
+        font-size: 11px;
+    }
+
+    #content_search_no_found_logo_address{
+        width: 12px;
+        margin-right: 12px;
+    }
+    #content_search_no_found_logo_phone{
+        width: 15px;
+        margin-right: 11px;
+    }
+    #content_search_no_found_logo_fax{
+        width: 15px;
+        margin-right: 11px;
+    }
+    #content_search_no_found_logo_email{
+        width: 15px;
+        margin-right: 11px;
+    }
+
+    #content_right_information p{
+        font-size: 11px;
+    }
+
+}
+
+
+@media screen and (min-width: 1300px){
+    input:focus{
+        outline: none;
+    }
+
+    #content_left_text{
+        position: absolute;
+        padding-right: 60px;
+    }
+
+    #content_left_text_title{
+        text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 35px;
+        margin-top: -5px;
+    }
+
+    #another_search_box{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    #another_search_text{
+        border: none;
+        background: #f0f0f0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 120px;
+        height: 30px;
+        padding-left: 15px;
+        font-size: 10px;
+    }
+
+    #another_search_icon{
+        height: 30px;
+        margin-top: 2px;
+        margin-left: -4px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #f0f0f0;
+    }
+
+    #content_right p{
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+    #content_right_title{
+        font-weight: 600;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    #content_right_body{
+        text-align: justify;
+        line-height: 20px;
+        margin-right: 120px;
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+
+    #content_search_no_found_logo_address{
+        width: 15px;
+        margin-right: 12px;
+    }
+    #content_search_no_found_logo_phone{
+        width: 17px;
+        margin-right: 11px;
+    }
+    #content_search_no_found_logo_fax{
+        width: 17px;
+        margin-right: 11px;
+    }
+    #content_search_no_found_logo_email{
+        width: 17px;
+        margin-right: 11px;
+    }
+
+    #content_right_information p{
+        font-size: 13px;
+    }
+
+}
