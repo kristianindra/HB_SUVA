@@ -29,7 +29,11 @@ body{
     }
 }
 </style>
+<<<<<<< HEAD:application/views/v_contact_1.php
 <link href="./../asset/css/contact_1.css" rel="stylesheet" type="text/css" />
+=======
+<link href="./../asset/css/contact_.css" rel="stylesheet" type="text/css" />
+>>>>>>> origin/master:GAK PAKE/v_contact.php
 <!--<link href="./../asset/css/320_header.css" rel="stylesheet" type="text/css" media="screen and (min-width: 320px)" />
 <link href="./../asset/css/480_header.css" rel="stylesheet" type="text/css" media="screen and (min-width: 480px)" />
 <link href="./../asset/css/600_header.css" rel="stylesheet" type="text/css" media="screen and (min-width: 600px)" />

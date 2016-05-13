@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+#header{
+    background: url("../image/header/head_contact-m.png") #ccc no-repeat left top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#menu{
+  z-index: 100;
+  height: 45px;
+  width: 45px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: #e61c24;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+#menu span{
+	margin: 0px;
+	border: none;
+	height: 3px;
+	background: #fff;
+	display: block;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-radius: 25px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu span:nth-child(1){
+	margin-top: 13px;
+}
+#menu span:nth-child(2){
+	margin-top: 3px;
+}
+#menu span:nth-child(3){
+	margin-top: 4px;
+}
+
+#menu_background{
+    display: table-cell;
+    background: #000;
+    opacity: 0.4;
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    margin-top: -200px;
+}
+
+.list_menu{
+  color: #fefefe;
+  font-size: 18px;
+}
+
+#menu_{
+    margin: 0;
+    z-index: 100;
+    display: table-cell;
+    position: absolute;
+    padding: 0;
+    margin-top: 128px;
+    margin-left: 0px;
+}
+
+.menu_logo{
+  max-width: 26px;
+  margin-right: 20px;
+  margin-top:-5px;
+}
+
+#menu_ ul{
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+#menu_ ul li{
+  margin-bottom: 28px;
+}
+
+.list_menu.active{
+  color: #e61c24;
+}
+
+#header_center{
+    margin-top: 100px;
+}
+
+#suva_logo{
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#made_by_us{
+    max-width: 270px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#buy_now{
+  max-width: 90px;
+  width: 100%;
+  margin-bottom: 550px;
+}
+
+#search_box{
+    margin-top: 50px;
+    margin-left: 95px;
+}
+
+#search_text{
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 150px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+#search_icon{
+    height: 30px;
+    margin-left: -10px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    background: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

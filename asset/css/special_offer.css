@@ -1,0 +1,120 @@
+.special_offer{
+    margin-top: 100px;
+    display: block;
+    width: 1024px;
+    height: 235px;
+    background-image: url("../image/special_offer/special_offer.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.special_offer p{
+    font-family: Verdana, Geneva, sans-serif;
+    color: #fff;
+}
+
+.special_offer_title{
+    font-size: 15px;
+    padding-top: 40px;
+}
+
+.special_offer_text{
+    font-size: 10px;
+    padding-top: 15px;
+    margin-left: 115px;
+    margin-right: 115px;
+    padding-bottom: 25px;
+}
+
+.special_offer_email{
+    margin-top: -5px;
+}
+
+#email_text{
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 150px;
+    height: 20px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #000;
+}
+
+#email_icon{
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -2px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    background: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media screen and (min-width: 1300px){
+    .special_offer{
+        margin-top: 100px;
+        display: block;
+        max-width: 2560px;
+        height: 310px;
+        width: 100%;
+        background-image: url("../image/special_offer/special_offer.png");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .special_offer p{
+        font-family: Verdana, Geneva, sans-serif;
+        color: #fff;
+    }
+
+    .special_offer_title{
+        font-size: 20px;
+        padding-top: 60px;
+    }
+
+    .special_offer_text{
+        font-size: 12px;
+        padding-top: 35px;
+        margin-left: 115px;
+        margin-right: 115px;
+        padding-bottom: 25px;
+    }
+
+    .special_offer_email{
+        margin-top: 20px;
+    }
+
+    #email_text{
+        border: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 200px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 12px;
+        color: #000;
+    }
+
+    #email_icon{
+        height: 25px;
+        margin-left: -10px;
+        margin-top: -2px;
+        padding-top: 8px;
+        padding-left: 8px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #fff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}

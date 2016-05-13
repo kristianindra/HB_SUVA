@@ -1,0 +1,366 @@
+@media screen and (min-width: 1000px) and (max-width: 1299px){
+    input:focus{
+        outline: none;
+    }
+
+    #suva_logo{
+        margin-top: 120px;
+        max-width: 210px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #made_by_us{
+        max-width: 190px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #buy_now{
+      max-width: 80px;
+      width: 100%;
+      margin-bottom: 150px;
+    }
+
+    #buy_now:hover{
+        cursor: pointer;
+    }
+
+    #search_box{
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+
+    #search_text{
+        border: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 100px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+    #search_icon{
+        height: 25px;
+        margin-left: -10px;
+        margin-top: -2px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #fff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    #menu{
+        z-index: 100;
+    	height: 30px;
+    	width: 30px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #e61c24;
+    	cursor: pointer;
+    	position: absolute;
+    	top: 90px;
+    	left: 40px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu.show{
+        background: #fff;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu.show span{
+        background: #e61c24;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu span{
+    	margin: -2px;
+    	border: none;
+    	height: 3px;
+    	background: #fff;
+    	margin-bottom: 5px;
+    	display: block;
+    	margin-left: 8px;
+    	margin-right: 8px;
+    	border-radius: 25px;
+    	-webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #menu span:nth-child(1){
+    	margin-top: 8px;
+    }
+
+    #menu_bg{
+        margin-left: -295px;
+        width: 228px;
+        height: 700px;
+        background: #000;
+        opacity: .4;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu_bg.show{
+        margin-left: -15px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu_{
+        margin: 0;
+        z-index: 100;
+        display: table-cell;
+        position: absolute;
+        padding: 0;
+        margin-top: 85px;
+        margin-left: 0px;
+    }
+
+    .menu_logo{
+      max-width: 18px;
+      margin-right: 10px;
+      margin-top:-5px;
+    }
+
+    #menu_ ul{
+        margin-left: -305px;
+        margin-top: 100px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu_.show ul{
+        margin-left: -8px;
+        margin-top: 100px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu_ ul li{
+      margin-bottom: 22px;
+    }
+
+    .list_menu.active{
+      color: #e61c24;
+    }
+
+    .list_menu{
+      color: #fefefe;
+      font-size: 12px;
+    }
+
+    .list_menu:hover{
+        color: #e61c24;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width: 1300px){
+    input:focus{
+        outline: none;
+    }
+
+    #suva_logo{
+        margin-top: 100px;
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #made_by_us{
+        max-width: 270px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #buy_now{
+      max-width: 90px;
+      width: 100%;
+      margin-bottom: 550px;
+    }
+
+    #buy_now:hover{
+        cursor: pointer;
+    }
+
+    #search_box{
+        margin-top: 40px;
+        margin-left: 85px;
+    }
+
+    #search_text{
+        border: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 150px;
+        height: 30px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+
+    #search_icon{
+        height: 30px;
+        margin-left: -10px;
+        margin-top: 0px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #fff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    #menu{
+      z-index: 100;
+    	height: 40px;
+    	width: 40px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background: #e61c24;
+    	cursor: pointer;
+    	position: absolute;
+    	top: 40px;
+    	left: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu.show{
+        background: #fff;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu.show span{
+        background: #e61c24;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu span{
+    	margin: -2px;
+    	border: none;
+    	height: 3px;
+    	background: #fff;
+    	margin-bottom: 5px;
+    	display: block;
+    	margin-left: 10px;
+    	margin-right: 10px;
+    	border-radius: 25px;
+    	-webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #menu span:nth-child(1){
+    	margin-top: 12px;
+    }
+
+    #menu_bg{
+        margin-left: -315px;
+        width: 295px;
+        height: 705px;
+        background: #000;
+        opacity: .4;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu_bg.show{
+        margin-left: -15px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu_{
+        margin: 0;
+        z-index: 100;
+        display: table-cell;
+        position: absolute;
+        padding: 0;
+        margin-top: 115px;
+        margin-left: 0px;
+    }
+
+    .menu_logo{
+      max-width: 26px;
+      margin-right: 20px;
+      margin-top:-5px;
+    }
+
+    #menu_ ul{
+        margin-left: -305px;
+        margin-top: 25px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu_.show ul{
+        margin-left: 3px;
+        margin-top: 25px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #menu_ ul li{
+      margin-bottom: 28px;
+    }
+
+    .list_menu.active{
+      color: #e61c24;
+    }
+
+    .list_menu{
+      color: #fefefe;
+      font-size: 17px;
+    }
+
+    .list_menu:hover{
+        color: #e61c24;
+        cursor: pointer;
+    }
+}

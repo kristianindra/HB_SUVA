@@ -27,9 +27,16 @@
 		</div>
 		<div class="col-sm-4"></div>
 	</div>
+<<<<<<< HEAD
 	
 	<div class="container">
 		<a href="../C_main/int_contact">Contact</a>
+=======
+	<div class="container">
+		<a href="../C_main/int_contact">Contact</a><br />
+		<a href="../C_main/int_search">Search</a><br />
+		<a href="../C_main/int_search_no_found">Search No Found</a><br />
+>>>>>>> origin/master
 	</div>
 	<script src="../asset/bootstrap/js/bootstrap.min.js"></script>
 </body>
