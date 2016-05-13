@@ -1,0 +1,944 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#qwe{
+  background: #000;
+  padding-bottom: 305px;
+  -moz-padding-bottom: 305px;
+}
+.head{
+  display: block;
+  max-width: 1920px;
+  max-height: 1080px;
+  width: 100%;
+  height: 100%;
+  background-image:  url("../image/header/head_contact-m.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#sidebar_{
+  display: block;
+  max-width: 455px;
+  max-height: 1080px;
+  width: 100%;
+  height: 100%;
+  margin-left: -15px;
+  background-image:  url("../image/sidebar_background1.png");
+  background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#sidebar_ ul{
+  padding-top: 130px;
+  padding-left: 60px;
+}
+
+#search_box{
+  max-width: 150px;
+  max-height: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+#search_box2{
+  max-width: 150px;
+  max-height: 30px;
+  width: 100%;
+  height: 100%;
+  background-image:  url("../image/search_box.png");
+  background-size: 100%;
+  margin-top: 50px;
+  margin-left: 240px;
+}
+
+#search_text{
+  position: block;
+  margin-top:0px;
+  margin-top: 5px;
+  width: 90px;
+  margin-bottom: 8px;
+  margin-left: 20px;
+  border: none;
+}
+
+#menu{
+  z-index: 100;
+	height: 40px;
+	width: 40px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: red;
+	cursor: pointer;
+	position: absolute;
+	top: 40px;
+	left: 50px;
+}
+
+#menu span{
+	margin: -2px;
+	border: none;
+	height: 3px;
+	background: #fff;
+	margin-bottom: 5px;
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 25px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#menu span:nth-child(1){
+	margin-top: 12px;
+}
+
+#background_menu{
+    background:  #000;
+    opacity: .4;
+    max-width: 588px;
+    max-height: 1606px;
+    width: 300px;
+    height: 100%;
+    margin-left: -120px;
+    margin-top: 0px;
+    background-size: 100%;
+    z-index: -10 !important;
+}
+
+#sidebar_menu{
+  margin: 0;
+  z-index: 100;
+  display: table-cell;
+  position: absolute;
+  padding: 0;
+  margin-top: 128px;
+  margin-left: -100px;
+}
+
+#sidebar_ ul li{
+  margin-bottom: 28px;
+}
+
+#sidebar_ ul{
+  margin-bottom: 448px;
+}
+
+.list_menu.active{
+  color: #e61c24;
+}
+
+.list_menu{
+  color: #fefefe;
+  font-size: 18px;
+}
+
+.list_menu:hover{
+  cursor: pointer;
+}
+
+.menu_logo{
+  max-width: 23px;
+  margin-right: 20px;
+  margin-top:-5px;
+}
+
+.menu_text{
+  max-height: 13px;
+  margin-top: -5px;
+}
+
+#head_image{
+  margin-top: -1040px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  max-height: 1080px;
+  z-index: -999999;
+}
+
+#suva_logo{
+  margin-top: 100px;
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#made_by_us{
+  max-width: 280px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#buy_now{
+  max-width: 90px;
+  width: 100%;
+  margin-bottom: 480px;
+}
+#buy_now:hover{
+  cursor: pointer;
+}
+
+.search{
+  position: relative;
+  margin-left:210px;
+  width: 180px;
+  height: 32px;
+  top:50px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.round {
+    border: none;
+    height: 25px;
+    width: 120px;
+    margin-top:3px;
+    position: absolute;
+    z-index: 5;
+    padding-top: 2px;
+    margin-left: 15px;
+}
+
+.corner {
+  position: absolute;
+  top: 3px;
+  left: 145px;
+  height: 30px;
+  width: 20px;
+  border: none;
+  background-image: url("../image/search_icon.png");
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+/*.round {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px #fff solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 5;
+}
+
+.corner {
+    position: absolute;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 50px;
+    left: 150px;
+    height: 30px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background-image: url("../image/search_icon.png");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-size: 100%;
+    background-color: #fff;
+}
+
+.search {
+    position: relative;
+    margin-left:220px;
+    width: 160px;
+    height: 30px;
+}*/
+
+@media screen and (max-width: 1440px){
+  #sidebar_ ul{
+    margin-bottom: 480px;
+  }
+}
+@media screen and (max-width: 1024px){
+  #sidebar_ ul{
+    margin-bottom: 333px;
+  }
+  #sidebar_ ul li{
+    margin-bottom: 15px;
+  }
+  .menu_logo{
+    max-width: 15px;
+    margin-right: 20px;
+    margin-top:-5px;
+  }
+
+  .menu_text{
+    max-height: 8px;
+    margin-top: -5px;
+  }
+
+  #menu{
+    z-index: 100;
+  	height: 30px;
+  	width: 30px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: red;
+  	cursor: pointer;
+  	position: absolute;
+  	top: 40px;
+  	left: 50px;
+  }
+
+  #menu span{
+  	margin: -2px;
+  	border: none;
+  	height: 3px;
+  	background: #fff;
+  	margin-bottom: 4px;
+  	display: block;
+  	margin-left: 7px;
+  	margin-right: 7px;
+  	border-radius: 25px;
+  	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  #menu span:nth-child(1){
+  	margin-top: 8px;
+  }
+
+  #sidebar_ ul{
+    padding-top: 100px;
+    padding-left: 60px;
+  }
+  #sidebar_{
+    display: block;
+    max-width: 220px;
+    max-height: 1080px;
+    width: 100%;
+    height: 100%;
+    margin-left: -15px;
+    background-image:  url("../image/sidebar_background1.png");
+    background-size: 100%;
+  	background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 1300px){
+  #search_box2{
+    max-width: 130px;
+    max-height: 25px;
+    width: 100%;
+    height: 100%;
+    background-image:  url("../image/search_box.png");
+    background-size: 100%;
+    margin-top: 50px;
+    margin-left: 220px;
+  }
+
+  #search_text{
+    position: block;
+    margin-top:0px;
+    width: 80px;
+    height: 25px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    border: none;
+  }
+}
+@media screen and (max-width: 1100px){
+  #search_box2{
+    max-width: 130px;
+    max-height: 25px;
+    width: 100%;
+    height: 100%;
+    background-image:  url("../image/search_box.png");
+    background-size: 100%;
+    margin-top: 50px;
+    margin-left: 160px;
+  }
+
+  #search_text{
+    position: block;
+    margin-top:0px;
+    width: 80px;
+    height: 25px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    border: none;
+  }
+}
+@media screen and (max-width: 980){
+  #search_box2{
+    max-width: 130px;
+    max-height: 40px;
+    width: 100%;
+    height: 100%;
+    background-image:  url("../image/search_box.png");
+    background-size: 100%;
+    margin-top: 50px;
+    margin-left: 160px;
+  }
+
+  #search_text{
+    position: block;
+    margin-top:5px;
+    padding-top: 10px;
+    width: 100px;
+    height: 25px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    border: none;
+  }
+}
+@media screen and (max-width: 900px){
+  #search_box2{
+    max-width: 120px;
+    max-height: 23px;
+    width: 100%;
+    height: 100%;
+    background-image:  url("../image/search_box.png");
+    background-size: 100%;
+    margin-top: 30px;
+    margin-left: 110px;
+  }
+
+  #search_text{
+    position: block;
+    margin-top:2px;
+    width: 75px;
+    height: 20px;
+    margin-bottom: 8px;
+    margin-left: 13px;
+    border: none;
+    padding-top: 3px;
+    font-size: 11px;
+  }
+  #suva_logo{
+    margin-top: 70px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  #made_by_us{
+    max-width: 190px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #buy_now{
+    max-width: 80px;
+    width: 100%;
+    margin-bottom: 480px;
+  }
+}
+@media screen and (max-width: 768px) {
+    #sidebar_ ul{
+      margin-bottom: 54px;
+    }
+    #suva_logo {
+      margin-top: 50px;
+      margin-bottom: 15px;
+    }
+    #made_by_us{
+      max-width: 180px;
+      width: 100%;
+    }
+    #buy_now{
+      max-width: 50px;
+      width: 100%;
+    }
+    .head{
+      background-image:  url("../image/head_contact-s.png");
+    }
+    .search{
+      margin-left:30px;
+      width: 70px;
+      height: 15px;
+      top: 15px;
+    }
+    .round {
+        height: 13px;
+        width: 45px;
+        margin-top:1px;
+        padding-left: 2px;
+        padding-top: 2px;
+        z-index: 5;
+        padding-top: 0px;
+        margin-left: 5px;
+        font-size: 5px;
+    }
+    .corner {
+      position: absolute;
+      top: 2px;
+      left: 55px;
+      height: 10px;
+      width: 0px;
+      border: none;
+      z-index: 10;
+      background-size: 70%;
+      background-color: #fff;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+    #search_box2{
+      max-width: 100px;
+      max-height: 20px;
+      width: 100%;
+      height: 100%;
+      background-image:  url("../image/search_box.png");
+      background-size: 100%;
+      margin-top: 15px;
+      margin-left: 70px;
+    }
+
+    #search_text{
+      position: block;
+      width: 65px;
+      height: 12px;
+      padding-top: 0px;
+      margin-bottom: 8px;
+      margin-left: 10px;
+      border: none;
+      font-size: 10px;
+    }
+    #sidebar_ ul{
+      margin-bottom: 195px;
+    }
+    #sidebar_ ul li{
+      margin-bottom: 0px;
+    }
+    .menu_logo{
+      max-width: 12px;
+      margin-right: 12px;
+      margin-top:-5px;
+    }
+
+    .menu_text{
+      max-height: 7px;
+      margin-top: -5px;
+    }
+
+    #menu{
+      z-index: 100;
+    	height: 25px;
+    	width: 25px;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 50%;
+      background: red;
+    	cursor: pointer;
+    	position: absolute;
+    	top: 30px;
+    	left: 30px;
+    }
+
+    #menu span{
+    	margin: -2px;
+    	border: none;
+    	height: 2px;
+    	background: #fff;
+    	margin-bottom: 4px;
+    	display: block;
+    	margin-left: 6px;
+    	margin-right: 6px;
+    	border-radius: 25px;
+    	-webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+    #menu span:nth-child(1){
+    	margin-top: 7px;
+    }
+
+    #sidebar_ ul{
+      padding-top: 70px;
+      padding-left: 35px;
+    }
+    #sidebar_{
+      display: block;
+      max-width: 160px;
+      max-height: 1080px;
+      width: 100%;
+      height: 100%;
+      margin-left: -15px;
+      background-image:  url("../image/sidebar_background1.png");
+      background-size: 100%;
+    	background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 425px) {
+    #sidebar_ ul{
+      margin-bottom: 54px;
+    }
+    #suva_logo {
+      margin-top: 32px;
+      margin-bottom: 5px;
+    }
+    #made_by_us{
+      max-width: 100px;
+      width: 100%;
+    }
+    #buy_now{
+      margin-top: -10px;
+      max-width: 50px;
+      width: 100%;
+    }
+    .head{
+      background-image:  url("../image/head_contact-xs.png");
+    }
+    .search{
+      margin: 0;
+      padding: 0;
+      width: 50px;
+      height: 15px;
+      top: 15px;
+    }
+    .round {
+        height: 13px;
+        width: 45px;
+        margin-top:1px;
+        padding-left: 2px;
+        padding-top: 2px;
+        z-index: 5;
+        padding-top: 0px;
+        margin-left: 5px;
+        font-size: 5px;
+    }
+    .corner {
+      position: absolute;
+      top: 2px;
+      left: -50px;
+      height: 10px;
+      width: 0px;
+      border: none;
+      z-index: 10;
+      background-size: 70%;
+      background-color: #fff;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+    #search_box2{
+      max-width: 100px;
+      max-height: 20px;
+      width: 100%;
+      height: 100%;
+      background-image:  url("../image/search_box.png");
+      background-size: 100%;
+      margin-top: 15px;
+      margin-left: 70px;
+    }
+
+    #search_text{
+      position: block;
+      width: 65px;
+      height: 12px;
+      padding-top: 0px;
+      margin-bottom: 8px;
+      margin-left: 10px;
+      border: none;
+      font-size: 10px;
+    }
+    #sidebar_ ul{
+      margin-bottom: 195px;
+    }
+    #sidebar_ ul li{
+      margin-bottom: 0px;
+    }
+    .menu_logo{
+      max-width: 12px;
+      margin-right: 12px;
+      margin-top:-5px;
+    }
+
+    .menu_text{
+      max-height: 7px;
+      margin-top: -5px;
+    }
+
+    #menu{
+      z-index: 100;
+    	height: 25px;
+    	width: 25px;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 50%;
+      background: red;
+    	cursor: pointer;
+    	position: absolute;
+    	top: 30px;
+    	left: 30px;
+    }
+
+    #menu span{
+    	margin: -2px;
+    	border: none;
+    	height: 2px;
+    	background: #fff;
+    	margin-bottom: 4px;
+    	display: block;
+    	margin-left: 6px;
+    	margin-right: 6px;
+    	border-radius: 25px;
+    	-webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+    #menu span:nth-child(1){
+    	margin-top: 7px;
+    }
+
+    #sidebar_ ul{
+      padding-top: 70px;
+      padding-left: 35px;
+    }
+    #sidebar_{
+      display: block;
+      max-width: 160px;
+      max-height: 1080px;
+      width: 100%;
+      height: 100%;
+      margin-left: -15px;
+      background-image:  url("../image/sidebar_background1.png");
+      background-size: 100%;
+    	background-repeat: no-repeat;
+    }
+}
+/*@media screen and (max-width: 600px) {
+  .head{
+    background-image:  url("../image/head_contact-xs.png");
+  }
+  .search{
+    position: relative;
+    margin-left:60px;
+    width: 100px;
+    height: 25px;
+    top:20px;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+
+  .round {
+      border: none;
+      height: 18px;
+      width: 60px;
+      margin-top:3px;
+      position: absolute;
+      z-index: 5;
+      padding-top: 2px;
+      margin-left: 10px;
+      font-size: 10px;
+  }
+
+  .corner {
+    position: absolute;
+    top: 3px;
+    left: 80px;
+    height: 15px;
+    width: 10px;
+    border: none;
+    background-image: url("../image/search_icon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 10;
+  }
+}
+@media screen and (max-width: 550px){
+  #search_box2{
+    max-width: 90px;
+    max-height: 20px;
+    width: 100%;
+    height: 100%;
+    background-image:  url("../image/search_box.png");
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  #search_text{
+    position: block;
+    margin-top:1px;
+    width: 55px;
+    height: 13px;
+    margin-bottom: 8px;
+    margin-left: 13px;
+    border: none;
+    padding-top: 0px;
+    font-size: 10px;
+  }
+  #suva_logo{
+    margin-top: 40px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #made_by_us{
+    max-width: 190px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #buy_now{
+    max-width: 50px;
+    width: 100%;
+    margin-bottom: 480px;
+  }
+}
+@media screen and (max-width: 455px){
+  #search_box2{
+    max-width: 80px;
+    max-height: 18px;
+    width: 100%;
+    height: 100%;
+    background-image:  url("../image/search_box.png");
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  #search_text{
+    position: block;
+    margin-top:0px;
+    width: 45px;
+    height: 12px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    border: none;
+    padding-top: 0px;
+    font-size: 10px;
+  }
+  #suva_logo{
+    margin-top: 35px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  #made_by_us{
+    max-width: 190px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  #buy_now{
+    max-width: 50px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+    #suva_logo {
+      margin-top: 25px;
+      margin-bottom: 3px;
+    }
+    #made_by_us{
+      max-width: 75px;
+      width: 100%;
+      margin-bottom: 3px;
+    }
+    #buy_now{
+      max-width: 30px;
+      width: 100%;
+    }
+    .search{
+      margin-left:30px;
+      width: 50px;
+      height: 10px;
+      top: 15px;
+    }
+    .round {
+        height: 10px;
+        width: 30px;
+        margin-top:0px;
+        z-index: 5;
+        padding-top: 0px;
+        margin-left: 5px;
+        font-size: 5px;
+    }
+    .corner {
+      position: absolute;
+      top: 0px;
+      left: 40px;
+      height: 10px;
+      width: 0px;
+      border: none;
+      z-index: 10;
+      background-size: 50%;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      background-color: #fff;
+    }
+}
+/*@media screen and (max-height: 650px) {
+  .search{
+    margin-left:30px;
+    width: 50px;
+    height: 10px;
+    top: 15px;
+  }
+  .round {
+      height: 5px;
+      width: 30px;
+      margin-top:3px;
+      z-index: 5;
+      padding-top: 2px;
+      margin-left: 5px;
+      font-size: 5px;
+  }
+  .corner {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    height: 8px;
+    width: 0px;
+    border: none;
+    z-index: 10;
+    background-size: 70%;
+  }
+}
+@media screen and (max-height: 600px) {
+  .search{
+    margin-left:30px;
+    width: 50px;
+    height: 10px;
+    top: 15px;
+  }
+  .round {
+      height: 10px;
+      width: 30px;
+      margin-top:0px;
+      z-index: 5;
+      padding-top: 0px;
+      margin-left: 5px;
+      font-size: 5px;
+  }
+  .corner {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    height: 10px;
+    width: 0px;
+    border: none;
+    z-index: 10;
+    background-size: 50%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}*/
+/*.bg {
+  background-image: url("../image/head_contact.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}*/
+
+.jumbotron {
+  height: 758px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+}
