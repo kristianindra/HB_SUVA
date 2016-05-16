@@ -36,12 +36,12 @@ body{
         var height = img.clientWidth;
         //alert(height);
         document.getElementById("menu_bg").height = "705";
-        $("#op").hover(
+        $("#cu").hover(
               function () {
-                    $('#our_products').attr("src", './../asset/image/header/our_products_active.png');
+                    $('#contact_us').attr("src", './../asset/image/header/contact_us_active.png');
               },
               function () {
-                    $('#our_products').attr("src", './../asset/image/header/our_products.png');
+                    $('#contact_us').attr("src", './../asset/image/header/contact_us.png');
               }
           );
           $("#ow").hover(
