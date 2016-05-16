@@ -11,7 +11,4 @@
 <script type="text/javascript" charset="utf8" src="../asset/datatable/dataTables.tableTools.min.js"></script>
 <script type="text/javascript" src="../asset/sweetalert-master/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../asset/sweetalert-master/dist/sweetalert.css">
-<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" href="../asset/css/style.css">
-=======
->>>>>>> origin/master
