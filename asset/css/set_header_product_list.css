@@ -1,0 +1,24 @@
+@media screen and (min-width: 1000px) and (max-width:1299px){
+    #header{
+        margin-top: -50px;
+        display: block;
+        max-width: 1024px;
+        height: 700px;
+        width: 100%;
+        background-image:  url("./../image/header/head_product_list-s.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    #header{
+        display: block;
+        max-width: 2560px;
+        height: 705px;
+        width: 100%;
+        background-image:  url("./../image/header/head_product_list-m.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}

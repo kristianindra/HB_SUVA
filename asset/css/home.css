@@ -1,0 +1,417 @@
+@media screen and (min-width: 1300px){
+    #content_home_header p{
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+    #content_home_header_title{
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    #content_home_header_body{
+        margin-top: -10px;
+    }
+
+    #content_home_header_footer{
+        margin-top: 50px;
+        line-height: 25px;
+    }
+
+    #content_home_left_image{
+        padding-right: 0px;
+    }
+
+    #content_home_center_image{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #content_home_right_image{
+        padding-left: 0px;
+    }
+
+    #content_home_products{
+        margin-top: 100px;
+    }
+
+    #our_product_box{
+        text-align: center;
+        background: #e61c24;
+        margin-left: 33%;
+        margin-right: 33%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: #f0f0f0;
+        border-radius: 25px;
+        margin-top: 198px;
+        margin-bottom: 198px;
+    }
+
+    #our_product_box:hover{
+        cursor: pointer;
+    }
+
+    .content_image_desc_title{
+        font-family: Verdana, Geneva, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    .content_image_desc_title:hover{
+        cursor: pointer;
+        color: #e61c24;
+    }
+
+    .content_image_desc{
+        margin-top: 15px;
+        font-family: Verdana, Geneva, sans-serif;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #content_home_customization{
+        margin-top: 150px;
+    }
+
+    #content_home_costumization_title{
+        text-align: center;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #content_home_costumization_header{
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    #content_home_costumization_body{
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 13px;
+        margin-top: 50px;
+    }
+
+    #content_home_costumization_footer{
+        margin-top: 50px;
+        text-align: center;
+        background: #e61c24;
+        margin-left: 45%;
+        margin-right: 45%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #f0f0f0;
+        border-radius: 25px;
+    }
+
+    #content_home_costumization_footer:hover{
+        cursor: pointer;
+    }
+
+    .row{
+        margin-top: 15px;
+    }
+
+    #content_home_material{
+        margin-top: 150px;
+    }
+
+    .material_text{
+        margin-top: 5px;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 10px;
+    }
+
+    #content_home_material_title{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 75px;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .arrow_logo{
+        width: 10px;
+        margin-top: 22px;
+    }
+
+    .material_logo{
+        width: 100%;
+        margin-right:20px;
+    }
+
+    .arrow_logo:hover{
+        cursor: pointer;
+    }
+
+    .material_logo:hover{
+        cursor: pointer;
+    }
+
+    #left_arrow_icon{
+        margin-left: 25px;
+    }
+
+    #right_arrow_icon{
+        margin-left: 15px;
+    }
+
+    #content_home_choose_material{
+        margin-left: 34%;
+        margin-bottom: 0px;
+    }
+
+    #material_text1{
+        margin-left: 10px;
+    }
+
+    #material_text2{
+        margin-left: 10px;
+    }
+
+    #material_text3{
+        margin-left: 15px;
+    }
+    #material_text4{
+        margin-left: 13px;
+    }
+
+    #material_wool span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool #wool_icon {
+        width: 100%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton #cotton_icon {
+        width: 100%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen #linen_icon {
+        width: 100%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed #tweed_icon {
+        width: 100%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover #wool_icon {
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 155%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover #cotton_icon {
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 155%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover #linen_icon {
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 155%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover #tweed_icon {
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 155%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #content_home_customization_sofa_image{
+        margin-bottom: -100px;
+    }
+
+}

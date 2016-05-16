@@ -1,19 +1,29 @@
-<div id="header">
+
+    <div class="my-slider">
+    	<ul>
+            <li><img src="./../asset/image/header/home_head_background-m.png" id=""/></li>
+            <li><img src="./../asset/image/header/head_contact-m.png" id=""/></li>
+            <li><img src="./../asset/image/header/head_product_list-m.png" id=""/></li>
+            <li><img src="./../asset/image/header/head_search_no_result-m.png" id=""/></li>
+    	</ul>
+    </div>
+    <div class="myHead" style="margin-top: -708px;">
+
     <div class="col-xs-3">
         <div id="sidebar">
-            <div id="menu" class="show">
+            <div id="menu">
               <span></span>
               <span></span>
               <span></span>
             </div>
-            <div id="menu_" class="show">
+            <div id="menu_">
                 <ul style="list-style-type:none;">
                   <a href="../C_main/int_product_list"><li class="list_menu" id="op"><img src="./../asset/image/header/our_products.png" id="our_products" class="menu_logo"/> OUR PRODUCTS</li></a>
                   <a href="../C_main/int_our_work"><li class="list_menu" id="ow"><img src="./../asset/image/header/our_works.png" id="our_works" class="menu_logo"/> OUR WORKS</li></a>
                   <a href="../C_main/int_contact"><li class="list_menu" id="cu"><img src="./../asset/image/header/contact_us.png" id="contact_us" class="menu_logo"/> CONTACT US</li></a>
                 </ul>
             </div>
-            <div id="menu_bg" class="show"></div>
+            <div id="menu_bg"></div>
         </div>
     </div>
     <div class="col-xs-6" id="header_center">

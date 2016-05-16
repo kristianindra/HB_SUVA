@@ -1,0 +1,135 @@
+@media screen and (min-width: 1000px) and (max-width: 1299px){
+    .content{
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+    #content_title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 75px;
+    }
+
+    #content_body{
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 13px;
+        margin-top: 75px;
+        line-height: 25px;
+    }
+
+    #menu_item{
+        margin-top: 75px;
+    }
+
+    #menu_list_item{
+        margin-left: 22%;
+    }
+
+    #menu_list_item li{
+        display: inline;
+    }
+
+    #menu_list_item li:hover{
+        cursor: pointer;
+    }
+
+    .content_menu{
+        background: #f0f0f0;
+        color: #b2b2b2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 25px;
+        margin-right: 125px;
+    }
+
+    .content_menu.active{
+        background: #e61c24;
+        color: #f0f0f0;
+    }
+
+
+    .container{
+        margin-top: 150px;
+    }
+
+    #container_2{
+        margin-top: 30px;
+    }
+
+    #container_3{
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1300px) {
+    .content{
+        font-family: Verdana, Geneva, sans-serif;
+    }
+
+    #content_title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 75px;
+    }
+
+    #content_body{
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 13px;
+        margin-top: 75px;
+        line-height: 25px;
+    }
+
+    #menu_item{
+        margin-top: 75px;
+    }
+
+    #menu_list_item{
+        margin-left: 22%;
+    }
+
+    #menu_list_item li{
+        display: inline;
+    }
+
+    #menu_list_item li:hover{
+        cursor: pointer;
+    }
+
+    .content_menu{
+        background: #f0f0f0;
+        color: #b2b2b2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 25px;
+        margin-right: 125px;
+    }
+
+    .content_menu.active{
+        background: #e61c24;
+        color: #f0f0f0;
+    }
+
+
+    .container{
+        margin-top: 150px;
+    }
+
+    #container_2{
+        margin-top: 30px;
+    }
+
+    #container_3{
+        margin-top: 30px;
+    }
+
+}

@@ -215,7 +215,7 @@
     }
 
     #search_box{
-        margin-top: 40px;
+        margin-top: 50px;
         margin-left: 85px;
     }
 
@@ -232,7 +232,6 @@
     #search_icon{
         height: 30px;
         margin-left: -10px;
-        margin-top: 0px;
         padding-top: 4px;
         padding-left: 4px;
         padding-bottom: 4px;
