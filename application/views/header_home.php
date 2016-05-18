@@ -18,9 +18,9 @@
             </div>
             <div id="menu_">
                 <ul style="list-style-type:none;">
-                  <a href="../C_main/int_product_list"><li class="list_menu" id="op"><img src="./../asset/image/header/our_products.png" id="our_products" class="menu_logo"/> OUR PRODUCTS</li></a>
-                  <a href="../C_main/int_our_work"><li class="list_menu" id="ow"><img src="./../asset/image/header/our_works.png" id="our_works" class="menu_logo"/> OUR WORKS</li></a>
-                  <a href="../C_main/int_contact"><li class="list_menu" id="cu"><img src="./../asset/image/header/contact_us.png" id="contact_us" class="menu_logo"/> CONTACT US</li></a>
+                  <a href="../Suva/Our_Product"><li class="list_menu" id="op"><img src="./../asset/image/header/our_products.png" id="our_products" class="menu_logo"/> OUR PRODUCTS</li></a>
+                  <a href="../Suva/Our_Work"><li class="list_menu" id="ow"><img src="./../asset/image/header/our_works.png" id="our_works" class="menu_logo"/> OUR WORKS</li></a>
+                  <a href="../Suva/Contact_Us"><li class="list_menu" id="cu"><img src="./../asset/image/header/contact_us.png" id="contact_us" class="menu_logo"/> CONTACT US</li></a>
                 </ul>
             </div>
             <div id="menu_bg"></div>
@@ -39,8 +39,10 @@
     </div>
     <div class="col-xs-3">
         <div id="search_box">
-            <input type="text" id="search_text" name="search_text" placeholder="SEARCH" />
-            <img src="./../asset/image/header/search_icon.png" id="search_icon"/>
+            <form action="../C_main/search_cek" method="post">
+                <input type="text" id="search_text" name="search_text" placeholder="SEARCH" />
+                <img src="./../asset/image/header/search_icon.png" id="search_icon"/>
+            </form>
         </div>
     </div>
 </div>

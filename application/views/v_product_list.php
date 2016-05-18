@@ -99,39 +99,39 @@ body{
             </ul>
         </div>
         <div id="list_item">
-            <a href="../C_main/int_product" id="img1"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img1"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../C_main/int_product" id="img2"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img2"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../C_main/int_product" id="img3"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img3"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../C_main/int_product" id="img4"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img4"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../C_main/int_product" id="img5"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img5"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../C_main/int_product" id="img6"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img6"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../C_main/int_product" id="img7"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img7"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../C_main/int_product" id="img8"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img8"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../C_main/int_product" id="img9"><div class="col-xs-3" class="item_list">
+            <a href="../Suva/Product" id="img9"><div class="col-xs-3" class="item_list">
                 <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>

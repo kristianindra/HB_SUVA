@@ -145,7 +145,7 @@ body{
                 </ul>
             </div>
             <div class="col-xs-6">
-                <a href="../C_main/int_product_list"><p><img src="./../asset/image/content/product/left_icon.png" style="width: 5px; margin-right:15px;" /> Back to <b>CHAIRS</b></p></a>
+                <a href="../Suva/Our_Product"><p><img src="./../asset/image/content/product/left_icon.png" style="width: 5px; margin-right:15px;" /> Back to <b>CHAIRS</b></p></a>
                 <p id="content_right_product_title">Lorem Ipsum Dolor Sit Amet</p>
                 <p id="content_right_product_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
                 <p id="content_right_product_title">Spesifications</p>

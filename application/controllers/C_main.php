@@ -5,7 +5,7 @@ class C_main extends CI_Controller
 {
 
     public function index(){
-        redirect('C_main/int_home');
+        redirect('Suva/Home');
     }
 
 
@@ -35,6 +35,15 @@ class C_main extends CI_Controller
 
     public function int_our_work(){
         $this->load->view('v_our_work');
+    }
+
+    public function search_cek(){
+        $hs = $this->input->post('search_text');
+        if ($hs=="no"){
+            redirect('../Product/Search_Not_Found');
+        } else {
+            redirect('../Product/Search');
+        }
     }
 
 }

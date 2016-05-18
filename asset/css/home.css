@@ -37,6 +37,13 @@
         margin-top: 100px;
     }
 
+    #content_home_products a{
+        text-decoration: none;
+    }
+    #content_home_customization a{
+        text-decoration: none;
+    }
+
     #our_product_box{
         text-align: center;
         background: #e61c24;

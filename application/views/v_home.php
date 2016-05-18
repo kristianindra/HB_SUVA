@@ -100,9 +100,9 @@
                 <p class="content_image_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div class="col-xs-4" id="content_home_center_image">
-                <p id="our_product_box">
+                <a href="../Suva/Our_Product"><p id="our_product_box">
                     OUR PRODUCTS
-                </p>
+                </p></a>
                 <img class="img-responsive center-block" src="./../asset/image/content/home/stool.png" id="content_home_center_image" border="0">
                 <p class="content_image_desc_title">STOOLS</p>
                 <p class="content_image_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -118,7 +118,7 @@
         <p id="content_home_costumization_title">CUSTOMIZATION</p>
         <p id="content_home_costumization_header">Built to fit your style and your life</p>
         <p id="content_home_costumization_body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p id="content_home_costumization_footer">CONTACT US</p>
+        <a href="../Suva/Contact_Us"><p id="content_home_costumization_footer">CONTACT US</p></a>
     </div>
 
     <div id="content_home_material">
