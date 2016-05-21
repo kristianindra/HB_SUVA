@@ -79,7 +79,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 		background: rgba(0,0,0,.3);
 	}
 }
-@media handheld, only screen and (min-width: 1024px) {
+@media handheld, only screen and (min-width: 1000px) {
 	.flexslider .slides > li {
 		display:inline-block;
 		overflow:hidden;

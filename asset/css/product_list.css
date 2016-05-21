@@ -1,6 +1,6 @@
 @media screen and (min-width: 1000px) and (max-width: 1299px) {
     .content{
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: Lato;
     }
 
     #content_title{
@@ -143,49 +143,11 @@
         text-decoration: none;
     }
 
-    /*#list_item_text li{
-        display: inline;
-        margin-right: 250px;
-        background: yellow;
-    }
-
-    #item_list_text_3{
-        margin-right: -50px;
-    }
-
-    #list_item_text{
-        margin-left: 110px;
-    }
-
-    .content_menu{
-        text-align: center;
-        background: #f0f0f0;
-        color: #b2b2b2;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 25px;
-        padding-right: 25px;
-        border-radius: 25px;
-    }
-
-    .content_menu.active{
-        text-align: center;
-        background: #e61c24;
-        color: #f0f0f0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 25px;
-    }
-
-    #content_menu_sofa{
-        margin-right: 75px;
-    }*/
-
 }
 
 @media screen and (min-width: 1300px){
     .content{
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: Lato;
     }
 
     #content_title{
@@ -197,11 +159,10 @@
 
     #content_body{
         text-align: center;
-        margin-left: 150px;
-        margin-right: 150px;
-        font-size: 13px;
+        margin-left: 220px;
+        margin-right: 220px;
         margin-top: 75px;
-        line-height: 25px;
+        line-height: 30px;
     }
 
     #menu_item{
@@ -322,43 +283,5 @@
         padding: 8px 16px;
         text-decoration: none;
     }
-
-    /*#list_item_text li{
-        display: inline;
-        margin-right: 250px;
-        background: yellow;
-    }
-
-    #item_list_text_3{
-        margin-right: -50px;
-    }
-
-    #list_item_text{
-        margin-left: 110px;
-    }
-
-    .content_menu{
-        text-align: center;
-        background: #f0f0f0;
-        color: #b2b2b2;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 25px;
-        padding-right: 25px;
-        border-radius: 25px;
-    }
-
-    .content_menu.active{
-        text-align: center;
-        background: #e61c24;
-        color: #f0f0f0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        border-radius: 25px;
-    }
-
-    #content_menu_sofa{
-        margin-right: 75px;
-    }*/
 
 }

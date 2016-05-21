@@ -4,9 +4,10 @@
 <?php include 'link_.php'; ?>
 
 <style type="text/css">
-body{
-    margin: 0;
-    padding: 0;
+html, body {
+    font-family: Lato;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .special_offer{
@@ -21,13 +22,13 @@ body{
 </style>
 
 
-<link href="./../asset/css/set_header_product_list.css" rel="stylesheet" type="text/css" />
-<link href="./../asset/css/header.css" rel="stylesheet" type="text/css" />
-<link href="./../asset/css/product.css" rel="stylesheet" type="text/css" />
-<link href="./../asset/css/special_offer.css" rel="stylesheet" type="text/css" />
-<link href="./../asset/css/footer.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="./../asset/lightbox/dist/css/lightbox.min.css">
-<script type="text/javascript" src="./../asset/lightbox/dist/js/lightbox.min.js"></script>
+<link href="./asset/css/set_header_product_list.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/header.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/product.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/special_offer.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/footer.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="./asset/lightbox/dist/css/lightbox.min.css">
+<script type="text/javascript" src="./asset/lightbox/dist/js/lightbox.min.js"></script>
 
 <script type="text/javascript">
 
@@ -38,71 +39,78 @@ body{
         document.getElementById("menu_bg").height = "705";
         $("#cu").hover(
               function () {
-                    $('#contact_us').attr("src", './../asset/image/header/contact_us_active.png');
+                    $('#contact_us').attr("src", './asset/image/header/contact_us_active.png');
               },
               function () {
-                    $('#contact_us').attr("src", './../asset/image/header/contact_us.png');
+                    $('#contact_us').attr("src", './asset/image/header/contact_us.png');
               }
           );
           $("#ow").hover(
                 function () {
-                      $('#our_works').attr("src", './../asset/image/header/our_works_active.png');
+                      $('#our_works').attr("src", './asset/image/header/our_works_active.png');
                 },
                 function () {
-                      $('#our_works').attr("src", './../asset/image/header/our_works.png');
+                      $('#our_works').attr("src", './asset/image/header/our_works.png');
                 }
             );
             $('#op').addClass("active");
-            $('#our_products').attr("src", './../asset/image/header/our_products_active.png');
+            $('#our_products').attr("src", './asset/image/header/our_products_active.png');
             $("#chair_side_").hover(
                 function () {
-                    $('#content_product_left_image_front').attr("src", './../asset/image/content/product/chair_side_.png');
+                    $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_side_.png');
                 },
                 function () {
-                    $('#content_product_left_image_front').attr("src", './../asset/image/content/product/chair_front.png');
+                    $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_front.png');
                 }
             );
             $("#chair_side").hover(
                 function () {
-                    $('#content_product_left_image_front').attr("src", './../asset/image/content/product/chair_side.png');
+                    $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_side.png');
                 },
                 function () {
-                    $('#content_product_left_image_front').attr("src", './../asset/image/content/product/chair_front.png');
+                    $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_front.png');
                 }
             );
             $("#chair_back").hover(
                 function () {
-                    $('#content_product_left_image_front').attr("src", './../asset/image/content/product/chair_back.png');
+                    $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_back.png');
                 },
                 function () {
-                    $('#content_product_left_image_front').attr("src", './../asset/image/content/product/chair_front.png');
+                    $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_front.png');
                 }
             );
     });
 
-    $(document).on('mouseover', 'div', function() {
-		var idny = $(this).attr('id');
+    $(document).on('mouseover', 'img', function() {
+        var idny = $(this).attr('id');
         var classny = $(this).attr('class');
-		if (idny=="menu"){
+        if (idny=="main_menu_logo"){
             if (classny==""){
                 $('#menu').toggleClass("show");
                 $('#menu_bg').toggleClass("show");
                 $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu.png');
+            } else {
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
             }
-            if (classny=="image_item_list"){
-                $('.text_item_list').toggleClass("active");
-            }
-		}
-	});
+        }
+    });
 
-    $(document).on('click', 'div', function() {
-		var idny = $(this).attr('id');
-		if (idny=="menu"){
-            $('#menu').toggleClass("show");
+    $(document).on('click', 'img', function() {
+        var idny = $(this).attr('id');
+        if (idny=="main_menu_logo"){
+            $('#menu').toggleClass("show");     
             $('#menu_bg').toggleClass("show");
             $('#menu_').toggleClass("show");
-		}
-	});
+            $('#main_menu_logo').toggleClass("show");
+            $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+        }
+    });
 
 </script>
 
@@ -125,60 +133,60 @@ body{
         </div>
         <div class="container">
             <div class="col-xs-6">
-                <img class="img-responsive center-block" src="./../asset/image/content/product/chair_front.png" id="content_product_left_image_front" border="0">
+                <img class="img-responsive center-block" src="./asset/image/content/product/chair_front.png" id="content_product_left_image_front" border="0">
                 <ul id="position_chair">
                     <li id="chair_side_">
                         <div class="col-xs-4">
-                            <img class="img-responsive center-block" src="./../asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
+                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
                         </div>
                     </li>
                     <li id="chair_side">
                         <div class="col-xs-4">
-                            <img class="img-responsive center-block" src="./../asset/image/content/product/chair_side.png" id="content_product_left_image_side" class="image_position" border="0">
+                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_side.png" id="content_product_left_image_side" class="image_position" border="0">
                         </div>
                     </li>
                     <li id="chair_back">
                         <div class="col-xs-4">
-                            <img class="img-responsive center-block" src="./../asset/image/content/product/chair_back.png" id="content_product_left_image_back" class="image_position" border="0">
+                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_back.png" id="content_product_left_image_back" class="image_position" border="0">
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="col-xs-6">
-                <a href="../Suva/Our_Product"><p><img src="./../asset/image/content/product/left_icon.png" style="width: 5px; margin-right:15px;" /> Back to <b>CHAIRS</b></p></a>
+                <a href="our_product"><p id="aaa"><img src="./asset/image/content/product/left_icon.png" style="width: 5px; margin-right:15px;" /> Back to <b>CHAIRS</b></p></a>
                 <p id="content_right_product_title">Lorem Ipsum Dolor Sit Amet</p>
                 <p id="content_right_product_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-                <p id="content_right_product_title">Spesifications</p>
-                <a href="./../asset/image/content/product/spesification.png" data-lightbox="spesification_image"><img class="img-responsive block" src="./../asset/image/content/product/spesification.png" id="image_spesification" class="image_spesification"></a>
+                <p id="content_right_product_title">Specifications</p>
+                <a href="./asset/image/content/product/spesification.png" data-lightbox="spesification_image"><img class="img-responsive block" src="./asset/image/content/product/spesification.png" id="image_spesification" class="image_spesification"></a>
                 <p id="content_right_product_title">Choose Material</p>
                 <div id="content_home_choose_material">
                     <div class="row">
-                        <div class="col-xs-1"><img src="./../asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" /></div>
+                        <div class="col-xs-1"><img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" /></div>
                         <div class="col-xs-1" id="material_wool">
-                            <img src="./../asset/image/content/home/wool.png" id="wool_icon" class="material_logo" />
+                            <img src="./asset/image/content/home/wool.png" id="wool_icon" class="material_logo" />
                             <span></span>
                             <p id="material_text1" class="material_text">WOOL</p>
                         </div>
                         <div class="col-xs-1" id="material_cotton">
-                            <img src="./../asset/image/content/product/cotton.png" id="cotton_icon" class="material_logo" />
+                            <img src="./asset/image/content/product/cotton.png" id="cotton_icon" class="material_logo" />
                             <span></span>
                             <p id="material_text2" class="material_text">COTTON</p>
                         </div>
                         <div class=col-xs-1 id="material_linen">
-                            <img src="./../asset/image/content/home/linen.png" id="linen_icon" class="material_logo" />
+                            <img src="./asset/image/content/home/linen.png" id="linen_icon" class="material_logo" />
                             <span></span>
                             <p id="material_text3" class="material_text">LINEN</p>
                         </div>
                         <div class=col-xs-1 id="material_tweed">
-                            <img src="./../asset/image/content/home/tweed.png" id="tweed_icon" class="material_logo" />
+                            <img src="./asset/image/content/home/tweed.png" id="tweed_icon" class="material_logo" />
                             <span></span>
                             <p id="material_text4" class="material_text">TWEED</p>
                         </div>
-                        <div class="col-xs-1"><img src="./../asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" /></div>
+                        <div class="col-xs-1"><img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" /></div>
                     </div>
                 </div>
                 <p id="content_right_product_title">Available Color</p>
-                <p id="select_color">Select Color <img src="./../asset/image/content/product/down_icon.png" id="down_arrow_icon" class="" /></p>
+                <p id="select_color">Select Color <img src="./asset/image/content/product/down_icon.png" id="down_arrow_icon" class="" /></p>
                 <p id="order_now">
                     ORDER NOW
                 </p>
@@ -187,33 +195,43 @@ body{
 
             </div>
         </div>
-        <img class="img-responsive center-block" src="./../asset/image/content/product/product_proses.png" id="content_product_proses" class="" border="0">
-        <p id="similar_product_text">Similar Product</p>
+        <img class="img-responsive center-block" src="./asset/image/content/product/product_proses.png" id="content_product_proses" class="" border="0">
+        <p id="similar_product_text">SIMILAR PRODUCTS</p>
         <div class="row">
-            <div class="col-xs-1" id="arrow_left">
-                <img src="./../asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" />
+            <div id="similar_product_item">
+                <ul>
+                    <li><img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon_similar" class="arrow_logo_similar" /></li>
+                    <li><img src="./asset/image/content/product/chair_side_.png" id="product_similar_1" class="product_similar" /></li>
+                    <li><img src="./asset/image/content/product/chair_side_.png" id="product_similar_2" class="product_similar" /></li>
+                    <li><img src="./asset/image/content/product/chair_side_.png" id="product_similar_3" class="product_similar" /></li>
+                    <li><img src="./asset/image/content/product/chair_side_.png" id="product_similar_4" class="product_similar" /></li>
+                    <li><img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon_similar" class="arrow_logo_similar" /></li>
+                </ul>
+            </div>
+            <!--<div class="col-xs-1" id="arrow_left">
+                <img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" />
             </div>
             <div class="col-xs-2" id="img_1">
-                <img class="img-responsive center-block" src="./../asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
+                <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
             </div>
             <div class="col-xs-2" id="img_2">
-                <img class="img-responsive center-block" src="./../asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
+                <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
             </div>
             <div class="col-xs-2" id="img_3">
-                <img class="img-responsive center-block" src="./../asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
+                <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
             </div>
             <div class="col-xs-2" id="img_4">
-                <img class="img-responsive center-block" src="./../asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
+                <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
             </div>
             <div class="col-xs-1" id="arrow_right">
-                <img src="./../asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" />
-            </div>
+                <img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" />
+            </div>-->
         </div>
     </div>
     <?php include 'v_special_offer.php'; ?>
     <?php include 'v_footer.php'; ?>
 
-    <script src="./../asset/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="./asset/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 #copy_rights{
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Lato;
     margin-left: 80px;
     margin-top: 35px;
     margin-bottom: 25px;
@@ -15,11 +15,12 @@
 
 #for_left{
     margin-left: 190px;
+    height: 18px;
 }
 
 @media screen and (min-width: 1300px){
     #copy_rights{
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-family: Lato;
         margin-left: 100px;
         margin-top: 35px;
         margin-bottom: 25px;

@@ -9,7 +9,7 @@
         </p>
         <p style="text-align:center;" class="special_offer_email">
             <input type="text" id="email_text" name="email_text" placeholder="E-mail" />
-            <img src="./../asset/image/special_offer/email.png" id="email_icon"/>
+            <img src="./asset/image/special_offer/email.png" id="email_icon"/>
         </p>
     </div>
     <div class="col-xs-3"></div>

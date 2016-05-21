@@ -131,10 +131,35 @@
       return false;
     });
 
-    this.$lightbox.find('.lb-loader, .lb-close').on('click', function() {
-      self.end();
-      return false;
-    });
+    objBody.appendChild(Builder.node('div',{id:'lightbox'}, [
+            Builder.node('div',{id:'outerImageContainer'}, [
+                Builder.node('div',{id:'imageContainer'}, [
+                    Builder.node('img',{id:'lightboxImage'}), 
+                    Builder.node('div',{id:'hoverNav'}, [
+                        Builder.node('a',{id:'prevLink', href: '#' }),
+                        Builder.node('a',{id:'nextLink', href: '#' })
+                    ]),
+                    Builder.node('div',{id:'loading'}, 
+                        Builder.node('a',{id:'loadingLink', href: '#' }, 
+                            Builder.node('img', {src: LightboxOptions.fileLoadingImage})
+                        )
+                    )
+                ]),
+                Builder.node('div',{id:'bottomNav'},
+                    Builder.node('a',{id:'bottomNavClose', href: '#' },
+                        Builder.node('img', { src: LightboxOptions.fileBottomNavCloseImage })
+                    )
+                )
+            ]),
+            Builder.node('div', {id:'imageDataContainer'},
+                Builder.node('div',{id:'imageData'},
+                    Builder.node('div',{id:'imageDetails'}, [
+                        Builder.node('span',{id:'caption'}),
+                        Builder.node('span',{id:'numberDisplay'})
+                    ])
+                )
+            )
+        ]));
   };
 
   // Show overlay and lightbox. If the image is part of a set, add siblings to album array.

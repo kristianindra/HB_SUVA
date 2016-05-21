@@ -5,9 +5,9 @@
         </div>
         <div class="col-sm-2"></div>
         <div class="" id="footer_media_icon">
-            <img src="./../asset/image/footer/facebook.png" class="footer_icon" id="for_left"/>
-            <img src="./../asset/image/footer/twitter.png" class="footer_icon"/>
-            <img src="./../asset/image/footer/google_plus.png" class="footer_icon"/>
+            <img src="./asset/image/footer/facebook.png" class="footer_icon" id="for_left"/>
+            <img src="./asset/image/footer/twitter.png" class="footer_icon"/>
+            <img src="./asset/image/footer/google_plus.png" class="footer_icon"/>
         </div>
     </div>
 </div>

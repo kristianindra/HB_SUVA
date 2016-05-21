@@ -10,13 +10,15 @@
 
     #content_left_image{
         margin-top: 100px;
+        margin-bottom: -100px;
+        margin-left: 0px;
         height: 650px;
         width: 450px;
     }
 
     #content_left_text_title{
         text-align: center;
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: Lato;
         font-size: 13px;
         font-weight: bold;
         line-height: 30px;
@@ -53,7 +55,7 @@
     }
 
     #content_right p{
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: Lato;
     }
 
     #content_right_title{
@@ -99,6 +101,10 @@
         outline: none;
     }
 
+    #content_left_image{
+        margin-bottom: -100px;
+    }
+
     #content_left_text{
         position: absolute;
         padding-right: 60px;
@@ -106,8 +112,8 @@
 
     #content_left_text_title{
         text-align: center;
-        font-family: Verdana, Geneva, sans-serif;
-        font-size: 17px;
+        font-family: Lato;
+        font-size: 20px;
         font-weight: bold;
         line-height: 35px;
         margin-top: -5px;
@@ -143,12 +149,12 @@
     }
 
     #content_right p{
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: Lato;
     }
 
     #content_right_title{
         font-weight: 600;
-        margin-top: 5px;
+        margin-top: 0px;
         margin-bottom: 15px;
     }
 

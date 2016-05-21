@@ -4,9 +4,11 @@
 <?php include 'link_.php'; ?>
 
 <style type="text/css">
-body{
+html, body {
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .special_offer{
@@ -21,11 +23,11 @@ body{
 </style>
 
 
-<link href="./../asset/css/set_header_product_list.css" rel="stylesheet" type="text/css" />
-<link href="./../asset/css/header.css" rel="stylesheet" type="text/css" />
-<link href="./../asset/css/product_list.css" rel="stylesheet" type="text/css" />
-<link href="./../asset/css/special_offer.css" rel="stylesheet" type="text/css" />
-<link href="./../asset/css/footer.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/set_header_product_list.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/header.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/product_list.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/special_offer.css" rel="stylesheet" type="text/css" />
+<link href="./asset/css/footer.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript">
 
@@ -36,22 +38,22 @@ body{
         document.getElementById("menu_bg").height = "705";
         $("#cu").hover(
               function () {
-                    $('#contact_us').attr("src", './../asset/image/header/contact_us_active.png');
+                    $('#contact_us').attr("src", './asset/image/header/contact_us_active.png');
               },
               function () {
-                    $('#contact_us').attr("src", './../asset/image/header/contact_us.png');
+                    $('#contact_us').attr("src", './asset/image/header/contact_us.png');
               }
           );
           $("#ow").hover(
                 function () {
-                      $('#our_works').attr("src", './../asset/image/header/our_works_active.png');
+                      $('#our_works').attr("src", './asset/image/header/our_works_active.png');
                 },
                 function () {
-                      $('#our_works').attr("src", './../asset/image/header/our_works.png');
+                      $('#our_works').attr("src", './asset/image/header/our_works.png');
                 }
             );
             $('#op').addClass("active");
-            $('#our_products').attr("src", './../asset/image/header/our_products_active.png');
+            $('#our_products').attr("src", './asset/image/header/our_products_active.png');
 
             $(document).on('click', 'div', function() {
         		var idny = $(this).attr('id');
@@ -64,20 +66,36 @@ body{
         	});
     });
 
-    $(document).on('mouseover', 'div', function() {
-		var idny = $(this).attr('id');
+    $(document).on('mouseover', 'img', function() {
+        var idny = $(this).attr('id');
         var classny = $(this).attr('class');
-		if (idny=="menu"){
+        if (idny=="main_menu_logo"){
             if (classny==""){
                 $('#menu').toggleClass("show");
                 $('#menu_bg').toggleClass("show");
                 $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu.png');
+            } else {
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
             }
-            if (classny=="image_item_list"){
-                $('.text_item_list').toggleClass("active");
-            }
-		}
-	});
+        }
+    });
+
+    $(document).on('click', 'img', function() {
+        var idny = $(this).attr('id');
+        if (idny=="main_menu_logo"){
+            $('#menu').toggleClass("show");     
+            $('#menu_bg').toggleClass("show");
+            $('#menu_').toggleClass("show");
+            $('#main_menu_logo').toggleClass("show");
+            $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+        }
+    });
 
 </script>
 
@@ -99,40 +117,40 @@ body{
             </ul>
         </div>
         <div id="list_item">
-            <a href="../Suva/Product" id="img1"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img1"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../Suva/Product" id="img2"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img2"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../Suva/Product" id="img3"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img3"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../Suva/Product" id="img4"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img4"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../Suva/Product" id="img5"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img5"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../Suva/Product" id="img6"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img6"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../Suva/Product" id="img7"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img7"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../Suva/Product" id="img8"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img8"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="../Suva/Product" id="img9"><div class="col-xs-3" class="item_list">
-                <img src="./../asset/image/content/product_list/chair_image.png" class="image_item_list" />
+            <a href="product" id="img9"><div class="col-xs-3" class="item_list">
+                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
         </div>

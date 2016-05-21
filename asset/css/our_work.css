@@ -1,6 +1,6 @@
 @media screen and (min-width: 1000px) and (max-width: 1299px){
     .content{
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: Lato;
     }
 
     #content_title{
@@ -14,8 +14,8 @@
         text-align: center;
         margin-left: 150px;
         margin-right: 150px;
-        font-size: 13px;
-        margin-top: 75px;
+        font-size: 11px;
+        margin-top: 50px;
         line-height: 25px;
     }
 
@@ -40,10 +40,11 @@
         color: #b2b2b2;
         padding-top: 5px;
         padding-bottom: 5px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
         border-radius: 25px;
-        margin-right: 125px;
+        margin-right: 50px;
+        font-size: 13px;
     }
 
     .content_menu.active{
@@ -51,7 +52,12 @@
         color: #f0f0f0;
     }
 
-
+    #content_product_left_image_front{
+        border: 1px solid #f0f0f0;
+        width: 360px;
+        height: 450px;
+        margin-left: 50px;
+    }
     .container{
         margin-top: 150px;
     }
@@ -68,7 +74,7 @@
 
 @media screen and (min-width: 1300px) {
     .content{
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: Lato;
     }
 
     #content_title{
@@ -80,11 +86,10 @@
 
     #content_body{
         text-align: center;
-        margin-left: 150px;
-        margin-right: 150px;
-        font-size: 13px;
+        margin-left: 220px;
+        margin-right: 220px;
         margin-top: 75px;
-        line-height: 25px;
+        line-height: 30px;
     }
 
     #menu_item{
@@ -130,6 +135,64 @@
 
     #container_3{
         margin-top: 30px;
+    }
+
+    .flex-caption{
+        top: 215px;
+        bottom: 20px;
+        display: none;
+        background: rgb(230, 28, 36);
+        background: rgba(230, 28, 36, .80);
+        width: 300px;
+    }
+
+    .flex-caption h3{
+        font-family: Lato;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .flex-caption p{
+        font-family: Lato;
+        font-size: 12px;
+        margin-bottom: -5px;
+    }
+
+    .slides li:hover{
+        cursor: pointer;
+    }
+
+    .slides li:hover .flex-caption{
+        display: block;
+    }
+
+    .flex_sidebar{
+        margin-top: -315px;
+        margin-left: 450px;
+        width: 50px;
+        height: 315px;
+        background-color: #000;
+        opacity: 0.4;
+        z-index: -1;
+    }
+
+    .flex_sidebar ul li{
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .facebook_icon{
+        width: 40px;
+        z-index: 2000;
+        display: table-cell;
+        position: absolute;
+        padding-top: 80px;
+        margin-left: -20px;
+    }
+
+    .flex_sidebar_image{
+        margin-top: -315px;
+        margin-left: 450px;
     }
 
 }

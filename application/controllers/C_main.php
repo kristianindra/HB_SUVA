@@ -5,7 +5,7 @@ class C_main extends CI_Controller
 {
 
     public function index(){
-        redirect('Suva/Home');
+        redirect('home');
     }
 
 
@@ -40,9 +40,9 @@ class C_main extends CI_Controller
     public function search_cek(){
         $hs = $this->input->post('search_text');
         if ($hs=="no"){
-            redirect('../Product/Search_Not_Found');
+            redirect('../search_not_found');
         } else {
-            redirect('../Product/Search');
+            redirect('../search');
         }
     }
 
