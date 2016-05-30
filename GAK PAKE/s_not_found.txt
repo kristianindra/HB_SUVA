@@ -1,0 +1,330 @@
+
+@media screen and (max-width: 1300px){
+    input:focus{
+        outline: none;
+    }
+
+    #content_left_text{
+        margin-top: 100px;
+        position: absolute;
+    }
+
+    #content_left_image{
+        margin-top: 100px;
+        margin-bottom: -100px;
+        margin-left: 0px;
+        height: 650px;
+        width: 450px;
+    }
+
+    #content_left_text_title{
+        text-align: center;
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 30px;
+        margin-top: -5px;
+    }
+
+    #another_search_box{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    #another_search_text{
+        border: none;
+        background: #f0f0f0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 92px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 8px;
+    }
+
+    #another_search_icon{
+        height: 25px;
+        margin-top: 2px;
+        margin-left: -4px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #f0f0f0;
+    }
+
+    #content_right p{
+        font-family: Lato;
+    }
+
+    #content_right_title{
+        margin-top: 100px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    #content_right_body{
+        text-align: justify;
+        line-height: 16px;
+        margin-right: 80px;
+        margin-bottom: 25px;
+        font-size: 11px;
+    }
+
+    #content_search_no_found_logo_address{
+        width: 12px;
+        margin-right: 12px;
+    }
+    #content_search_no_found_logo_phone{
+        width: 15px;
+        margin-right: 11px;
+    }
+    #content_search_no_found_logo_fax{
+        width: 15px;
+        margin-right: 11px;
+    }
+    #content_search_no_found_logo_email{
+        width: 15px;
+        margin-right: 11px;
+    }
+
+    #content_right_information p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    input:focus{
+        outline: none;
+    }
+
+    #content_left_text{
+        margin-top: 50px;
+        margin-left: -50px;
+        position: absolute;
+    }
+
+    #content_left_image{
+        margin-top: 40px;
+        margin-bottom: -100px;
+        margin-left: 0px;
+    }
+
+    #content_left_text_title{
+        text-align: center;
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 30px;
+        margin-top: -5px;
+    }
+
+    #another_search_box{
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 180px;
+    }
+
+    #another_search_text{
+        border: none;
+        background: #f0f0f0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 92px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 8px;
+    }
+
+    #another_search_icon{
+        height: 25px;
+        margin-top: 2px;
+        margin-left: -4px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #f0f0f0;
+    }
+
+    #content_right p{
+        font-family: Lato;
+    }
+
+    #content_right_title{
+        margin-top: 50px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-left: -50px !important;
+    }
+
+    #content_right_body{
+        text-align: justify;
+        line-height: 16px;
+        margin-right: 80px;
+        margin-bottom: 25px;
+        font-size: 11px;
+    }
+
+    #content_search_no_found_logo_address{
+        width: 12px;
+        margin-right: 12px;
+    }
+    #content_search_no_found_logo_phone{
+        width: 15px;
+        margin-right: 11px;
+    }
+    #content_search_no_found_logo_fax{
+        width: 15px;
+        margin-right: 11px;
+    }
+    #content_search_no_found_logo_email{
+        width: 15px;
+        margin-right: 11px;
+    }
+
+    #address_info{
+        margin-top: -150px !important;
+        margin-left: 60px;
+    }
+    #phone_info{
+        margin-top: -5px !important;
+        margin-left: 60px;
+    }
+    #fax_info{
+        margin-top: 20px !important;
+        margin-left: 60px;
+    }
+    #mail_info{
+        margin-top: 42px !important;
+        margin-left: 60px;
+    }
+
+    #content_right_information p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    input:focus{
+        outline: none;
+    }
+
+    #content_left_text{
+        margin-top: 300px;
+        margin-left: 0px;
+        position: absolute;
+    }
+
+    #content_left_image{
+        margin-top: 0px;
+        margin-bottom: 200px;
+        margin-left: 0px;
+    }
+
+    #content_left_text_title{
+        text-align: center;
+        font-family: Lato;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 30px;
+        margin-top: -5px;
+    }
+
+    #another_search_box{
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    #another_search_text{
+        border: none;
+        background: #f0f0f0;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 92px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 8px;
+        padding-left: -50px;
+    }
+
+    #another_search_icon{
+        height: 25px;
+        margin-top: 2px;
+        margin-left: -4px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #f0f0f0;
+    }
+
+    #content_right p{
+        font-family: Lato;
+    }
+
+    #content_right_title{
+        margin-top: -150px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        margin-left: 25px !important;
+    }
+
+    #content_right_body{
+        text-align: justify;
+        line-height: 16px;
+        margin-right: 80px;
+        margin-bottom: 25px;
+        font-size: 11px;
+        margin-top: -120px;
+    }
+
+    #content_search_no_found_logo_address{
+        width: 12px;
+        margin-right: 12px;
+        margin-top: -100px;
+    }
+    #content_search_no_found_logo_phone{
+        width: 15px;
+        margin-right: 11px;
+        margin-top: -50px;
+    }
+    #content_search_no_found_logo_fax{
+        width: 15px;
+        margin-right: 11px;
+        margin-top: 0px;
+    }
+    #content_search_no_found_logo_email{
+        width: 15px;
+        margin-right: 11px;
+        margin-top: 25px;
+    }
+
+    #address_info{
+        margin-top: -28px !important;
+        margin-left: 60px;
+    }
+    #phone_info{
+        margin-top: -5px !important;
+        margin-left: 60px;
+    }
+    #fax_info{
+        margin-top: 20px !important;
+        margin-left: 60px;
+    }
+    #mail_info{
+        margin-top: 42px !important;
+        margin-left: 60px;
+    }
+
+    #content_right_information p{
+        font-size: 11px;
+        margin-top: 20px;
+    }
+}

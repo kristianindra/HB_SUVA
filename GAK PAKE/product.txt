@@ -1,0 +1,1424 @@
+@media screen and (min-width: 1000px) and (max-width: 1299px){
+    .content{
+        font-family: Lato;
+    }
+
+    #content_title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 75px;
+    }
+
+    #content_body{
+        text-align: center;
+        margin-left: 130px;
+        margin-right: 130px;
+        font-size: 11px;
+        margin-top: 50px;
+        line-height: 25px;
+    }
+
+    #menu_item{
+        margin-top: 75px;
+    }
+
+    #menu_list_item{
+        margin-left: 22%;
+    }
+
+    #menu_list_item li{
+        display: inline;
+    }
+
+    #menu_list_item li:hover{
+        cursor: pointer;
+    }
+
+    .content_menu{
+        background: #f0f0f0;
+        color: #b2b2b2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 25px;
+        margin-right: 50px;
+        font-size: 13px;
+    }
+
+    .content_menu.active{
+        background: #e61c24;
+        color: #f0f0f0;
+    }
+
+    #content_product_left_image_front{
+        border: 1px solid #f0f0f0;
+        width: 360px;
+        height: 450px;
+        margin-left: 50px;
+    }
+
+    .container{
+        margin-top: 100px;
+    }
+
+    .container a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    #position_chair{
+        margin-top: 25px;
+    }
+
+    #position_chair li{
+        display: inline;
+    }
+
+    #position_chair li:hover{
+        cursor: pointer;
+    }
+
+    .material_text{
+        margin-top: 15px;
+    }
+
+    #content_product_left_image_side_{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -5px;
+    }
+
+    #content_product_left_image_side{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -10px;
+    }
+
+    #content_product_left_image_back{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -13px;
+    }
+
+    #content_right_product_title{
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    #content_right_product_description{
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    #image_spesification{
+        width: 50%;
+        margin-top: -2px;
+    }
+
+    #our_product:hover{
+        color: #c61e24;
+    }
+
+    .row{
+        margin-top: 25px;
+    }
+
+    #image_spesification:hover{
+        cursor: pointer;
+    }
+
+    .arrow_logo{
+        width: 10px;
+        margin-top: 20px;
+    }
+
+    .material_logo{
+        width: 50px;
+    }
+
+    #material_wool{
+        margin-right: 25px;
+    }
+    #material_cotton{
+        margin-right: 25px;
+    }
+    #material_linen{
+        margin-right: 25px;
+    }
+    #material_tweed{
+        margin-right: 25px;
+    }
+
+    #material_text1{
+        margin-left: 5px;
+    }
+
+    #material_text3{
+        margin-left: 5px;
+    }
+    #material_text4{
+        margin-left: 3px;
+    }
+
+    #material_wool span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_linen span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_tweed span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool #wool_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton #cotton_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen #linen_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed #tweed_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover #wool_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover #cotton_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover #linen_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover #tweed_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 0px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_linen:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_tweed:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #right_arrow_icon{
+        margin-left: 15px;
+    }
+
+    #select_color{
+        margin-right: 280px;
+        border: 1px solid #000;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+    }
+
+    #down_arrow_icon{
+        margin-left: 15px;
+    }
+
+    #order_now{
+        background-color: #e61c24;
+        margin-right: 300px;
+        color: #f0f0f0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-radius: 15px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    #similar_product_text{
+        font-family: Lato;
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .row{
+        margin-top: 50px;
+    }
+
+    .row div:hover{
+        cursor: pointer;
+    }
+
+    #arrow_left{
+        margin-left: 250px;
+        margin-top: 30px;
+    }
+
+    #img_1{
+        margin-left: -50px;
+        width: 130px;
+    }
+    #img_2{
+        margin-left: -20px;
+        width: 130px;
+    }
+    #img_3{
+        margin-left: -20px;
+        width: 130px;
+    }
+    #img_4{
+        margin-left: -20px;
+        width: 130px;
+    }
+
+    #arrow_right{
+        margin-left: -30px;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1300px){
+    .content{
+        font-family: Lato;
+    }
+
+    #content_title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 75px;
+    }
+
+    #content_body{
+        text-align: center;
+        margin-left: 220px;
+        margin-right: 220px;
+        margin-top: 75px;
+        line-height: 30px;
+    }
+
+    #menu_item{
+        margin-top: 75px;
+    }
+
+    #menu_list_item{
+        margin-left: 22%;
+    }
+
+    #menu_list_item li{
+        display: inline;
+    }
+
+    #menu_list_item li:hover{
+        cursor: pointer;
+    }
+
+    .content_menu{
+        background: #f0f0f0;
+        color: #b2b2b2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 25px;
+        margin-right: 125px;
+    }
+
+    .content_menu.active{
+        background: #e61c24;
+        color: #f0f0f0;
+    }
+
+    #content_product_left_image_front{
+        border: 1px solid #f0f0f0;
+        width: 450px;
+        height: 450px;
+    }
+
+    .container{
+        margin-top: 100px;
+    }
+
+    .container a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    #position_chair{
+        margin-top: 25px;
+    }
+
+    #position_chair li{
+        display: inline;
+    }
+
+    #position_chair li:hover{
+        cursor: pointer;
+    }
+
+    .material_text{
+        margin-top: 15px;
+    }
+
+    #content_product_left_image_side_{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -10px;
+    }
+
+    #content_product_left_image_side{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -10px;
+    }
+
+    #content_product_left_image_back{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -13px;
+    }
+
+    #content_right_product_title{
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    #content_right_product_description{
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    #image_spesification{
+        width: 50%;
+        margin-top: -2px;
+    }
+
+    #aaa:hover{
+        color: #c61e24;
+    }
+
+    .row{
+        margin-top: 25px;
+    }
+
+    #image_spesification:hover{
+        cursor: pointer;
+    }
+
+    .arrow_logo{
+        width: 10px;
+        margin-top: 20px;
+    }
+
+    .material_logo{
+        width: 50px;
+    }
+
+    #material_wool{
+        margin-right: 25px;
+    }
+    #material_cotton{
+        margin-right: 25px;
+    }
+    #material_linen{
+        margin-right: 25px;
+    }
+    #material_tweed{
+        margin-right: 25px;
+    }
+
+    #material_text1{
+        margin-left: 5px;
+    }
+
+    #material_text3{
+        margin-left: 5px;
+    }
+    #material_text4{
+        margin-left: 3px;
+    }
+
+    #material_wool span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_linen span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_tweed span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool #wool_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton #cotton_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen #linen_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed #tweed_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover #wool_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover #cotton_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover #linen_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover #tweed_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 0px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_linen:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_tweed:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #right_arrow_icon{
+        margin-left: 15px;
+    }
+
+    #select_color{
+        margin-right: 380px;
+        border: 1px solid #000;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+    }
+
+    #down_arrow_icon{
+        margin-left: 25px;
+    }
+
+    #order_now{
+        background-color: #e61c24;
+        margin-right: 390px;
+        color: #f0f0f0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-radius: 25px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    #similar_product_text{
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .row{
+        margin-top: 50px;
+    }
+
+    .row div:hover{
+        cursor: pointer;
+    }
+
+    #arrow_left{
+        margin-left: 370px;
+        margin-top: 30px;
+    }
+
+    #img_1{
+        margin-left: -75px;
+    }
+    #img_2{
+        margin-left: -90px;
+    }
+    #img_3{
+        margin-left: -90px;
+    }
+    #img_4{
+        margin-left: -90px;
+    }
+
+    #arrow_right{
+        margin-left: -110px;
+        margin-top: 30px;
+    }
+
+    #similar_product_item{
+        margin-left: 13%;
+    }
+
+    #similar_product_item ul li{
+        display: inline-block;
+    }
+
+    .arrow_logo_similar{
+        width: 12px;
+    }
+
+    #left_arrow_icon_similar{
+        margin-right: 30px;
+    }
+
+    .product_similar{
+        border: 1px solid #f0f0f0;
+        width: 180px;
+        margin-right: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    .content{
+        font-family: Lato;
+    }
+
+    #content_title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 75px;
+    }
+
+    #content_body{
+        text-align: center;
+        margin-left: 220px;
+        margin-right: 220px;
+        margin-top: 75px;
+        line-height: 30px;
+    }
+
+    #menu_item{
+        margin-top: 75px;
+    }
+
+    #menu_list_item{
+        margin-left: 22%;
+    }
+
+    #menu_list_item li{
+        display: inline;
+    }
+
+    #menu_list_item li:hover{
+        cursor: pointer;
+    }
+
+    .content_menu{
+        background: #f0f0f0;
+        color: #b2b2b2;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 25px;
+        margin-right: 125px;
+    }
+
+    .content_menu.active{
+        background: #e61c24;
+        color: #f0f0f0;
+    }
+
+    #content_product_left_image_front{
+        border: 1px solid #f0f0f0;
+        width: 450px;
+        height: 450px;
+    }
+
+    .container{
+        margin-top: 100px;
+    }
+
+    .container a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    #position_chair{
+        margin-top: 25px;
+    }
+
+    #position_chair li{
+        display: inline;
+    }
+
+    #position_chair li:hover{
+        cursor: pointer;
+    }
+
+    .material_text{
+        margin-top: 15px;
+    }
+
+    #content_product_left_image_side_{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -10px;
+    }
+
+    #content_product_left_image_side{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -10px;
+    }
+
+    #content_product_left_image_back{
+        border: 1px solid #f0f0f0;
+        width: 120px;
+        height: 120px;
+        margin-left: -13px;
+    }
+
+    #content_right_product_title{
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    #content_right_product_description{
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    #image_spesification{
+        width: 50%;
+        margin-top: -2px;
+    }
+
+    #aaa:hover{
+        color: #c61e24;
+    }
+
+    .row{
+        margin-top: 25px;
+    }
+
+    #image_spesification:hover{
+        cursor: pointer;
+    }
+
+    .arrow_logo{
+        width: 10px;
+        margin-top: 20px;
+    }
+
+    .material_logo{
+        width: 50px;
+    }
+
+    #material_wool{
+        margin-right: 25px;
+    }
+    #material_cotton{
+        margin-right: 25px;
+    }
+    #material_linen{
+        margin-right: 25px;
+    }
+    #material_tweed{
+        margin-right: 25px;
+    }
+
+    #material_text1{
+        margin-left: 5px;
+    }
+
+    #material_text3{
+        margin-left: 5px;
+    }
+    #material_text4{
+        margin-left: 3px;
+    }
+
+    #material_wool span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_linen span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_tweed span{
+        background: red;
+        bottom: 0;
+        display: block;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool #wool_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton #cotton_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen #linen_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed #tweed_icon {
+        width: 50px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover #wool_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover #cotton_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover #linen_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover #tweed_icon {
+        margin-top: -12px;
+        margin-left: -12px;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 0px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_linen:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    #material_tweed:hover p{
+        cursor: pointer;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-top: 3px;
+        font-weight: bold;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_wool:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_cotton:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_linen:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #material_tweed:hover span {
+        opacity: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #right_arrow_icon{
+        margin-left: 15px;
+    }
+
+    #select_color{
+        margin-right: 380px;
+        border: 1px solid #000;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+    }
+
+    #down_arrow_icon{
+        margin-left: 25px;
+    }
+
+    #order_now{
+        background-color: #e61c24;
+        margin-right: 390px;
+        color: #f0f0f0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        border-radius: 25px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    #similar_product_text{
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .row{
+        margin-top: 50px;
+    }
+
+    .row div:hover{
+        cursor: pointer;
+    }
+
+    #arrow_left{
+        margin-left: 370px;
+        margin-top: 30px;
+    }
+
+    #img_1{
+        margin-left: -75px;
+    }
+    #img_2{
+        margin-left: -90px;
+    }
+    #img_3{
+        margin-left: -90px;
+    }
+    #img_4{
+        margin-left: -90px;
+    }
+
+    #arrow_right{
+        margin-left: -110px;
+        margin-top: 30px;
+    }
+
+    #similar_product_item{
+        margin-left: 13%;
+    }
+
+    #similar_product_item ul li{
+        display: inline-block;
+    }
+
+    .arrow_logo_similar{
+        width: 12px;
+    }
+
+    #left_arrow_icon_similar{
+        margin-right: 30px;
+    }
+
+    .product_similar{
+        border: 1px solid #f0f0f0;
+        width: 180px;
+        margin-right: 30px;
+    }
+
+}

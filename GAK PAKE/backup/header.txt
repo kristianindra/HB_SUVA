@@ -1,29 +1,15 @@
-    <div class="my-slider">
-    	<ul>
-            <li><img src="./asset/image/header/home_head_background-m.png" class="img-responsive img_header" id="img_header_1"/></li>
-            <li><img src="./asset/image/header/head_contact-m.png" class="img-responsive img_header" id="img_header_2"/></li>
-            <li><img src="./asset/image/header/head_product_list-m.png" class="img-responsive img_header " id="img_header_3"/></li>
-            <li><img src="./asset/image/header/head_search_no_result-m.png" class="img-responsive img_header" id="img_header_2"/></li>
-    	</ul>
-    </div>
-    <div class="myHead">
-
+<div id="header">
     <div class="col-xs-3">
         <div id="sidebar">
-            <img src="./asset/image/header/main_menu.png" id="main_menu_logo" class="" onmouseover="sb_icon_no();" />
-            <!--<div id="menu" class="">
-                <span id="s1" class=""></span>
-                <span id="s2" class=""></span>
-                <span id="s3" class=""></span>
-            </div>-->
-            <div id="menu_">
+            <img src="./asset/image/header/main_menu_active.png" id="main_menu_logo" class="" />
+            <div id="menu_" class="show">
                 <ul style="list-style-type:none;">
                   <a href="our_product"><li class="list_menu" id="op"><img src="./asset/image/header/our_products.png" id="our_products" class="menu_logo"/> OUR PRODUCTS</li></a>
                   <a href="our_work"><li class="list_menu" id="ow"><img src="./asset/image/header/our_works.png" id="our_works" class="menu_logo"/> OUR WORKS</li></a>
                   <a href="contact_us"><li class="list_menu" id="cu"><img src="./asset/image/header/contact_us.png" id="contact_us" class="menu_logo"/> CONTACT US</li></a>
                 </ul>
             </div>
-            <div id="menu_bg"></div>
+            <div id="menu_bg" class="show"></div>
         </div>
     </div>
     <div class="col-xs-6" id="header_center">

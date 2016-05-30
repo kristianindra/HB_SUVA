@@ -9,6 +9,10 @@
 <link href="./asset/css/footer.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
     .content{
         font-family: Lato;
     }
@@ -149,7 +153,51 @@
         }
     });
 
-    $(document).on('mouseover', 'img', function() {
+    
+
+   $(document).on('mouseover', 'img', function() {
+        var idny = $(this).attr('id');
+        var classny = $(this).attr('class');
+        if (idny=="main_menu_logo"){
+            if (classny==""){
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            } else {
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu.png');
+            }
+        }
+        if (idny=="content_home_left_image_sofa"){
+                $('#sofa_text').toggleClass("over");
+        }
+        if (idny=="content_home_center_image_stools"){
+                $('#stools_text').toggleClass("over");
+        }
+        if (idny=="content_home_center_image_chair"){
+                $('#chair_text').toggleClass("over");
+        }
+    });
+
+   $(document).on('mouseout', 'img', function() {
+        var idny = $(this).attr('id');
+        if (idny=="content_home_left_image_sofa"){
+                $('#sofa_text').toggleClass("over");
+        }
+        if (idny=="content_home_center_image_stools"){
+                $('#stools_text').toggleClass("over");
+        }
+        if (idny=="content_home_center_image_chair"){
+                $('#chair_text').toggleClass("over");
+        }
+    });
+
+    $(document).on('click', 'img', function() {
         var idny = $(this).attr('id');
         var classny = $(this).attr('class');
         if (idny=="main_menu_logo"){
@@ -169,23 +217,13 @@
         }
     });
 
-    $(document).on('click', 'img', function() {
-        var idny = $(this).attr('id');
-        if (idny=="main_menu_logo"){
-            $('#menu').toggleClass("show");     
-            $('#menu_bg').toggleClass("show");
-            $('#menu_').toggleClass("show");
-            $('#main_menu_logo').toggleClass("show");
-            $('#main_menu_logo').attr("src", './asset/image/header/main_menu.png');
-        }
-    });
-
 </script>
 
 </head>
 <body>
+    <div id="hd" style="overflow: hidden; ">
     <?php include 'header_home.php'; ?>
-
+    </div>
     <div class="content">
         <div class="container">
             <div class="row"></div>
@@ -281,7 +319,7 @@
             <li id="tweed_text">TWEED</li>
         </ul>
     </div>
-    <img class="img-responsive block" src="./asset/image/content/home/sofa_customization-m.png" id="content_home_customization_image" border="0" />
+    <img class="img-responsive block" src="./asset/image/content/home/sofa_customization-m_.png" id="content_home_customization_image" border="0" />
     <!--<div id="content_home_material">
         <p id="content_home_material_title">CHOSE YOUR MATERIAL</p>
         <div class="image_list_choose_material">
@@ -345,4 +383,3 @@
 
 </body>
 </html>
-    

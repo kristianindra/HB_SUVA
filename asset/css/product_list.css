@@ -1,287 +1,220 @@
-@media screen and (min-width: 1000px) and (max-width: 1299px) {
-    .content{
-        font-family: Lato;
-    }
+.content{
+    font-family: Lato;
+}
 
-    #content_title{
-        text-align: center;
-        font-weight: bold;
-        font-size: 20px;
-        margin-top: 75px;
-    }
+#content_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 75px;
+}
 
+#content_body{
+    text-align: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 75px;
+    line-height: 30px;
+}
+
+#menu_item{
+    margin-top: 75px;
+}
+
+#menu_list_item{
+    margin-left: 22%;
+}
+
+#menu_list_item li{
+    display: inline;
+}
+
+#menu_list_item li:hover{
+    cursor: pointer;
+}
+
+.content_menu{
+    background: #f0f0f0;
+    color: #b2b2b2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    margin-right: 125px;
+}
+
+.content_menu.active{
+    background: #e61c24;
+    color: #f0f0f0;
+}
+
+#list_item_image li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.image_item_list{
+    border: 1px solid #b2b2b2;
+}
+
+.image_item_list:hover{
+    content: url('./../image/content/product_list/chair_image_.png');
+    width: 319px;
+    height: 336px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.text_item_list.active{
+    color: #e61c24;
+}
+
+#list_item{
+    margin-left: 11%;
+    margin-top: 100px;
+}
+
+#list_item a{
+    color: #000;
+}
+
+#img1:hover{
+    color: #c61e24;
+}
+#img2:hover{
+    color: #c61e24;
+}
+#img3:hover{
+    color: #c61e24;
+}
+#img4:hover{
+    color: #c61e24;
+}
+#img5:hover{
+    color: #c61e24;
+}
+#img6:hover{
+    color: #c61e24;
+}
+#img7:hover{
+    color: #c61e24;
+}
+#img8:hover{
+    color: #c61e24;
+}
+#img9:hover{
+    color: #c61e24;
+}
+
+#list_item div{
+    margin-right: 65px;
+}
+
+.text_item_list{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 75%;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    border: none;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width : 1024px) {
     #content_body{
-        text-align: center;
-        margin-left: 150px;
-        margin-right: 150px;
-        font-size: 11px;
-        margin-top: 50px;
-        line-height: 25px;
+        width: 800px;
+        margin-left: 80px;
     }
-
     #menu_item{
-        margin-top: 75px;
+        margin-left: -150px;
     }
-
-    #menu_list_item{
-        margin-left: 22%;
+    #list_item{
+        margin-left: 50px;
     }
-
-    #menu_list_item li{
-        display: inline;
-    }
-
-    #menu_list_item li:hover{
-        cursor: pointer;
-    }
-
-    .content_menu{
-        background: #f0f0f0;
-        color: #b2b2b2;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 40px;
-        padding-right: 40px;
-        border-radius: 25px;
-        margin-right: 50px;
-        font-size: 13px;
-    }
-
-    .content_menu.active{
-        background: #e61c24;
-        color: #f0f0f0;
-    }
-
-    #list_item_image li{
-        display: inline;
-        margin-right: 40px;
-    }
-
-    .image_item_list{
-        border: 1px solid #b2b2b2;
+    #list_item a img{
         width: 200px;
     }
-
     .image_item_list:hover{
-        content: url('./../image/content/product_list/chair_image_.png');
-        width: 200px;
+        width: 150px;
         height: 210px;
         cursor: pointer;
         color: #fff;
     }
-
-    .text_item_list.active{
-        color: #e61c24;
+    .pagination{
+        margin-left: 650px !important;
     }
-
-    #list_item{
-        margin-left: 16%;
-        margin-top: 100px;
-    }
-
-    #list_item a{
-        color: #000;
-    }
-
-    #img1:hover{
-        color: #c61e24;
-    }
-    #img2:hover{
-        color: #c61e24;
-    }
-    #img3:hover{
-        color: #c61e24;
-    }
-    #img4:hover{
-        color: #c61e24;
-    }
-    #img5:hover{
-        color: #c61e24;
-    }
-    #img6:hover{
-        color: #c61e24;
-    }
-    #img7:hover{
-        color: #c61e24;
-    }
-    #img8:hover{
-        color: #c61e24;
-    }
-    #img9:hover{
-        color: #c61e24;
-    }
-
-    #list_item div{
-        margin-right: 15px;
-    }
-
-    .text_item_list{
-        text-align: center;
-        margin-left: 20px;
-        margin-top: 15px;
-        font-weight: bold;
-        margin-bottom: 75px;
-    }
-
-    ul.pagination {
-        display: inline-block;
-        padding: 0;
-        margin: 0;
-        margin-left: 75%;
-    }
-
-    ul.pagination li {
-        display: inline;
-        font-size: 11px;
-    }
-
-    ul.pagination li a {
-        color: black;
-        float: left;
-        border: none;
-        padding: 8px 10px;
-        text-decoration: none;
-    }
-
 }
 
-@media screen and (min-width: 1300px){
-    .content{
-        font-family: Lato;
-    }
-
-    #content_title{
-        text-align: center;
-        font-weight: bold;
-        font-size: 20px;
-        margin-top: 75px;
-    }
-
+@media screen and (max-width: 900px) {
     #content_body{
-        text-align: center;
-        margin-left: 220px;
-        margin-right: 220px;
-        margin-top: 75px;
-        line-height: 30px;
+        width: 675px;
+        margin-left: 60px;
     }
-
     #menu_item{
-        margin-top: 75px;
-    }
-
-    #menu_list_item{
-        margin-left: 22%;
-    }
-
+        margin-left: -100px;
+    }    
     #menu_list_item li{
-        display: inline;
+        margin-right: 50px;
     }
-
-    #menu_list_item li:hover{
-        cursor: pointer;
+    #list_item{
+        margin-left: -20px;
     }
-
-    .content_menu{
-        background: #f0f0f0;
-        color: #b2b2b2;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 50px;
-        padding-right: 50px;
-        border-radius: 25px;
-        margin-right: 125px;
+    #list_item a img{
+        width: 150px;
+        margin-right: 10px;
     }
-
-    .content_menu.active{
-        background: #e61c24;
-        color: #f0f0f0;
+    .pagination{
+        margin-left: 450px !important;
     }
+}
 
-    #list_item_image li{
-        display: inline;
-        margin-right: 40px;
+@media screen and (max-width: 400px) {
+    #content_title{
+        width: 275px !important;
+        margin-left: 40px;
     }
-
-    .image_item_list{
-        border: 1px solid #b2b2b2;
+    #content_body{
+        width: 250px;
+        margin-left: 50px;
     }
-
+    #menu_item{
+        margin-left: -30px;
+    }
+    #menu_list_item li{
+        margin-left: -50px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #list_item{
+        margin-left: 20px;
+    }
+    #list_item a img{
+        width: 120px;
+        padding-right: 10px;
+    }
     .image_item_list:hover{
-        content: url('./../image/content/product_list/chair_image_.png');
-        width: 319px;
-        height: 336px;
+        width: 120px;
+        height: 115px;
         cursor: pointer;
         color: #fff;
     }
-
-    .text_item_list.active{
-        color: #e61c24;
+    .pagination{
+        margin-left: 50px !important;
     }
-
-    #list_item{
-        margin-left: 11%;
-        margin-top: 100px;
-    }
-
-    #list_item a{
-        color: #000;
-    }
-
-    #img1:hover{
-        color: #c61e24;
-    }
-    #img2:hover{
-        color: #c61e24;
-    }
-    #img3:hover{
-        color: #c61e24;
-    }
-    #img4:hover{
-        color: #c61e24;
-    }
-    #img5:hover{
-        color: #c61e24;
-    }
-    #img6:hover{
-        color: #c61e24;
-    }
-    #img7:hover{
-        color: #c61e24;
-    }
-    #img8:hover{
-        color: #c61e24;
-    }
-    #img9:hover{
-        color: #c61e24;
-    }
-
-    #list_item div{
-        margin-right: 65px;
-    }
-
-    .text_item_list{
-        text-align: center;
-        margin-left: 50px;
-        margin-top: 15px;
-        font-weight: bold;
-        margin-bottom: 75px;
-    }
-
-    ul.pagination {
-        display: inline-block;
-        padding: 0;
-        margin: 0;
-        margin-left: 75%;
-    }
-
-    ul.pagination li {display: inline;}
-
-    ul.pagination li a {
-        color: black;
-        float: left;
-        border: none;
-        padding: 8px 16px;
-        text-decoration: none;
-    }
-
 }

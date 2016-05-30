@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php include 'link_.php'; ?>
-
+<link rel="stylesheet" href="./asset/unslider/dist/css/unslider.css">
 <style type="text/css">
 html, body {
     margin: 0;
@@ -19,11 +19,13 @@ html, body {
     #header{
         width: 100%;
     }
+    .my-slider ul li img{
+        height: 708px;
+    }
 }
 </style>
 
 
-<link href="./asset/css/set_header_contact.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/header.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/contact.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/special_offer.css" rel="stylesheet" type="text/css" />
@@ -106,20 +108,47 @@ html, body {
 
     $(document).on('click', 'img', function() {
         var idny = $(this).attr('id');
+        var classny = $(this).attr('class');
         if (idny=="main_menu_logo"){
-            $('#menu').toggleClass("show");     
-            $('#menu_bg').toggleClass("show");
-            $('#menu_').toggleClass("show");
-            $('#main_menu_logo').toggleClass("show");
-            $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            if (classny==""){
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu.png');
+            } else {
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            }
         }
     });
+
+    function o_sb(){
+        $('#sidebar').toggleClass("show");
+    }
+
+    function o_works_in(){
+        $('#our_works').attr("src", './asset/image/header/our_works_active.png');
+    }
+    function o_works_out(){
+        $('#our_works').attr("src", './asset/image/header/our_works.png');
+    }
+
+    function o_prod_in(){
+         $('#our_products').attr("src", './asset/image/header/our_products_active.png');
+    }
+    function o_prod_out() {
+         $('#our_products').attr("src", './asset/image/header/our_products.png');
+    }
 
 </script>
 
 </head>
 <body>
-    <?php include 'v_header.php'; ?>
+    <?php include 'v_header_contact_us.php'; ?>
     <div class='content'>
         <div class="row"></div>
         <p style="text-align:center;" class="content_title1">
@@ -146,5 +175,18 @@ html, body {
     </div>
     <?php include 'v_special_offer.php'; ?>
     <?php include 'v_footer.php'; ?>
+    <script src="./asset/js/jquery-2.1.4.min.js"></script>
+    <script src="./asset/unslider/src/js/unslider.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider({
+                keys: false,
+                autoplay: true,
+                delay: 3500,
+                arrows: false,
+                nav: false
+            });
+        });
+    </script>
 </body>
 </html>

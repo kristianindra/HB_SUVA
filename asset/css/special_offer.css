@@ -1,17 +1,64 @@
-@media screen and (min-width: 1000px) and (max-width: 1299px){
+@media (min-width: 1300px){
+    #img_red{
+        width: 100%;
+        margin-top: 100px;
+    }
     .special_offer{
         margin-top: 100px;
-        display: block;
-        width: 1024px;
-        height: 235px;
-        background-image: url("../image/special_offer/special_offer.png");
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
+        margin-bottom: 75px !important;
+    }
+    .special_offer p{
+        font-family: Lato;
+        color: #fff;
     }
 
+    .special_offer_title{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 60px;
+        margin-top: -310px;
+    }
+
+    .special_offer_text{
+        text-align: center;
+        font-size: 12px;
+        padding-top: 35px;
+        margin-left: 115px;
+        margin-right: 115px;
+        padding-bottom: 25px;
+    }
+
+    .special_offer_email{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #email_text{
+        border: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 200px;
+        height: 25px;
+        padding-left: 15px;
+        font-size: 12px;
+        color: #000;
+    }
+
+    #email_icon{
+        height: 25px;
+        margin-left: -10px;
+        margin-top: -2px;
+        padding-top: 9px;
+        padding-left: 10px;
+        padding-bottom: 6px;
+        padding-right: 10px;
+        background: #fff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+@media (max-width: 1300px){
     .special_offer p{
         font-family: Lato;
         color: #fff;
@@ -59,48 +106,41 @@
     }
 }
 
-@media screen and (min-width: 1300px){
+@media (max-width: 1000px){
     .special_offer{
         margin-top: 100px;
-        display: block;
-        max-width: 2560px;
-        height: 310px;
-        width: 100%;
-        background-image: url("../image/special_offer/special_offer.png");
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
-
     .special_offer p{
+        text-align: center;
         font-family: Lato;
         color: #fff;
     }
 
     .special_offer_title{
         font-size: 20px;
-        padding-top: 60px;
+        padding-top: 40px;
+        margin-top: -230px;
     }
 
     .special_offer_text{
-        font-size: 12px;
-        padding-top: 35px;
-        margin-left: 115px;
+        width: 300px;
+        text-align: center;
+        font-size: 11px;
+        padding-top: 10px;
+        margin-left: 80px;
         margin-right: 115px;
-        padding-bottom: 25px;
+        line-height: 20px;
     }
 
     .special_offer_email{
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     #email_text{
         border: none;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
-        width: 200px;
+        width: 170px;
         height: 25px;
         padding-left: 15px;
         font-size: 12px;
@@ -114,6 +154,186 @@
         padding-top: 9px;
         padding-left: 10px;
         padding-bottom: 6px;
+        padding-right: 10px;
+        background: #fff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+@media (max-width: 900px){
+    #img_red{
+        width: 100%;
+    }
+    .special_offer{
+        margin-top: 100px;
+        margin-bottom: -60px !important;
+    }
+    .special_offer p{
+        text-align: center;
+        font-family: Lato;
+        color: #fff;
+        margin-left: 50px;
+    }
+
+    .special_offer_title{
+        font-size: 17px;
+        padding-top: 80px;
+    }
+
+    .special_offer_text{
+        width: 350px;
+        text-align: center;
+        font-size: 11px;
+        padding-top: 5px;
+        margin-right: 115px;
+        line-height: 20px;
+    }
+
+    .special_offer_email{
+        margin-top: -20px;
+    }
+
+    #email_text{
+        border: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 150px;
+        height: 20px;
+        padding-left: 15px;
+        font-size: 12px;
+        color: #000;
+    }
+
+    #email_icon{
+        height: 20px;
+        margin-left: -10px;
+        margin-top: -2px;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #fff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+@media (max-width: 600px){
+    #img_red{
+        width: 100%;
+    }
+    .special_offer{
+        margin-top: 100px;
+        margin-bottom: -30px !important;
+    }
+    .special_offer p{
+        text-align: center;
+        font-family: Lato;
+        color: #fff;
+        margin-left: 50px;
+    }
+
+    .special_offer_title{
+        font-size: 17px;
+        padding-top: 100px;
+    }
+
+    .special_offer_text{
+        width: 350px;
+        text-align: center;
+        font-size: 11px;
+        padding-top: 5px;
+        margin-right: 115px;
+        line-height: 20px;
+        margin-left: -30px !important;
+    }
+
+    .special_offer_email{
+        margin-top: -20px;
+    }
+
+    #email_text{
+        border: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 150px;
+        height: 20px;
+        padding-left: 15px;
+        font-size: 12px;
+        color: #000;
+    }
+
+    #email_icon{
+        height: 20px;
+        margin-left: -10px;
+        margin-top: -2px;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-bottom: 4px;
+        padding-right: 10px;
+        background: #fff;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+
+@media (max-width: 400px){
+    #img_red{
+        width: 100%;
+    }
+    .special_offer{
+        margin-top: 100px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .special_offer p{
+        text-align: center;
+        font-family: Lato;
+        color: #fff;
+    }
+
+    .special_offer_title{
+        font-size: 10px;
+        margin-left: -20px !important;
+        padding-top: 30px;
+        margin-top: -100px;
+    }
+
+    .special_offer_text{
+        width: 250px;
+        margin-left: -50px !important;
+        font-size: 8px;
+        padding-top: -15px;   
+        margin-top: -10px;
+        margin-right: 115px;
+        line-height: 10px;
+
+    }
+
+    .special_offer_email{
+        margin-top: -35px;
+        margin-left: -20px !important;
+    }
+
+    #email_text{
+        border: none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 60px;
+        height: 15px;
+        padding-left: 15px;
+        font-size: 10px;
+        color: #000;
+    }
+
+    #email_icon{
+        height: 15px;
+        margin-left: -10px;
+        margin-top: -1px;
+        padding-top: 5px;
+        padding-left: 6px;
+        padding-bottom: 4px;
         padding-right: 10px;
         background: #fff;
         border-top-right-radius: 15px;

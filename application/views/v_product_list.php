@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php include 'link_.php'; ?>
-
+<link rel="stylesheet" href="./asset/unslider/dist/css/unslider.css">
 <style type="text/css">
 html, body {
     margin: 0;
@@ -19,11 +19,12 @@ html, body {
     #header{
         width: 100%;
     }
+    .my-slider ul li img{
+        height: 708px;
+    }
 }
 </style>
 
-
-<link href="./asset/css/set_header_product_list.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/header.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/product_list.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/special_offer.css" rel="stylesheet" type="text/css" />
@@ -88,20 +89,40 @@ html, body {
 
     $(document).on('click', 'img', function() {
         var idny = $(this).attr('id');
+        var classny = $(this).attr('class');
         if (idny=="main_menu_logo"){
-            $('#menu').toggleClass("show");     
-            $('#menu_bg').toggleClass("show");
-            $('#menu_').toggleClass("show");
-            $('#main_menu_logo').toggleClass("show");
-            $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            if (classny==""){
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu.png');
+            } else {
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            }
         }
     });
-
+    function o_works_in(){
+        $('#our_works').attr("src", './asset/image/header/our_works_active.png');
+    }
+    function o_works_out(){
+        $('#our_works').attr("src", './asset/image/header/our_works.png');
+    }
+    function o_cont_in(){
+        $('#contact_us').attr("src", './asset/image/header/contact_us_active.png');
+    }
+    function o_cont_out(){
+        $('#contact_us').attr("src", './asset/image/header/contact_us.png');
+    }
 </script>
 
 </head>
 <body>
-    <?php include 'v_header.php'; ?>
+    <?php include 'v_header_product.php'; ?>
     <div class='content'>
         <div class="row"></div>
         <p id="content_title">CUSTOMIZE ANY SEAT YOU EVER WANTED</p>
@@ -113,44 +134,71 @@ html, body {
             <ul id="menu_list_item">
                 <li class="content_menu">SOFAS</li>
                 <li class="content_menu active">CHAIR</li>
-                <li class="content_menu">STOLLS</li>
+                <li class="content_menu">STOOLS</li>
             </ul>
         </div>
-        <div id="list_item">
+        <div class="col-xs-12" id="list_item">
             <a href="product" id="img1"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
             <a href="product" id="img2"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />  
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
             <a href="product" id="img3"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />  
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
             <a href="product" id="img4"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />  
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
             <a href="product" id="img5"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />  
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
             <a href="product" id="img6"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />  
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
             <a href="product" id="img7"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />  
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
             <a href="product" id="img8"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />  
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
             <a href="product" id="img9"><div class="col-xs-3" class="item_list">
-                <img src="./asset/image/content/product_list/chair_image.png" class="image_item_list" />
+                <img src="./asset/image/content/product_list/chair_image.png"
+                onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
+                onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
+                class="image_item_list" />  
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
         </div>
@@ -169,5 +217,18 @@ html, body {
     </div>
     <?php include 'v_special_offer.php'; ?>
     <?php include 'v_footer.php'; ?>
+    <script src="./asset/js/jquery-2.1.4.min.js"></script>
+    <script src="./asset/unslider/src/js/unslider.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider({
+                keys: false,
+                autoplay: true,
+                delay: 3500,
+                arrows: false,
+                nav: false
+            });
+        });
+    </script>
 </body>
 </html>

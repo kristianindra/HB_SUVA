@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php include 'link_.php'; ?>
-
+<link rel="stylesheet" href="./asset/unslider/dist/css/unslider.css">
 <style type="text/css">
 html, body {
     font-family: Lato;
@@ -18,11 +18,13 @@ html, body {
     #header{
         width: 100%;
     }
+    .my-slider ul li img{
+        height: 708px;
+    }
 }
 </style>
 
 
-<link href="./asset/css/set_header_product_list.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/header.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/product.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/special_offer.css" rel="stylesheet" type="text/css" />
@@ -37,7 +39,7 @@ html, body {
         var height = img.clientWidth;
         //alert(height);
         document.getElementById("menu_bg").height = "705";
-        $("#cu").hover(
+        /*$("#cu").hover(
               function () {
                     $('#contact_us').attr("src", './asset/image/header/contact_us_active.png');
               },
@@ -54,8 +56,8 @@ html, body {
                 }
             );
             $('#op').addClass("active");
-            $('#our_products').attr("src", './asset/image/header/our_products_active.png');
-            $("#chair_side_").hover(
+            $('#our_products').attr("src", './asset/image/header/our_products_active.png');*/
+            /*$("#chair_side_").hover(
                 function () {
                     $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_side_.png');
                 },
@@ -78,7 +80,7 @@ html, body {
                 function () {
                     $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_front.png');
                 }
-            );
+            );*/
     });
 
     $(document).on('mouseover', 'img', function() {
@@ -103,20 +105,55 @@ html, body {
 
     $(document).on('click', 'img', function() {
         var idny = $(this).attr('id');
+        var classny = $(this).attr('class');
         if (idny=="main_menu_logo"){
-            $('#menu').toggleClass("show");     
-            $('#menu_bg').toggleClass("show");
-            $('#menu_').toggleClass("show");
-            $('#main_menu_logo').toggleClass("show");
-            $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            if (classny==""){
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu.png');
+            } else {
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            }
         }
     });
+
+    function image_left_in(){
+        $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_side_.png');
+    }
+    function image_center_in(){
+        $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_side.png');
+    }
+    function image_right_in(){
+        $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_back.png');
+    }
+    function image_out(){
+        $('#content_product_left_image_front').attr("src", './asset/image/content/product/chair_front.png');
+    }
+
+    function o_works_in(){
+        $('#our_works').attr("src", './asset/image/header/our_works_active.png');
+    }
+    function o_works_out(){
+        $('#our_works').attr("src", './asset/image/header/our_works.png');
+    }
+    function o_cont_in(){
+        $('#contact_us').attr("src", './asset/image/header/contact_us_active.png');
+    }
+    function o_cont_out(){
+        $('#contact_us').attr("src", './asset/image/header/contact_us.png');
+    }
 
 </script>
 
 </head>
 <body>
-    <?php include 'v_header.php'; ?>
+    <?php include 'v_header_product.php'; ?>
     <div class='content'>
         <div class="row"></div>
         <p id="content_title">CUSTOMIZE ANY SEAT YOU EVER WANTED</p>
@@ -132,27 +169,27 @@ html, body {
             </ul>
         </div>
         <div class="container">
-            <div class="col-xs-6">
+            <div class="col-sm-6">
                 <img class="img-responsive center-block" src="./asset/image/content/product/chair_front.png" id="content_product_left_image_front" border="0">
                 <ul id="position_chair">
                     <li id="chair_side_">
                         <div class="col-xs-4">
-                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
+                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0" onmouseover="image_left_in();" onmouseout="image_out();">
                         </div>
                     </li>
                     <li id="chair_side">
                         <div class="col-xs-4">
-                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_side.png" id="content_product_left_image_side" class="image_position" border="0">
+                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_side.png" id="content_product_left_image_side" class="image_position" border="0" onmouseover="image_center_in();" onmouseout="image_out();">
                         </div>
                     </li>
                     <li id="chair_back">
                         <div class="col-xs-4">
-                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_back.png" id="content_product_left_image_back" class="image_position" border="0">
+                            <img class="img-responsive center-block" src="./asset/image/content/product/chair_back.png" id="content_product_left_image_back" class="image_position" border="0" onmouseover="image_right_in();" onmouseout="image_out();">
                         </div>
                     </li>
                 </ul>
             </div>
-            <div class="col-xs-6">
+            <div class="col-sm-6">
                 <a href="our_product"><p id="aaa"><img src="./asset/image/content/product/left_icon.png" style="width: 5px; margin-right:15px;" /> Back to <b>CHAIRS</b></p></a>
                 <p id="content_right_product_title">Lorem Ipsum Dolor Sit Amet</p>
                 <p id="content_right_product_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
@@ -161,28 +198,28 @@ html, body {
                 <p id="content_right_product_title">Choose Material</p>
                 <div id="content_home_choose_material">
                     <div class="row">
-                        <div class="col-xs-1"><img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" /></div>
-                        <div class="col-xs-1" id="material_wool">
+                        <div class="col-sm-1"><img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" /></div>
+                        <div class="col-sm-1" id="material_wool">
                             <img src="./asset/image/content/home/wool.png" id="wool_icon" class="material_logo" />
                             <span></span>
                             <p id="material_text1" class="material_text">WOOL</p>
                         </div>
-                        <div class="col-xs-1" id="material_cotton">
+                        <div class="col-sm-1" id="material_cotton">
                             <img src="./asset/image/content/product/cotton.png" id="cotton_icon" class="material_logo" />
                             <span></span>
                             <p id="material_text2" class="material_text">COTTON</p>
                         </div>
-                        <div class=col-xs-1 id="material_linen">
+                        <div class=col-sm-1 id="material_linen">
                             <img src="./asset/image/content/home/linen.png" id="linen_icon" class="material_logo" />
                             <span></span>
                             <p id="material_text3" class="material_text">LINEN</p>
                         </div>
-                        <div class=col-xs-1 id="material_tweed">
+                        <div class=col-sm-1 id="material_tweed">
                             <img src="./asset/image/content/home/tweed.png" id="tweed_icon" class="material_logo" />
                             <span></span>
                             <p id="material_text4" class="material_text">TWEED</p>
                         </div>
-                        <div class="col-xs-1"><img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" /></div>
+                        <div class="col-sm-1"><img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" /></div>
                     </div>
                 </div>
                 <p id="content_right_product_title">Available Color</p>
@@ -208,22 +245,22 @@ html, body {
                     <li><img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon_similar" class="arrow_logo_similar" /></li>
                 </ul>
             </div>
-            <!--<div class="col-xs-1" id="arrow_left">
+            <!--<div class="col-sm-1" id="arrow_left">
                 <img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" />
             </div>
-            <div class="col-xs-2" id="img_1">
+            <div class="col-sm-2" id="img_1">
                 <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
             </div>
-            <div class="col-xs-2" id="img_2">
+            <div class="col-sm-2" id="img_2">
                 <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
             </div>
-            <div class="col-xs-2" id="img_3">
+            <div class="col-sm-2" id="img_3">
                 <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
             </div>
-            <div class="col-xs-2" id="img_4">
+            <div class="col-sm-2" id="img_4">
                 <img class="img-responsive center-block" src="./asset/image/content/product/chair_side_.png" id="content_product_left_image_side_" class="image_position" border="0">
             </div>
-            <div class="col-xs-1" id="arrow_right">
+            <div class="col-sm-1" id="arrow_right">
                 <img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" />
             </div>-->
         </div>
@@ -232,6 +269,19 @@ html, body {
     <?php include 'v_footer.php'; ?>
 
     <script src="./asset/lightbox/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="./asset/js/jquery-2.1.4.min.js"></script>
+    <script src="./asset/unslider/src/js/unslider.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider({
+                keys: false,
+                autoplay: true,
+                delay: 3500,
+                arrows: false,
+                nav: false
+            });
+        });
+    </script>
 
 </body>
 </html>

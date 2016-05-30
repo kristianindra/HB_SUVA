@@ -1,0 +1,141 @@
+#header_image{
+    position: absolute;
+    z-index: -2;
+}
+
+.active{
+    color: #c61e24;
+}
+
+#bg_side{
+    position: absolute;
+    margin-left: -15px;
+    z-index: -1;
+    height: 708px;
+}
+
+#image_header_left{
+    position: relative;
+    max-width: 40px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#menu_{
+    margin: 0;
+    z-index: 100;
+    display: table-cell;
+    position: absolute;
+    padding: 0;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+.menu_logo{
+  max-width: 26px;
+  margin-right: 20px;
+  margin-top:-5px;
+}
+
+#menu_ ul{
+    margin-left: -305px;
+    margin-top: 25px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu_.show ul{
+    margin-left: 3px;
+    margin-top: 25px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu_ ul li{
+  margin-bottom: 28px;
+}
+
+#menu_ ul a{
+    text-decoration: none;
+}
+
+.list_menu.active{
+  color: #e61c24;
+  font-family: Lato;
+}
+
+.list_menu{
+  color: #fefefe;
+  font-size: 17px;
+  font-family: Lato;
+}
+
+.list_menu:hover{
+    color: #e61c24;
+    cursor: pointer;
+}
+
+#suva_logo{
+    margin-top: 100px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#made_by_us{
+    max-width: 270px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#buy_now{
+  max-width: 90px;
+  width: 100%;
+  margin-bottom: 550px;
+}
+
+#buy_now:hover{
+    cursor: pointer;
+}
+
+#search_box{
+    margin-top: 40px;
+    margin-left: 85px;
+}
+
+#search_text{
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 150px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+#search_icon{
+    height: 30px;
+    margin-left: -10px;
+    margin-top: 0px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    background: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#sidebar.show{
+    display: none;
+}
+
+@media only screen and (max-width: 1299px){
+    #bg_side{
+        margin-top: -75px;
+    }
+}

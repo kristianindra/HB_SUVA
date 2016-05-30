@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php include 'link_.php'; ?>
-
+<link rel="stylesheet" href="./asset/unslider/dist/css/unslider.css">
 <style type="text/css">
 html, body {
     margin: 0;
@@ -19,6 +19,9 @@ html, body {
     #header{
         width: 100%;
     }
+    .my-slider ul li img{
+        height: 708px;
+    }
 }
 </style>
 
@@ -34,8 +37,6 @@ html, body {
 	<!-- Includes for this demo
 	<link rel="stylesheet" href="./asset/flexslider/demo-stuff/demo1.css" type="text/css" media="screen" />-->
 
-
-<link href="./asset/css/set_header_our_work.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/header.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/our_work.css" rel="stylesheet" type="text/css" />
 <link href="./asset/css/special_offer.css" rel="stylesheet" type="text/css" />
@@ -69,7 +70,7 @@ html, body {
             $('#ow').addClass("active");
             $('#our_works').attr("src", './asset/image/header/our_works_active.png');
 
-
+/*
             $("#img1").hover(
                 function () {
                       $('#image1').attr("src", './asset/image/content/work/home_color.png');
@@ -329,7 +330,7 @@ html, body {
                 function () {
                       $('#image15').attr("src", './asset/image/content/work/chair.png');
                 }
-            );
+            );*/
 
 
     });
@@ -356,12 +357,21 @@ html, body {
 
     $(document).on('click', 'img', function() {
         var idny = $(this).attr('id');
+        var classny = $(this).attr('class');
         if (idny=="main_menu_logo"){
-            $('#menu').toggleClass("show");     
-            $('#menu_bg').toggleClass("show");
-            $('#menu_').toggleClass("show");
-            $('#main_menu_logo').toggleClass("show");
-            $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            if (classny==""){
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu.png');
+            } else {
+                $('#menu').toggleClass("show");
+                $('#menu_bg').toggleClass("show");
+                $('#menu_').toggleClass("show");
+                $('#main_menu_logo').toggleClass("show");
+                $('#main_menu_logo').attr("src", './asset/image/header/main_menu_active.png');
+            }
         }
     });
 /* 3 */
@@ -412,12 +422,132 @@ var Main = Main || {};
            this.init();
        }
 
+       function o_prod_in(){
+            $('#our_products').attr("src", './asset/image/header/our_products_active.png');
+       }
+       function o_prod_out() {
+            $('#our_products').attr("src", './asset/image/header/our_products.png');
+       }
+
+       function o_cont_in(){
+           $('#contact_us').attr("src", './asset/image/header/contact_us_active.png');
+       }
+       function o_cont_out(){
+           $('#contact_us').attr("src", './asset/image/header/contact_us.png');
+       }
+
+       function f_img1_in(){
+           $('#image1').attr("src", './asset/image/content/work/home_color.png');
+       }
+       function f_img1_out(){
+            $('#image1').attr("src", './asset/image/content/work/home.png');
+        }
+
+        function f_img2_in(){
+            $('#image2').attr("src", './asset/image/content/work/chair_color.png');
+        }
+        function f_img2_out(){
+            $('#image2').attr("src", './asset/image/content/work/chair.png');
+        }
+
+        function f_img3_in(){
+            $('#image3').attr("src", './asset/image/content/work/product_list_color.png');
+        }
+        function f_img3_out(){
+            $('#image3').attr("src", './asset/image/content/work/product_list.png');
+        }
+
+        function f_img4_in(){
+            $('#image4').attr("src", './asset/image/content/work/search_color.png');
+        }
+        function f_img4_out(){
+            $('#image4').attr("src", './asset/image/content/work/search.png');
+        }
+
+        function f_img5_in(){
+            $('#image5').attr("src", './asset/image/content/work/chair_color.png');
+        }
+        function f_img5_out(){
+            $('#image5').attr("src", './asset/image/content/work/chair.png');
+        }
+
+        function f_img6_in(){
+            $('#image6').attr("src", './asset/image/content/work/home_color.png');
+        }
+        function f_img6_out(){
+             $('#image6').attr("src", './asset/image/content/work/home.png');
+         }
+
+         function f_img7_in(){
+             $('#image7').attr("src", './asset/image/content/work/chair_color.png');
+         }
+         function f_img7_out(){
+             $('#image7').attr("src", './asset/image/content/work/chair.png');
+         }
+
+         function f_img8_in(){
+             $('#image8').attr("src", './asset/image/content/work/product_list_color.png');
+         }
+         function f_img8_out(){
+             $('#image8').attr("src", './asset/image/content/work/product_list.png');
+         }
+
+         function f_img9_in(){
+             $('#image9').attr("src", './asset/image/content/work/search_color.png');
+         }
+         function f_img9_out(){
+             $('#image9').attr("src", './asset/image/content/work/search.png');
+         }
+
+         function f_img10_in(){
+             $('#image10').attr("src", './asset/image/content/work/chair_color.png');
+         }
+         function f_img10_out(){
+             $('#image10').attr("src", './asset/image/content/work/chair.png');
+         }
+
+         function f_img11_in(){
+             $('#image11').attr("src", './asset/image/content/work/home_color.png');
+         }
+         function f_img11_out(){
+             $('#image11').attr("src", './asset/image/content/work/home.png');
+         }
+
+         function f_img12_in(){
+             $('#image12').attr("src", './asset/image/content/work/chair_color.png');
+         }
+         function f_img12_out(){
+              $('#image12').attr("src", './asset/image/content/work/chair.png');
+          }
+
+          function f_img13_in(){
+              $('#image13').attr("src", './asset/image/content/work/product_list_color.png');
+          }
+          function f_img13_out(){
+              $('#image13').attr("src", './asset/image/content/work/product_list.png');
+          }
+
+          function f_img14_in(){
+              $('#image14').attr("src", './asset/image/content/work/search_color.png');
+          }
+          function f_img14_out(){
+              $('#image14').attr("src", './asset/image/content/work/search.png');
+          }
+
+          function f_img15_in(){
+              $('#image15').attr("src", './asset/image/content/work/chair_color.png');
+          }
+          function f_img15_out(){
+              $('#image15').attr("src", './asset/image/content/work/chair.png');
+          }
 </script>
 
 
 </head>
 <body>
-    <?php include 'v_header.php'; ?>
+    <div class="hdr_work" style="width:100%;">
+      <?php include 'v_header_our_work.php'; ?>
+    </div>
     <!-- 2 -->
     <div class='content'>
         <div class="row"></div>
@@ -430,7 +560,7 @@ var Main = Main || {};
             <ul id="menu_list_item">
                 <li class="content_menu">SOFAS</li>
                 <li class="content_menu active">CHAIR</li>
-                <li class="content_menu">STOLLS</li>
+                <li class="content_menu">STOOLS</li>
             </ul>
         </div>
         <div class="container">
@@ -438,60 +568,53 @@ var Main = Main || {};
         		<ul class="slides">
         			<li>
         				<img src="./asset/image/content/work/home.png"
-                        onmouseover="this.src='./asset/image/content/work/home_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/home_color.png';"
                         onmouseout="this.src='./asset/image/content/work/home.png';"  id="image1"/>
-        				<div class="flex-caption" id="img1">
+        				<div class="flex-caption" id="img1" onmouseover="f_img1_in();" onmouseout="f_img1_out();">
         					<h3>LOREM IPSUM DOLOR SIT AMET</h3>
         					<p>type: XXXX, 2016</p>
         				</div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_1" />
-                        <!--<div class="flex_sidebar">
-                            <ul>
-                                <li class="facebook_icon">
-                                    <img src="./asset/image/content/work/share_facebook.png" />
-                                </li>
-                            </ul>
-                        </div>-->
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_1"  onmouseover="f_img1_in();" onmouseout="f_img1_out();"/>
         			</li>
                     <li>
         				<img src="./asset/image/content/work/chair.png"
-                        onmouseover="this.src='./asset/image/content/work/chair_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/chair_color.png';"
                         onmouseout="this.src='./asset/image/content/work/chair.png';" id="image2"/>
-        				<div class="flex-caption" id="img2">
+        				<div class="flex-caption" id="img2" onmouseover="f_img2_in();" onmouseout="f_img2_out();">
         					<h3>LOREM IPSUM DOLOR SIT AMET</h3>
         					<p>type: XXXX, 2016</p>
         				</div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_2"  />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_2"  onmouseover="f_img2_in();" onmouseout="f_img2_out();" />
         			</li>
                     <li>
         				<img src="./asset/image/content/work/product_list.png"
-                        onmouseover="this.src='./asset/image/content/work/product_list_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/product_list_color.png';"
                         onmouseout="this.src='./asset/image/content/work/product_list.png';" id="image3"/>
-        				<div class="flex-caption" id="img3">
+        				<div class="flex-caption" id="img3" onmouseover="f_img3_in();" onmouseout="f_img3_out();">
         					<h3>LOREM IPSUM DOLOR SIT AMET</h3>
         					<p>type: XXXX, 2016</p>
         				</div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_3"  />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_3"  onmouseover="f_img3_in();" onmouseout="f_img3_out();" />
         			</li>
                     <li>
         				<img src="./asset/image/content/work/search.png"
-                        onmouseover="this.src='./asset/image/content/work/search_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/search_color.png';"
                         onmouseout="this.src='./asset/image/content/work/search.png';" id="image4"/>
-        				<div class="flex-caption" id="img4">
+        				<div class="flex-caption" id="img4" onmouseover="f_img4_in();" onmouseout="f_img4_out();">
         					<h3>LOREM IPSUM DOLOR SIT AMET</h3>
         					<p>type: XXXX, 2016</p>
         				</div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_4"  />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_4"  onmouseover="f_img4_in();" onmouseout="f_img4_out();" />
         			</li>
         			<li>
                         <img src="./asset/image/content/work/chair.png"
-                        onmouseover="this.src='./asset/image/content/work/chair_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/chair_color.png';"
                         onmouseout="this.src='./asset/image/content/work/chair.png';" id="image5"/>
-        				<div class="flex-caption" id="img5">
+        				<div class="flex-caption" id="img5" onmouseover="f_img5_in();" onmouseout="f_img5_out();">
         					<h3>LOREM IPSUM DOLOR SIT AMET</h3>
         					<p>type: XXXX, 2016</p>
         				</div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_5"  />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_5"  onmouseover="f_img5_in();" onmouseout="f_img5_out();" />
         			</li>
                 </ul>
             </div>
@@ -501,53 +624,53 @@ var Main = Main || {};
         		<ul class="slides">
                     <li>
                         <img src="./asset/image/content/work/home.png"
-                        onmouseover="this.src='./asset/image/content/work/home_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/home_color.png';"
                         onmouseout="this.src='./asset/image/content/work/home.png';"  id="image6"/>
-                        <div class="flex-caption" id="img6">
+                        <div class="flex-caption" id="img6" onmouseover="f_img6_in();" onmouseout="f_img6_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_6" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_6"  onmouseover="f_img6_in();" onmouseout="f_img6_out();"/>
                     </li>
                     <li>
                         <img src="./asset/image/content/work/chair.png"
-                        onmouseover="this.src='./asset/image/content/work/chair_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/chair_color.png';"
                         onmouseout="this.src='./asset/image/content/work/chair.png';" id="image7"/>
-                        <div class="flex-caption" id="img7">
+                        <div class="flex-caption" id="img7" onmouseover="f_img7_in();" onmouseout="f_img7_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_7" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_7"  onmouseover="f_img7_in();" onmouseout="f_img7_out();"/>
                     </li>
                     <li>
                         <img src="./asset/image/content/work/product_list.png"
-                        onmouseover="this.src='./asset/image/content/work/product_list_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/product_list_color.png';"
                         onmouseout="this.src='./asset/image/content/work/product_list.png';" id="image8"/>
-                        <div class="flex-caption" id="img8">
+                        <div class="flex-caption" id="img8" onmouseover="f_img8_in();" onmouseout="f_img8_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_8" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_8" onmouseover="f_img8_in();" onmouseout="f_img8_out();" />
                     </li>
                     <li>
                         <img src="./asset/image/content/work/search.png"
-                        onmouseover="this.src='./asset/image/content/work/search_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/search_color.png';"
                         onmouseout="this.src='./asset/image/content/work/search.png';" id="image9"/>
-                        <div class="flex-caption" id="img9">
+                        <div class="flex-caption" id="img9" onmouseover="f_img9_in();" onmouseout="f_img9_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_9" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_9" onmouseover="f_img9_in();" onmouseout="f_img9_out();" />
                     </li>
                     <li>
                         <img src="./asset/image/content/work/chair.png"
-                        onmouseover="this.src='./asset/image/content/work/chair_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/chair_color.png';"
                         onmouseout="this.src='./asset/image/content/work/chair.png';" id="image10"/>
-                        <div class="flex-caption" id="img10">
+                        <div class="flex-caption" id="img10" onmouseover="f_img10_in();" onmouseout="f_img10_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_10" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_10"  onmouseover="f_img10_in();" onmouseout="f_img10_out();"/>
                     </li>
                 </ul>
             </div>
@@ -557,53 +680,53 @@ var Main = Main || {};
         		<ul class="slides">
                     <li>
                         <img src="./asset/image/content/work/home.png"
-                        onmouseover="this.src='./asset/image/content/work/home_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/home_color.png';"
                         onmouseout="this.src='./asset/image/content/work/home.png';"  id="image11"/>
-                        <div class="flex-caption" id="img11">
+                        <div class="flex-caption" id="img11" onmouseover="f_img11_in();" onmouseout="f_img11_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_11" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_11"  onmouseover="f_img11_in();" onmouseout="f_img11_out();"/>
                     </li>
                     <li>
                         <img src="./asset/image/content/work/chair.png"
-                        onmouseover="this.src='./asset/image/content/work/chair_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/chair_color.png';"
                         onmouseout="this.src='./asset/image/content/work/chair.png';" id="image12"/>
-                        <div class="flex-caption" id="img12">
+                        <div class="flex-caption" id="img12" onmouseover="f_img12_in();" onmouseout="f_img12_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_12" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_12"  onmouseover="f_img12_in();" onmouseout="f_img12_out();"/>
                     </li>
                     <li>
                         <img src="./asset/image/content/work/product_list.png"
-                        onmouseover="this.src='./asset/image/content/work/product_list_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/product_list_color.png';"
                         onmouseout="this.src='./asset/image/content/work/product_list.png';" id="image13"/>
-                        <div class="flex-caption" id="img13">
+                        <div class="flex-caption" id="img13" onmouseover="f_img13_in();" onmouseout="f_img13_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_13" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_13"  onmouseover="f_img13_in();" onmouseout="f_img13_out();"/>
                     </li>
                     <li>
                         <img src="./asset/image/content/work/search.png"
-                        onmouseover="this.src='./asset/image/content/work/search_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/search_color.png';"
                         onmouseout="this.src='./asset/image/content/work/search.png';" id="image14"/>
-                        <div class="flex-caption" id="img14">
+                        <div class="flex-caption" id="img14" onmouseover="f_img14_in();" onmouseout="f_img14_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_14" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_14" onmouseover="f_img14_in();" onmouseout="f_img14_out();" />
                     </li>
                     <li>
                         <img src="./asset/image/content/work/chair.png"
-                        onmouseover="this.src='./asset/image/content/work/chair_color.png';" 
+                        onmouseover="this.src='./asset/image/content/work/chair_color.png';"
                         onmouseout="this.src='./asset/image/content/work/chair.png';" id="image15"/>
-                        <div class="flex-caption" id="img15">
+                        <div class="flex-caption" id="img15" onmouseover="f_img15_in();" onmouseout="f_img15_out();">
                             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
                             <p>type: XXXX, 2016</p>
                         </div>
-                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_15" />
+                        <img src="./asset/image/content/work/flex_sidebar_.png" class="flex_sidebar_image" id="flex_sidebar_15" onmouseover="f_img15_in();" onmouseout="f_img15_out();" />
                     </li>
                 </ul>
             </div>
@@ -613,5 +736,17 @@ var Main = Main || {};
 
     <?php include 'v_special_offer.php'; ?>
     <?php include 'v_footer.php'; ?>
+    <script src="./asset/unslider/src/js/unslider.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.my-slider').unslider({
+                keys: false,
+                autoplay: true,
+                delay: 3500,
+                arrows: false,
+                nav: false
+            });
+        });
+    </script>
 </body>
 </html>
