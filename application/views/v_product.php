@@ -83,6 +83,80 @@ html, body {
             );*/
     });
 
+    $(document).on('mouseover', 'li', function() {
+        var idny = $(this).attr('id');
+        var classny = $(this).attr('class');
+        if (idny=="wool_material"){
+            $('#wool_text').toggleClass("bld");
+        }
+        if (idny=="cotton_material"){
+            $('#cotton_text').toggleClass("bld");
+        }
+        if (idny=="linen_material"){
+            $('#linen_text').toggleClass("bld");
+        }
+        if (idny=="tweed_material"){
+            $('#tweed_text').toggleClass("bld");
+        }
+        if (idny=="wool_text"){
+            $('#wool_icon1').toggleClass("big");
+            $('#wool_text').toggleClass("bld");
+            $('#span_wool').toggleClass("hide");
+        }
+        if (idny=="cotton_text"){
+            $('#cotton_icon1').toggleClass("big");
+            $('#cotton_text').toggleClass("bld");
+            $('#span_cotton').toggleClass("hide");
+        }
+        if (idny=="linen_text"){
+            $('#linen_icon1').toggleClass("big");
+            $('#linen_text').toggleClass("bld");
+            $('#span_linen').toggleClass("hide");
+        }
+        if (idny=="tweed_text"){
+            $('#tweed_icon1').toggleClass("big");
+            $('#tweed_text').toggleClass("bld");
+            $('#span_tweed').toggleClass("hide");
+        }
+    });
+
+    $(document).on('mouseout', 'li', function() {
+        var idny = $(this).attr('id');
+        var classny = $(this).attr('class');
+        if (idny=="wool_material"){
+            $('#wool_text').toggleClass("bld");
+        }
+        if (idny=="cotton_material"){
+            $('#cotton_text').toggleClass("bld");
+        }
+        if (idny=="linen_material"){
+            $('#linen_text').toggleClass("bld");
+        }
+        if (idny=="tweed_material"){
+            $('#tweed_text').toggleClass("bld");
+        }
+        if (idny=="wool_text"){
+            $('#wool_icon1').toggleClass("big");
+            $('#wool_text').toggleClass("bld");
+            $('#span_wool').toggleClass("hide");
+        }
+        if (idny=="cotton_text"){
+            $('#cotton_icon1').toggleClass("big");
+            $('#cotton_text').toggleClass("bld");
+            $('#span_cotton').toggleClass("hide");
+        }
+        if (idny=="linen_text"){
+            $('#linen_icon1').toggleClass("big");
+            $('#linen_text').toggleClass("bld");
+            $('#span_linen').toggleClass("hide");
+        }
+        if (idny=="tweed_text"){
+            $('#tweed_icon1').toggleClass("big");
+            $('#tweed_text').toggleClass("bld");
+            $('#span_tweed').toggleClass("hide");
+        }
+    });
+
     $(document).on('mouseover', 'img', function() {
         var idny = $(this).attr('id');
         var classny = $(this).attr('class');
@@ -189,14 +263,54 @@ html, body {
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6" id="right_content">
                 <a href="our_product"><p id="aaa"><img src="./asset/image/content/product/left_icon.png" style="width: 5px; margin-right:15px;" /> Back to <b>CHAIRS</b></p></a>
                 <p id="content_right_product_title">Lorem Ipsum Dolor Sit Amet</p>
                 <p id="content_right_product_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
                 <p id="content_right_product_title">Specifications</p>
                 <a href="./asset/image/content/product/spesification.png" data-lightbox="spesification_image"><img class="img-responsive block" src="./asset/image/content/product/spesification.png" id="image_spesification" class="image_spesification"></a>
                 <p id="content_right_product_title">Choose Material</p>
-                <div id="content_home_choose_material">
+
+                <div class="image_list_choose_material">
+                    <ul>
+                        <li id="arrow_left">
+                            <img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" />
+                        </li>
+                        <li id="wool_material">
+                            <img src="./asset/image/content/home/wool.png" id="wool_icon" class="material_logo"/>
+                            <span id="span_wool"></span>
+                            <img src="./asset/image/content/home/wool.png" id="wool_icon1" class="material_logo1"/>
+                        </li>
+                        <li id="cotton_material">
+                            <img src="./asset/image/content/home/cotton.png" id="cotton_icon" class="material_logo"/>
+                            <span id="span_cotton"></span>
+                            <img src="./asset/image/content/home/cotton.png" id="cotton_icon1" class="material_logo1"/>
+                        </li>
+                        <li id="linen_material">
+                            <img src="./asset/image/content/home/linen.png" id="linen_icon" class="material_logo" />
+                            <span id="span_linen"></span>
+                            <img src="./asset/image/content/home/linen.png" id="linen_icon1" class="material_logo1" />
+                        </li>
+                        <li id="tweed_material">
+                            <img src="./asset/image/content/home/tweed.png" id="tweed_icon" class="material_logo" />
+                            <span id="span_tweed"></span>
+                            <img src="./asset/image/content/home/tweed.png" id="tweed_icon1" class="material_logo1" />
+                        </li>
+                        <li id="arrow_right">
+                            <img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="image_list_choose_material_text">
+                    <ul>
+                        <li id="wool_text">WOOL</li>
+                        <li id="cotton_text">COTTON</li>
+                        <li id="linen_text">LINEN</li>
+                        <li id="tweed_text">TWEED</li>
+                    </ul>
+                </div>
+
+                <!--<div id="content_home_choose_material">
                     <div class="row">
                         <div class="col-sm-1"><img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon" class="arrow_logo" /></div>
                         <div class="col-sm-1" id="material_wool">
@@ -221,7 +335,7 @@ html, body {
                         </div>
                         <div class="col-sm-1"><img src="./asset/image/content/home/right_icon.png" id="right_arrow_icon" class="arrow_logo" /></div>
                     </div>
-                </div>
+                </div>-->
                 <p id="content_right_product_title">Available Color</p>
                 <p id="select_color">Select Color <img src="./asset/image/content/product/down_icon.png" id="down_arrow_icon" class="" /></p>
                 <p id="order_now">
@@ -234,7 +348,7 @@ html, body {
         </div>
         <img class="img-responsive center-block" src="./asset/image/content/product/product_proses.png" id="content_product_proses" class="" border="0">
         <p id="similar_product_text">SIMILAR PRODUCTS</p>
-        <div class="row">
+        <div class="row" id="sim_prod">
             <div id="similar_product_item">
                 <ul>
                     <li><img src="./asset/image/content/home/left_icon.png" id="left_arrow_icon_similar" class="arrow_logo_similar" /></li>

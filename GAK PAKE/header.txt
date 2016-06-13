@@ -1,222 +1,230 @@
-.img-responsive.img_header{
+.my-slider ul li{
+    list-style-type: none;
+}
+#img_head{
     width: 100%;
 }
-@media screen and (min-width: 1300px){
-    input:focus{
-        outline: none;
-    }
-
-
-    .myHead{
-        margin-top: -708px;
-    }
-
-
-    #main_menu_logo{
-        margin-top: 50px;
-        margin-left: 40px;
-        width: 40px;
-        z-index: 100;
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        position: absolute;
-    }
-
-    #main_menu_logo:hover{
-        cursor: pointer;
-    }
-
-    #suva_logo{
-        margin-top: 100px;
-        max-width: 300px;
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    #made_by_us{
-        max-width: 270px;
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    #buy_now{
-      max-width: 90px;
-      width: 100%;
-      margin-bottom: 550px;
-    }
-
-    #buy_now:hover{
-        cursor: pointer;
-    }
-
-    #search_box{
-        margin-top: 40px;
-        margin-left: 85px;
-    }
-
-    #search_text{
-        border: none;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        width: 150px;
-        height: 30px;
-        padding-left: 15px;
-        font-size: 12px;
-    }
-
-    #search_icon{
-        height: 30px;
-        margin-left: -10px;
-        margin-top: 0px;
-        padding-top: 4px;
-        padding-left: 4px;
-        padding-bottom: 4px;
-        padding-right: 10px;
-        background: #fff;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-
-    #menu{
-        z-index: 100;
-        height: 40px;
-        width: 40px;
-        display: table-cell;
-        text-align: center;
-        vertical-align: middle;
-        border-radius: 50%;
-        background: #e61c24;
-        cursor: pointer;
-        position: absolute;
-        top: 40px;
-        left: 50px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #menu.show{
-        background: #fff;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #menu.show span{
-        background: #e61c24;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #menu span{
-        margin: -2px;
-        border: none;
-        height: 3px;
-        background: #fff;
-        margin-bottom: 5px;
-        display: block;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-radius: 25px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-    #menu span:nth-child(1){
-        margin-top: 12px;
-    }
-
-    #menu_bg{
-        margin: 0;
-        padding: 0;
-        margin-left: -350px;
-        width: 295px;
-        height: 708px;
-        background: #000;
-        opacity: .4;
-        left: 150px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #menu_bg.show{
-        margin-left: -15px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #menu_{
-        margin: 0;
-        z-index: 100;
-        display: table-cell;
-        position: absolute;
-        padding: 0;
-        margin-top: 115px;
-        margin-left: 0px;
-        font-family: Lato;
-    }
-
-    .menu_logo{
-      max-width: 26px;
-      margin-right: 20px;
-      margin-top:-5px;
-    }
-
-    #menu_ ul{
-        margin-left: -305px;
-        margin-top: 25px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #menu_.show ul{
-        margin-left: 3px;
-        margin-top: 25px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #menu_ ul li{
-      margin-bottom: 28px;
-    }
-
-    #menu_ ul a{
-        text-decoration: none;
-    }
-
-    .list_menu.active{
-      color: #e61c24;
-    }
-
-    .list_menu{
-      color: #fefefe;
-      font-size: 17px;
-    }
-
-    .list_menu:hover{
-        color: #e61c24;
-        cursor: pointer;
-    }
+input:focus{
+    outline: none;
 }
 
+#slider_work{
+    margin-top: -20px;
+    margin-left: -40px;
+}
+
+.myHead{
+    margin-top: -708px;
+}
+
+#main_menu_logo{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 40px;
+    z-index: 100;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+}
+
+#main_menu_logo:hover{
+    cursor: pointer;
+}
+
+#suva_logo{
+    margin-top: 100px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#made_by_us{
+    max-width: 270px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#buy_now{
+  max-width: 90px;
+  width: 100%;
+  margin-bottom: 550px;
+}
+
+#buy_now:hover{
+    cursor: pointer;
+}
+
+#search_box{
+    margin-top: 40px;
+    margin-left: 85px;
+}
+
+#search_text{
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 150px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+#search_icon{
+    height: 30px;
+    margin-left: -10px;
+    margin-top: 0px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    background: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#menu{
+    z-index: 100;
+    height: 40px;
+    width: 40px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #e61c24;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu.show{
+    background: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu.show span{
+    background: #e61c24;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu span{
+    margin: -2px;
+    border: none;
+    height: 3px;
+    background: #fff;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#menu span:nth-child(1){
+    margin-top: 12px;
+}
+
+#menu_bg{
+    margin: 0;
+    padding: 0;
+    margin-left: -350px;
+    width: 295px;
+    height: 708px;
+    background: #000;
+    opacity: .4;
+    left: 150px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu_bg.show{
+    margin-left: -15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu_{
+    margin: 0;
+    z-index: 100;
+    display: table-cell;
+    position: absolute;
+    padding: 0;
+    margin-top: 115px;
+    margin-left: 0px;
+    font-family: Lato;
+}
+
+.menu_logo{
+  max-width: 26px;
+  margin-right: 20px;
+  margin-top:-5px;
+}
+
+#menu_ ul{
+    margin-left: -305px;
+    margin-top: 25px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu_.show ul{
+    margin-left: 3px;
+    margin-top: 25px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menu_ ul li{
+  margin-bottom: 28px;
+}
+
+#menu_ ul a{
+    text-decoration: none;
+}
+
+.list_menu.active{
+  color: #e61c24;
+}
+
+.list_menu{
+  color: #fefefe;
+  font-size: 17px;
+}
+
+.list_menu:hover{
+    color: #e61c24;
+    cursor: pointer;
+}
 
 @media screen and (min-width: 1000px) and (max-width: 1299px){
     input:focus{
         outline: none;
+    }
+
+    #slider_work{
+        margin-top: -20px;
+        margin-left: -40px;
     }
 
     .myHead{
@@ -412,8 +420,18 @@
     .img-responsive.img_header{
         height: 550px;
     }
+    #head_work_img{
+        margin-left: -5px;
+        width: 980px !important;
+    }
+    .my-slider{
+        width: 100%;
+    }
     .myHead{
         margin-top: -550px;
+    }
+    #center_work_head{
+        margin-top: -570px;
     }
     #main_menu_logo{
         margin-top: 40px;
@@ -446,7 +464,7 @@
     #buy_now{
       max-width: 90px;
       width: 100%;
-      margin-bottom: 550px;
+      margin-bottom: 400px;
     }
 
     #buy_now:hover{
@@ -572,6 +590,9 @@
     .myHead{
         margin-top: -440px;
     }
+    #center_work_head{
+        margin-top: -460px;
+    }
     #main_menu_logo{
         margin-top: 35px;
         margin-left: 30px;
@@ -603,7 +624,7 @@
     #buy_now{
       max-width: 80px;
       width: 100%;
-      margin-bottom: 550px;
+      margin-bottom: 320px;
     }
 
     #buy_now:hover{
@@ -730,6 +751,12 @@
     }
     .myHead{
         margin-top: -330px;
+    }
+    #center_work_head{
+        margin-top: -340px;
+    }
+    #header_center{
+        margin-top: -5px;
     }
     #main_menu_logo{
         margin-top: 30px;
@@ -1045,6 +1072,12 @@
     .myHead{
         margin-top: -237px;
     }
+    #center_work_head{
+        margin-top: -247px;
+    }
+    #header_center{
+        margin-top: -5px;
+    }
     #main_menu_logo{
         margin-top: 35px;
         margin-left: 2px;
@@ -1076,7 +1109,7 @@
     #buy_now{
       max-width: 50px;
       width: 100%;
-      margin-bottom: 550px;
+      margin-bottom: 200px;
     }
 
     #buy_now:hover{

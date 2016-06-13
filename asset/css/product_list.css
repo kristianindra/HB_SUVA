@@ -1,5 +1,7 @@
 .content{
     font-family: Lato;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 #content_title{
@@ -22,7 +24,7 @@
 }
 
 #menu_list_item{
-    margin-left: 22%;
+
 }
 
 #menu_list_item li{
@@ -71,7 +73,7 @@
 }
 
 #list_item{
-    margin-left: 11%;
+    margin-left: 75px;
     margin-top: 100px;
 }
 
@@ -145,16 +147,20 @@ ul.pagination li a {
         margin-left: -150px;
     }
     #list_item{
-        margin-left: 50px;
+        padding-left: 50px;
     }
     #list_item a img{
-        width: 200px;
+        width: 150px;
+        padding-bottom: 0px !important;
     }
     .image_item_list:hover{
         width: 150px;
-        height: 210px;
+        height: 155px;
         cursor: pointer;
         color: #fff;
+    }
+    .text_item_list{
+        margin-left: -10px;
     }
     .pagination{
         margin-left: 650px !important;
@@ -163,24 +169,30 @@ ul.pagination li a {
 
 @media screen and (max-width: 900px) {
     #content_body{
-        width: 675px;
+        width: 620px;
         margin-left: 60px;
     }
     #menu_item{
-        margin-left: -100px;
-    }    
+        margin-left: -20px;
+    }
     #menu_list_item li{
         margin-right: 50px;
     }
     #list_item{
-        margin-left: -20px;
+        margin-left: 0px;
+    }
+    #list_item a div{
+        margin-right: 20px;
+    }
+    .text_item_list{
+        margin-left: 90px;
     }
     #list_item a img{
         width: 150px;
-        margin-right: 10px;
+        margin-right: -100px;
     }
     .pagination{
-        margin-left: 450px !important;
+        margin-left: 400px !important;
     }
 }
 
@@ -194,27 +206,31 @@ ul.pagination li a {
         margin-left: 50px;
     }
     #menu_item{
-        margin-left: -30px;
+        margin-left: 60px;
     }
     #menu_list_item li{
         margin-left: -50px;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 13px;
     }
     #list_item{
-        margin-left: 20px;
+        margin-left: -40px;
+    }
+    #list_item a div{
+        margin-right: 15px;
+    }
+    .text_item_list{
+        margin-left: 40px;
+        font-size: 12px;
     }
     #list_item a img{
-        width: 120px;
-        padding-right: 10px;
+        width: 75px;
     }
-    .image_item_list:hover{
-        width: 120px;
-        height: 115px;
-        cursor: pointer;
-        color: #fff;
+    #list_item a img:hover{
+        height: 78px;
     }
     .pagination{
-        margin-left: 50px !important;
+        margin-left: 10px !important;
     }
 }

@@ -1,5 +1,6 @@
 .content{
     font-family: Lato;
+    margin-bottom: 50px;
 }
 
 #content_title{
@@ -153,11 +154,12 @@
         margin-left: 50px;
     }
     #menu_item{
-        margin-left: 10px;
+        margin-left: 30px;
     }
     #menu_list_item li{
         margin-left: -50px;
         padding-right: 15px;
         padding-left: 15px;
+        font-size: 12px;
     }
 }

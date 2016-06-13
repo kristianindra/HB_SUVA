@@ -87,6 +87,9 @@ input:focus{
 #content_right_information p{
     font-size: 13px;
 }
+.content{
+    margin-bottom: 100px;
+}
 
 @media screen and (min-width: 1300px){
     #content_right_address, #content_right_phone, #content_right_fax, #content_right_email{
@@ -117,16 +120,22 @@ input:focus{
 }
 
 @media screen and (max-width: 900px){
+    .content{
+        margin-top: 400px !important;
+    }
     #content_left_text_title{
-        width: 200px;
+        width: 400px;
         font-size: 15px;
+        margin-top: 150px;
+        margin-left: 200px;
     }
     #another_search_box{
         margin-left: 190px;
         margin-top: -5px;
     }
     #content_right_title{
-        width: 250px;
+        margin-top: 150px;
+        width: 400px;
     }
 }
 
@@ -134,18 +143,22 @@ input:focus{
     #content_left_text_title{
         width: 300px !important;
         font-size: 13px;
-        margin-top:300px;
+        margin-top: -50px;
         margin-left: 15px;
     }
     #another_search_box{
         margin-left: 90px;
-        margin-top: 370px;
+        margin-top: 20px;
     }
     #content_right{
         margin-top: 150px;
     }
+    #content_right_title{
+        margin-top: 0px;
+        width: 250px;
+    }
     #content_right_information{
-        padding-top: 180px;
+        padding-top: 200px;
         margin-left: -50px;
     }
 }

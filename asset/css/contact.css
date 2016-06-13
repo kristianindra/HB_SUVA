@@ -1,29 +1,30 @@
-@media screen and (min-width: 1300px){
-    .content_title1{
-        margin-top: 0px;
-        font-weight: bold;
-        font-size: 20px;
-    }
 
-    .content_title2{
-        font-weight: bold;
-        font-size: 20px;
-    }
+.content_title1{
+    margin-top: 0px;
+    font-weight: bold;
+}
 
-    .content{
-        font-family: Lato;
-        font-size: 15px;
-    }
+.content_title2{
+    font-weight: bold;
+}
 
-    .content_logo{
-        width: 17px;
-        margin-right: 10px;
-    }
+.content_title1, .content_title2{
+    font-size: 20px;
+}
 
-    .content_detail{
-        margin-top: 50px;
-    }
+.content{
+    font-family: Lato;
+    font-size: 15px;
+    margin-bottom: 75px;
+}
 
+.content_logo{
+    width: 17px;
+    margin-right: 10px;
+}
+
+.content_detail{
+    margin-top: 50px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1299px){

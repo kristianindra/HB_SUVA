@@ -8,10 +8,14 @@
         <p class="special_offer_text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <p class="special_offer_email">
+        <div class="search">
+            <span class="fa fa-envelope"></span>
+            <input placeholder="E-mail">
+        </div>
+        <!--<p class="special_offer_email">
             <input type="text" id="email_text" name="email_text" placeholder="E-mail" />
             <img src="./asset/image/special_offer/email.png" id="email_icon"/>
-        </p>
+        </p>-->
     </div>
     <div class="col-xs-3"></div>
 </div>

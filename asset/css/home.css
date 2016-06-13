@@ -1,701 +1,342 @@
-@media screen and (min-width: 1300px){
-    body{
-        overflow-x: hidden;
-    }
-
-    .over{
-        color: #c61e24;
-    }
-
-    #content_home_header p{
-        text-align: center;
-        margin-left: 110px;
-        margin-right: 110px;
-        font-family: Lato;
-    }
-
-    #content_home_header_title{
-        font-weight: bold;
-        font-size: 22px;
-    }
-
-    #content_home_header_body{
-        margin-top: -10px;
-    }
-
-    #content_home_header_footer{
-        margin-top: 50px;
-        line-height: 30px;
-        font-family: Lato;
-    }
-
-    #content_home_left_image{
-        padding-right: 0px;
-    }
-
-    #content_home_center_image{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #content_home_right_image{
-        padding-left: 0px;
-    }
-
-    #content_home_products{
-        margin-top: 100px;
-    }
-
-    #content_home_products a{
-        text-decoration: none;
-    }
-    #content_home_customization a{
-        text-decoration: none;
-    }
-
-    #our_product_box{
-        text-align: center;
-        background: #e61c24;
-        margin-left: 33%;
-        margin-right: 33%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        color: #f0f0f0;
-        border-radius: 25px;
-        margin-top: 198px;
-        margin-bottom: 198px;
-    }
-
-    #our_product_box:hover{
-        cursor: pointer;
-    }
-
-    .content_image_desc_title{
-        font-family: Lato;
-        text-align: center;
-        font-weight: bold;
-        font-size: 18px;
-        margin-top: 40px;
-    }
-
-    .content_image_desc_title:hover{
-        cursor: pointer;
-        color: #e61c24;
-    }
-
-    .content_image_desc{
-        margin-top: 15px;
-        font-family: Lato;
-        text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
-        line-height: 28px;
-    }
-
-    #content_home_customization{
-        margin-top: 150px;
-    }
-
-    #content_home_costumization_title{
-        text-align: center;
-        font-family: Lato;
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    #content_home_costumization_header{
-        text-align: center;
-        margin-top: -3px;
-    }
-
-    #content_home_costumization_body{
-        text-align: center;
-        margin-left: 16%;
-        margin-right: 16%;
-        margin-top: 50px;
-        line-height: 30px;
-        font-family: Lato;
-    }
-
-    #content_home_costumization_footer{
-        margin-top: 50px;
-        text-align: center;
-        background: #e61c24;
-        margin-left: 45%;
-        margin-right: 45%;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        color: #f0f0f0;
-        border-radius: 25px;
-    }
-
-    #content_home_costumization_footer:hover{
-        cursor: pointer;
-    }
-
-    .row{
-        margin-top: 15px;
-    }
-
-    #content_home_material{
-        margin-top: 150px;
-    }
-
-    .arrow_logo{
-        width: 15px;
-    }
-
-    #left_arrow_icon{
-        margin-left: 31%;
-        cursor: pointer;
-    }
-
-    .material_text{
-        margin-top: 5px;
-        font-family: Lato;
-        font-size: 10px;
-    }
-
-    #right_arrow_icon{
-        margin-left: 30px;
-        cursor: pointer;
-    }
-
-    #content_home_material_title{
-        text-align: center;
-        margin-bottom: 50px;
-        margin-top: 75px;
-        font-family: Lato;
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    .image_list_choose_material{
-        display: block;
-    }
-
-    .image_list_choose_material ul{
-        margin: 0;
-        margin-top:25px;
-        margin-bottom: 25px;
-        padding: 0;
-    }
-
-    .image_list_choose_material ul li{
-        text-decoration: none;
-        list-style-type: none;
-        display: inline;
-        padding: 5px;
-    }
-
-    #wool_icon, #cotton_icon, #linen_icon, #tweed_icon{
-        width: 75px;
-        margin-left: 5px;
-    }
-
-    /*#wool_icon1, #cotton_icon1, #linen_icon1, #tweed_icon1{
-        width: 100px;
-        margin-left: -110px;
-        opacity: 1;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }*/
-
-    #wool_icon{
-        margin-left: 25px;
-    }
-
-    .material_logo1{
-        width: 100px;
-        opacity: 0;
-    }
-
-    #wool_icon1{
-        margin-left: -90px;
-    }
-    #cotton_icon1{
-        margin-left: -90px;
-    }
-    #linen_icon1{
-        margin-left: -90px;
-    }
-    #tweed_icon1{
-        margin-left: -90px;
-    }
-
-    #wool_material span{
-        background: #e61c24;
-        display: block;
-        left: 477px;
-        width: 75px;
-        height: 74px;
-        border-radius: 50%;
-        margin-top: -85px;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        z-index: 0;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-
-    #cotton_material span{
-        background: #e61c24;
-        display: block;
-        left: 585px;
-        width: 75px;
-        height: 74px;
-        border-radius: 50%;
-        margin-top: -85px;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        z-index: 0;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-
-    #linen_material span{
-        background: #e61c24;
-        display: block;
-        left: 694px;
-        width: 75px;
-        height: 74px;
-        border-radius: 50%;
-        margin-top: -85px;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        z-index: 0;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-
-    #tweed_material span{
-        background: #e61c24;
-        display: block;
-        left: 801px;
-        width: 75px;
-        height: 74px;
-        border-radius: 50%;
-        margin-top: -85px;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        z-index: 0;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-
-    #wool_material:hover #wool_icon1{
-        opacity: 1;
-        cursor: pointer;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-    #cotton_material:hover #cotton_icon1{
-        opacity: 1;
-        cursor: pointer;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-    #linen_material:hover #linen_icon1{
-        opacity: 1;
-        cursor: pointer;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-    #tweed_material:hover #tweed_icon1{
-        opacity: 1;
-        cursor: pointer;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-
-    #wool_material:hover span {
-        display: none;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-    #cotton_material:hover span {
-        display: none;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-    #linen_material:hover span {
-        display: none;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-    #tweed_material:hover span {
-        display: none;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-
-    .bld{
-        font-weight: bold;
-    }
-
-    .big{
-        opacity: 1;
-        cursor: pointer;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-
-    .hide{
-        display: none;
-        /*-webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;*/
-    }
-
-    .image_list_choose_material_text{
-        margin-top: -10px;
-        margin-left: 495px;
-    }
-
-    .image_list_choose_material_text ul{
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_list_choose_material_text ul li{
-        list-style-type: none;
-        text-decoration: none;
-        display: inline;
-        padding-right: 50px;
-        cursor: pointer;
-    }
-
-    #linen_text, #tweed_text{
-        margin-left: 7px;
-    }
-
-
-
-
-
-
-    /*#material_wool span{
-        background: red;
-        bottom: 0;
-        display: block;
-        left: 15px;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-
-
-
-
-
-    .arrow_logo{
-        width: 10px;
-        margin-top: 22px;
-    }
-
-    .material_logo{
-        width: 100%;
-        margin-right:20px;
-    }
-
-    .arrow_logo:hover{
-        cursor: pointer;
-    }
-
-    .material_logo:hover{
-        cursor: pointer;
-    }
-
-    #left_arrow_icon{
-        margin-left: 15px;
-    }
-
-    #right_arrow_icon{
-        margin-left: 15px;
-    }
-
-    #content_home_choose_material{
-        margin-left: 30%;
-        margin-bottom: 0px;
-    }
-
-    #material_wool, #material_cotton, #material_linen, #material_tweed{
-        margin-right: 20px;
-    }
-
-    #material_text1{
-        margin-top: 15px;
-        margin-left: 15px;
-    }
-
-    #material_text2{
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-
-    #material_text3{
-        margin-top: 15px;
-        margin-left: 18px;
-    }
-    #material_text4{
-        margin-top: 15px;
-        margin-left: 13px;
-    }
-
-
-
-    #material_cotton span{
-        background: red;
-        bottom: 0;
-        display: block;
-        left: 15px;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_linen span{
-        background: red;
-        bottom: 0;
-        display: block;
-        left: 15px;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_tweed span{
-        background: red;
-        bottom: 0;
-        display: block;
-        left: 15px;
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_wool #wool_icon {
-        width: 60px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_cotton #cotton_icon {
-        width: 60px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_linen #linen_icon {
-        width: 60px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_tweed #tweed_icon {
-        width: 60px;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_wool:hover #wool_icon {
-        margin-top: -10px;
-        margin-left: -8px;
-        width: 155%;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_cotton:hover #cotton_icon {
-        margin-top: -7px;
-        margin-left: -7px;
-        width: 175%;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_linen:hover #linen_icon {
-        margin-top: -10px;
-        margin-left: -10px;
-        width: 155%;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_tweed:hover #tweed_icon {
-        margin-top: -10px;
-        margin-left: -10px;
-        width: 155%;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_wool:hover p{
-        cursor: pointer;
-        margin-top: 5px;
-        margin-left: 13px;
-        font-weight: bold;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_cotton:hover p{
-        cursor: pointer;
-        margin-top: 25px;
-        margin-left: 5px;
-        font-weight: bold;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_linen:hover p{
-        cursor: pointer;
-        margin-left: 8px;
-        font-weight: bold;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_tweed:hover p{
-        cursor: pointer;
-        margin-left: 5px;
-        font-weight: bold;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_wool:hover span {
-        opacity: 0;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_cotton:hover span {
-        opacity: 0;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_linen:hover span {
-        opacity: 0;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }
-
-    #material_tweed:hover span {
-        opacity: 0;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-    }*/
-
-    #content_home_customization_image{
-        margin-bottom: -100px;
-    }
+body{
+    overflow-x: hidden;
 }
 
-@media screen and (max-width: 1000px){
+.over{
+    color: #c61e24;
+}
+
+#content_home_header p{
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-family: Lato;
+}
+
+#content_home_header_title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#content_home_header_body{
+    margin-top: -10px;
+}
+
+#content_home_header_footer{
+    margin-top: 50px;
+    line-height: 30px;
+    font-family: Lato;
+}
+
+#content_home_left_image{
+    padding-right: 0px;
+}
+
+#content_home_center_image{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#content_home_right_image{
+    padding-left: 0px;
+}
+
+#content_home_products{
+    margin-top: 100px;
+}
+
+#content_home_products a{
+    text-decoration: none;
+}
+#content_home_customization a{
+    text-decoration: none;
+}
+
+#our_product_box{
+    text-align: center;
+    background: #e61c24;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #f0f0f0;
+    border-radius: 25px;
+    margin-top: 198px;
+    margin-bottom: 198px;
+}
+
+#our_product_box:hover{
+    cursor: pointer;
+}
+
+.content_image_desc_title{
+    font-family: Lato;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.content_image_desc_title:hover{
+    cursor: pointer;
+    color: #e61c24;
+}
+
+.content_image_desc{
+    margin-top: 15px;
+    font-family: Lato;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 28px;
+}
+
+#content_home_customization{
+    margin-top: 150px;
+}
+
+#content_home_costumization_title{
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#content_home_costumization_header{
+    text-align: center;
+    margin-top: -3px;
+}
+
+#content_home_costumization_body{
+    text-align: center;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 50px;
+    line-height: 30px;
+    font-family: Lato;
+}
+
+#content_home_costumization_footer{
+    margin-top: 50px;
+    text-align: center;
+    background: #e61c24;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #f0f0f0;
+    border-radius: 25px;
+}
+
+#content_home_costumization_footer:hover{
+    cursor: pointer;
+}
+
+.row{
+    margin-top: 15px;
+}
+
+#content_home_material{
+    margin-top: 150px;
+}
+
+.arrow_logo{
+    width: 15px;
+}
+
+#left_arrow_icon{
+    margin-left: 31%;
+    cursor: pointer;
+}
+
+.material_text{
+    margin-top: 5px;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+#right_arrow_icon{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#content_home_material_title{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 75px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image_list_choose_material{
+    display: block;
+}
+
+.image_list_choose_material ul{
+    margin: 0;
+    margin-top:25px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.image_list_choose_material ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+
+#wool_icon, #cotton_icon, #linen_icon, #tweed_icon{
+    width: 75px;
+    margin-left: 5px;
+}
+
+#wool_icon{
+    margin-left: 25px;
+}
+
+.material_logo1{
+    width: 100px;
+    opacity: 0;
+}
+
+#wool_icon1{
+    margin-left: -90px;
+}
+#cotton_icon1{
+    margin-left: -90px;
+}
+#linen_icon1{
+    margin-left: -90px;
+}
+#tweed_icon1{
+    margin-left: -90px;
+}
+
+#wool_material span{
+    background: #e61c24;
+    display: block;
+    left: 477px;
+    width: 75px;
+    height: 74px;
+    border-radius: 50%;
+    margin-top: -85px;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+#cotton_material span{
+    background: #e61c24;
+    display: block;
+    left: 585px;
+    width: 75px;
+    height: 74px;
+    border-radius: 50%;
+    margin-top: -85px;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+#linen_material span{
+    background: #e61c24;
+    display: block;
+    left: 694px;
+    width: 75px;
+    height: 74px;
+    border-radius: 50%;
+    margin-top: -85px;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+#tweed_material span{
+    background: #e61c24;
+    display: block;
+    left: 801px;
+    width: 75px;
+    height: 74px;
+    border-radius: 50%;
+    margin-top: -85px;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+#wool_material:hover #wool_icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+#cotton_material:hover #cotton_icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+#linen_material:hover #linen_icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+#tweed_material:hover #tweed_icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#wool_material:hover span {
+    display: none;
+}
+#cotton_material:hover span {
+    display: none;
+}
+#linen_material:hover span {
+    display: none;
+}
+#tweed_material:hover span {
+    display: none;
+}
+
+.bld{
+    font-weight: bold;
+}
+
+.big{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.image_list_choose_material_text{
+    margin-top: -10px;
+    margin-left: 495px;
+}
+
+.image_list_choose_material_text ul{
+    margin: 0;
+    padding: 0;
+}
+
+.image_list_choose_material_text ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+#linen_text, #tweed_text{
+    margin-left: 7px;
+}
+
+
+@media screen and (max-width: 1024px){
     .content{
         margin-top: -120px;
     }
@@ -719,12 +360,13 @@
 
     #content_home_header_body{
         margin-top: -10px;
+        text-align: center;
     }
 
     #content_home_header_footer{
         margin-top: 50px;
         width: 800px;
-        margin-left: -50px;
+        margin-left: -5px !important;
         line-height: 30px;
         font-family: Lato;
     }
@@ -763,7 +405,7 @@
         color: #f0f0f0;
         border-radius: 25px;
         margin-top: 110px;
-        margin-bottom: 170px;
+        margin-bottom: 170px !important;
         font-size: 12px;
     }
 
@@ -775,8 +417,7 @@
         font-family: Lato;
         font-weight: bold;
         font-size: 18px;
-        margin-top: 40px;
-        padding-left: 70px;
+        margin-left: -40px !important;
     }
 
     .content_image_desc_title:hover{
@@ -849,7 +490,7 @@
     }
 
     #left_arrow_icon{
-        margin-left: 25%;
+        margin-left: 230px !important;
         cursor: pointer;
     }
 
@@ -909,7 +550,7 @@
     #wool_material span{
         background: #e61c24;
         display: block;
-        left: 304px;
+        left: 288px !important;
         width: 65px;
         height: 65px;
         border-radius: 50%;
@@ -923,7 +564,7 @@
     #cotton_material span{
         background: #e61c24;
         display: block;
-        left: 403px;
+        left: 387px !important;
         width: 65px;
         height: 65px;
         border-radius: 50%;
@@ -937,7 +578,7 @@
     #linen_material span{
         background: #e61c24;
         display: block;
-        left: 501px;
+        left: 480px !important;
         width: 65px;
         height: 65px;
         border-radius: 50%;
@@ -951,7 +592,7 @@
     #tweed_material span{
         background: #e61c24;
         display: block;
-        left: 598px;
+        left: 578px !important;
         width: 65px;
         height: 65px;
         border-radius: 50%;
@@ -1005,9 +646,22 @@
         display: none;
     }
 
+    #wool_icon1{
+        margin-left: -80px;
+    }
+    #cotton_icon1{
+        margin-left: -85px;
+    }
+    #linen_icon1{
+        margin-left: -80px;
+    }
+    #wool_icon1{
+        margin-left: -80px;
+    }
+
     .image_list_choose_material_text{
         margin-top: -10px;
-        margin-left: 321px;
+        margin-left: 300px !important;
     }
 
     .image_list_choose_material_text ul{
@@ -1027,345 +681,56 @@
         margin-left: 7px;
     }
 
+    .image_list_choose_material{
+        margin-left: 0px !important;
+    }
+    .image_list_choose_material ul li span{
+        margin-left: 0px !important;
+    }
+    .image_list_choose_material_text ul{
+        margin-left: 0px;
+    }
+
     #content_home_customization_image{
         margin-bottom: -100px;
+    }
+    #content_home_customization_image{
+        margin-bottom: 0px !important;
     }
 }
 
-@media screen and (max-width: 900px){
-    .content{
-        margin-top: -200px;
-    }
-    body{
-        overflow-x: hidden;
-    }
-
-    .over{
-        color: #c61e24;
-    }
-
-    #content_home_header p{
-        text-align: center;
-        font-family: Lato;
-    }
-
-    #content_home_header_title{
-        font-weight: bold;
-        font-size: 22px;
-    }
-
-    #content_home_header_body{
-        margin-top: -10px;
-    }
-
+@media screen and (max-width: 850px){
     #content_home_header_footer{
-        margin-top: 50px;
-        width: 700px;
-        margin-left: 10px;
-        line-height: 30px;
-        font-family: Lato;
-    }
-
-    #content_home_left_image{
-        padding-right: 0px;
-    }
-
-    #content_home_center_image{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #content_home_right_image{
-        padding-left: 0px;
-    }
-
-    #content_home_products{
-        margin-top: 100px;
-    }
-
-    #content_home_products a{
-        text-decoration: none;
-    }
-    #content_home_customization a{
-        text-decoration: none;
-    }
-
-    #our_product_box{
-        text-align: center;
-        background: #e61c24;
-        margin-left: 28%;
-        margin-right: 28%;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        color: #f0f0f0;
-        border-radius: 25px;
-        margin-top: 90px;
-        margin-bottom: 135px;
-        font-size: 12px;
-    }
-
-    #our_product_box:hover{
-        cursor: pointer;
-    }
-
-    .content_image_desc_title{
-        font-family: Lato;
-        font-weight: bold;
-        font-size: 18px;
-        margin-top: 40px;
-        padding-left: 40px;
-    }
-
-    .content_image_desc_title:hover{
-        cursor: pointer;
-        color: #e61c24;
-    }
-
-    .content_image_desc{
-        margin-top: 5px !important;
-        font-family: Lato;
-        text-align: center;
+        width: 650px;
         margin-left: 20px !important;
-        margin-right: 20px !important;
-        line-height: 22px;
     }
-
-    #content_home_customization{
-        margin-top: 150px;
-    }
-
-    #content_home_costumization_title{
-        text-align: center;
-        font-family: Lato;
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    #content_home_costumization_header{
-        text-align: center;
-        margin-top: -3px;
-    }
-
-    #content_home_costumization_body{
-        text-align: center;
-        margin-left: 8%;
-        margin-right: 8%;
-        margin-top: 50px;
-        line-height: 30px;
-        font-family: Lato;
-    }
-
-    #content_home_costumization_footer{
-        text-align: center;
-        background: #e61c24;
-        margin-left: 42%;
-        margin-right: 42%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        color: #f0f0f0;
-        border-radius: 25px;
-        margin-top: 110px;
-        margin-bottom: 170px;
+    #our_product_box{
+        margin-top: 80px !important;
+        margin-bottom: 125px !important;
         font-size: 12px;
     }
-
-    #content_home_costumization_footer:hover{
-        cursor: pointer;
+    .content_image_desc_title{
+        margin-left: 10px !important;
     }
-
-    .row{
-        margin-top: 15px;
-    }
-
-    #content_home_material{
-        margin-top: 150px;
-    }
-
-    .arrow_logo{
-        width: 15px;
-    }
-
-    #left_arrow_icon{
-        margin-left: 20%;
-        cursor: pointer;
-    }
-
-    .material_text{
-        margin-top: 5px;
-        font-family: Lato;
-        font-size: 10px;
-    }
-
-    #right_arrow_icon{
-        margin-left: 30px;
-        cursor: pointer;
-    }
-
-    #content_home_material_title{
-        text-align: center;
-        margin-bottom: 50px;
-        margin-top: 75px;
-        font-family: Lato;
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    .image_list_choose_material{
-        display: block;
-    }
-
     .image_list_choose_material ul{
-        margin: 0;
-        margin-top:25px;
-        margin-bottom: 25px;
-        padding: 0;
-    }
-
-    .image_list_choose_material ul li{
-        text-decoration: none;
-        list-style-type: none;
-        display: inline;
-        padding: 5px;
-    }
-
-    #wool_icon, #cotton_icon, #linen_icon, #tweed_icon{
-        width: 65px;
-        margin-left: 5px;
-    }
-
-    #wool_icon{
-        margin-left: 25px;
-    }
-
-    .material_logo1{
-        width: 90px;
-        opacity: 0;
-        margin-left: -80px;
-    }
-
-    #wool_material span{
-        background: #e61c24;
-        display: block;
-        left: 220px;
-        width: 65px;
-        height: 65px;
-        border-radius: 50%;
-        margin-top: -77px;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        z-index: 0;
-    }
-
-    #cotton_material span{
-        background: #e61c24;
-        display: block;
-        left: 317px;
-        width: 65px;
-        height: 65px;
-        border-radius: 50%;
-        margin-top: -77px;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        z-index: 0;
-    }
-
-    #linen_material span{
-        background: #e61c24;
-        display: block;
-        left: 415px;
-        width: 65px;
-        height: 65px;
-        border-radius: 50%;
-        margin-top: -77px;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        z-index: 0;
-    }
-
-    #tweed_material span{
-        background: #e61c24;
-        display: block;
-        left: 514px;
-        width: 65px;
-        height: 65px;
-        border-radius: 50%;
-        margin-top: -77px;
-        opacity: 0.4;
-        position: absolute;
-        right: 0;
-        z-index: 0;
-    }
-
-    #wool_material:hover #wool_icon1{
-        opacity: 1;
+        margin-left: -100px !important;
         cursor: pointer;
     }
-    #cotton_material:hover #cotton_icon1{
-        opacity: 1;
+    .image_list_choose_material ul span{
+        margin-left: -100px !important;
         cursor: pointer;
     }
-    #linen_material:hover #linen_icon1{
-        opacity: 1;
-        cursor: pointer;
-    }
-    #tweed_material:hover #tweed_icon1{
-        opacity: 1;
-        cursor: pointer;
-    }
-
-    #wool_material:hover span {
-        display: none;
-    }
-    #cotton_material:hover span {
-        display: none;
-    }
-    #linen_material:hover span {
-        display: none;
-    }
-    #tweed_material:hover span {
-        display: none;
-    }
-
-    .bld{
-        font-weight: bold;
-    }
-
-    .big{
-        opacity: 1;
-        cursor: pointer;
-    }
-
-    .hide{
-        display: none;
-    }
-
     .image_list_choose_material_text{
-        margin-top: -10px;
-        margin-left: 230px;
+        margin-left: 200px !important;
     }
-
+    .image_list_choose_material{
+        padding-left: 0px !important;
+    }
+    .image_list_choose_material ul li span{
+        margin-left: -100px !important;
+    }
     .image_list_choose_material_text ul{
-        margin: 0;
-        padding: 0;
-    }
-
-    .image_list_choose_material_text ul li{
-        list-style-type: none;
-        text-decoration: none;
-        display: inline;
-        padding-right: 40px;
-        cursor: pointer;
-    }
-
-    #linen_text, #tweed_text{
-        margin-left: 7px;
-    }
-
-    #content_home_customization_image{
-        margin-bottom: -100px;
+        margin-left: 100px;
     }
 }
 
@@ -2197,6 +1562,7 @@
 @media screen and (max-width: 400px){
     .content{
         margin-top: -390px !important;
+        margin-left: 10px !important;
     }
     body{
         overflow-x: hidden;
@@ -2214,19 +1580,23 @@
     #content_home_header_title{
         font-weight: bold;
         font-size: 22px;
+        width: 250px;
+        margin-left: 20px !important;
     }
 
     #content_home_header_body{
         margin-top: -10px;
+        width: 250px;
+        margin-left: 20px !important;
     }
 
     #content_home_header_footer{
         margin-top: 50px;
-        width: 310px;
+        width: 250px;
         margin-left: 10px;
-        line-height: 30px;
+        line-height: 20px;
         font-family: Lato;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     #content_home_left_image{
@@ -2264,8 +1634,8 @@
         padding-right: 7px;
         color: #f0f0f0;
         border-radius: 25px;
-        margin-top: 40px;
-        margin-bottom: 80px;
+        margin-top: 20px !important;
+        margin-bottom: 50px !important;
         font-size: 8px;
     }
 
@@ -2276,9 +1646,8 @@
     .content_image_desc_title{
         font-family: Lato;
         font-weight: bold;
-        font-size: 18px;
         margin-top: 8px !important;
-        padding-left: 10px;
+        padding-left: 20px !important;
         font-size: 15px;
     }
 
@@ -2288,17 +1657,17 @@
     }
 
     .content_image_desc{
-        margin-top: 25px !important;
+        margin-top: 30px !important;
         font-family: Lato;
         text-align: center;
         margin-left: 20px !important;
         margin-right: 20px !important;
-        line-height: 15px;
-        font-size: 10px;
+        line-height: 10px;
+        font-size: 9px !important;
     }
 
     #content_home_center_image_stools{
-        margin-top: 110px;
+        margin-top: 100px;
     }
 
     #content_home_customization{
@@ -2357,7 +1726,7 @@
     }
 
     #left_arrow_icon{
-        margin-left: 15px;
+        margin-left: 120px !important;
         cursor: pointer;
     }
 
@@ -2417,11 +1786,11 @@
     #wool_material span{
         background: #e61c24;
         display: block;
-        left: 53px;
+        left: 158px !important;
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        margin-top: -69px;
+        margin-top: -55px;
         opacity: 0.4;
         position: absolute;
         right: 0;
@@ -2431,11 +1800,11 @@
     #cotton_material span{
         background: #e61c24;
         display: block;
-        left: 122px;
+        left: 217px !important;
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        margin-top: -69px;
+        margin-top: -55px;
         opacity: 0.4;
         position: absolute;
         right: 0;
@@ -2445,11 +1814,11 @@
     #linen_material span{
         background: #e61c24;
         display: block;
-        left: 190px;
+        left: 275px !important;
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        margin-top: -69px;
+        margin-top: -55px;
         opacity: 0.4;
         position: absolute;
         right: 0;
@@ -2459,11 +1828,11 @@
     #tweed_material span{
         background: #e61c24;
         display: block;
-        left: 257px;
+        left: 332px !important;
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        margin-top: -69px;
+        margin-top: -55px;
         opacity: 0.4;
         position: absolute;
         right: 0;
@@ -2485,6 +1854,23 @@
     #tweed_material:hover #tweed_icon1{
         opacity: 1;
         cursor: pointer;
+    }
+
+    #wool_icon1{
+        width: 60px !important;
+        margin-left: -60px !important;
+    }
+    #cotton_icon1{
+        width: 60px !important;
+        margin-left: -60px !important;
+    }
+    #linen_icon1{
+        width: 60px !important;
+        margin-left: -60px !important;
+    }
+    #tweed_icon1{
+        width: 60px !important;
+        margin-left: -60px !important;
     }
 
     #wool_material:hover span {
@@ -2515,7 +1901,7 @@
 
     .image_list_choose_material_text{
         margin-top: -10px;
-        margin-left: 150px;
+        margin-left: 50px !important;
     }
 
     .image_list_choose_material_text ul{
@@ -2527,8 +1913,9 @@
         list-style-type: none;
         text-decoration: none;
         display: inline;
-        padding-right: 40px;
+        padding-right: 10px;
         cursor: pointer;
+        font-size: 12px;
     }
 
     #cotton_text{

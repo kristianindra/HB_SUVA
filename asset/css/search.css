@@ -57,7 +57,7 @@ input:focus{
     margin-bottom: -100px; 
 }
 
-#content_right_title{
+#content_right_title1, #content_right_title2, #content_right_title3, #content_right_title4, #content_right_title5{
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -209,6 +209,18 @@ ul.pagination li a {
     }
 }*/
 
+@media screen and (min-width: 1300px){
+    #content_right_title1, #content_right_title2, #content_right_title3, #content_right_title4, #content_right_title5{
+        margin-bottom: -25px;
+    }
+    #content_right_body1, #content_right_body2, #content_right_body3, #content_right_body4, #content_right_body5{
+        margin-bottom: -25px;
+    }
+    .content{
+        margin-bottom: -100px;
+    }
+}
+
 @media screen and (max-width: 1024px){
     #content_left_text_title{
         width: 250px;
@@ -224,16 +236,57 @@ ul.pagination li a {
     }
 }
 
+@media screen and (min-width: 890px) and (max-width: 1024px){
+    #content_right_title1, #content_right_title2, #content_right_title3, #content_right_title4, #content_right_title5{
+        margin-bottom: -25px;
+    }
+    #content_right_body1, #content_right_body2, #content_right_body3, #content_right_body4, #content_right_body5{
+        margin-bottom: -25px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .content{
+        margin-top: 400px !important;
+    }
+    #content_left_text_title{
+        margin-top: 150px;
+    }
+    #another_search_box{
+        margin-left: 200px;
+    }
+    #content_right_body{
+        margin-top: 10px;
+    }
+    #content_right_footer{
+        margin-top: -30px;
+    }
+    #content_right_title1{
+        padding-top: 125px;
+    }
+    #content_right_title1, #content_right_title2, #content_right_title3, #content_right_title4, #content_right_title5{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #content_right_body1, #content_right_body2, #content_right_body3, #content_right_body4, #content_right_body5{
+        margin-top: -5px;
+        margin-bottom: -25px;
+    }
+}
+
 @media screen and (max-width: 400px){
+    .content{
+        margin-top: 300px !important;
+    }
     #content_left_text_title{
         width: 300px !important;
         font-size: 13px;
-        margin-top:300px;
+        margin-top: 5px;
         margin-left: -100px;
     }
     #another_search_box{
         margin-left: 80px;
-        margin-top: 370px;
+        margin-top: 75px;
     }
     #content_left_image{
         margin-bottom: 1500px;
@@ -242,12 +295,12 @@ ul.pagination li a {
         margin-top: 150px;
     }
     #content_right_title1{
-        margin-top: -70px;
+        margin-top: -200px;
         font-weight: bold;
     }
     #content_right_body1{
         margin-top: -40px;
-        width: 300px;
+        width: 275px;
     }
     #content_right_footer1{
         margin-top: -1380px;
@@ -258,7 +311,7 @@ ul.pagination li a {
     }
     #content_right_body2{
         margin-top: 90px;
-        width: 300px;
+        width: 275px;
     }
     #content_right_footer2{
         margin-top: 130px;
@@ -269,7 +322,7 @@ ul.pagination li a {
     }
     #content_right_body3{
         margin-top: 90px;
-        width: 300px;
+        width: 275px;
     }
     #content_right_footer3{
         margin-top: 130px;
@@ -280,7 +333,7 @@ ul.pagination li a {
     }
     #content_right_body4{
         margin-top: 90px;
-        width: 300px;
+        width: 275px;
     }
     #content_right_footer4{
         margin-top: 130px;
@@ -291,7 +344,7 @@ ul.pagination li a {
     }
     #content_right_body5{
         margin-top: 90px;
-        width: 300px;
+        width: 275px;
     }
     #content_right_footer5{
         margin-top: 130px;

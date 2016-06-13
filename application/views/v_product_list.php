@@ -138,67 +138,67 @@ html, body {
             </ul>
         </div>
         <div class="col-xs-12" id="list_item">
-            <a href="product" id="img1"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img1"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
                 class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="product" id="img2"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img2"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
-                class="image_item_list" />  
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="product" id="img3"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img3"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
-                class="image_item_list" />  
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="product" id="img4"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img4"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
-                class="image_item_list" />  
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="product" id="img5"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img5"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
-                class="image_item_list" />  
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="product" id="img6"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img6"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
-                class="image_item_list" />  
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="product" id="img7"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img7"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
-                class="image_item_list" />  
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="product" id="img8"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img8"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
-                class="image_item_list" />  
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
-            <a href="product" id="img9"><div class="col-xs-3" class="item_list">
+            <a href="product" id="img9"><div class="col-xs-3 item_list">
                 <img src="./asset/image/content/product_list/chair_image.png"
                 onmouseover="this.src='./asset/image/content/product_list/chair_image_.png';"
                 onmouseout="this.src='./asset/image/content/product_list/chair_image.png';"
-                class="image_item_list" />  
+                class="image_item_list" />
                 <p class="text_item_list">LOREM IPSUM</p>
             </div></a>
         </div>

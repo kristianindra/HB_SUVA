@@ -1,6 +1,6 @@
 <div class="my-slider">
     <ul>
-        <li><img src="./asset/image/header/head_contact-m.png" class="img-responsive img_header" id=""/></li>
+        <li><img src="./asset/image/header/head_contact-m.png" class="img-responsive img_header" id="img_head"/></li>
     </ul>
 </div>
 <div class="myHead">

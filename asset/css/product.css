@@ -431,7 +431,7 @@
 }
 
 #arrow_left{
-    margin-left: 370px;
+    margin-left: 0px;
     margin-top: 30px;
 }
 
@@ -454,7 +454,7 @@
 }
 
 #similar_product_item{
-    margin-left: 13%;
+    margin-left: 10px !important;
 }
 
 #similar_product_item ul li{
@@ -467,6 +467,7 @@
 
 #left_arrow_icon_similar{
     margin-right: 30px;
+    margin-left: 10px !important;
 }
 
 .product_similar{
@@ -474,8 +475,220 @@
     width: 180px;
     margin-right: 30px;
 }
+#material_text2{
+    border: 1px solid red;
+    padding-left: -100px !important;
+}
 
-@media screen and (max-width : 1024px) {
+/*CHOOSE MATERIAL*/
+
+.arrow_logo{
+    margin-top: -2px;
+}
+
+#left_arrow_icon{
+    margin-left: 0px;
+    margin-right: -15px;
+    cursor: pointer;
+}
+
+.material_text{
+    margin-top: 5px;
+    font-family: Lato;
+    font-size: 10px;
+}
+
+#right_arrow_icon{
+    margin-left: 110px;
+    cursor: pointer;
+}
+
+.image_list_choose_material{
+    display: block;
+}
+
+.image_list_choose_material ul{
+    margin: 0;
+    margin-top:25px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.image_list_choose_material ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 2px;
+}
+
+#wool_icon, #cotton_icon, #linen_icon, #tweed_icon{
+    width: 50px;
+    margin-left: 5px;
+}
+
+#wool_icon{
+    margin-left: 25px;
+}
+
+.material_logo1{
+    width: 60px;
+    opacity: 0;
+}
+
+#wool_icon1{
+    margin-left: -55px;
+}
+#cotton_icon1{
+    margin-left: -55px;
+}
+#linen_icon1{
+    margin-left: -55px;
+}
+#tweed_icon1{
+    margin-left: -55px;
+}
+
+#wool_material span{
+    background: #e61c24;
+    display: block;
+    left: 43px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -55px;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+#cotton_material span{
+    background: #e61c24;
+    display: block;
+    left: 114px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -55px;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+#linen_material span{
+    background: #e61c24;
+    display: block;
+    left: 182px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -55px;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+#tweed_material span{
+    background: #e61c24;
+    display: block;
+    left: 251px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -55px;
+    opacity: 0.4;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+#wool_material:hover #wool_icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+#cotton_material:hover #cotton_icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+#linen_material:hover #linen_icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+#tweed_material:hover #tweed_icon1{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#wool_material:hover span {
+    display: none;
+}
+#cotton_material:hover span {
+    display: none;
+}
+#linen_material:hover span {
+    display: none;
+}
+#tweed_material:hover span {
+    display: none;
+}
+
+.bld{
+    font-weight: bold;
+}
+
+.big{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.image_list_choose_material_text{
+    margin-top: -10px;
+    margin-left: 35px;
+}
+
+.image_list_choose_material_text ul{
+    margin: 0;
+    padding: 0;
+}
+
+.image_list_choose_material_text ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+#linen_text, #tweed_text{
+    margin-left: 7px;
+}
+
+@media only screen and (min-width: 1300px){
+    #similar_product_item{
+        margin-left: -4400px !important;
+        margin-bottom: 50px;
+    }
+    #similar_product_item ul li img{
+        margin: 0;
+        padding: 0;
+    }
+    #left_arrow_icon_similar{
+        width: 15px;
+        margin-right: 25px !important;
+    }
+    #right_arrow_icon_similar{
+        width: 15px;
+        margin-left: 25px !important;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
     #content_body{
         width: 800px;
         margin-left: 80px;
@@ -489,6 +702,15 @@
     #content_product_left_image_side_, #content_product_left_image_side, #content_product_left_image_back{
         height: 80px;
     }
+    #content_product_left_image_side_{
+        margin-left: -20px !important;
+    }
+    #content_product_left_image_side{
+        margin-left: -20px !important;
+    }
+    #content_product_left_image_back{
+        margin-left: -20px !important;
+    }
     #material_text2{
         margin-left: 0px;
     }
@@ -496,29 +718,24 @@
         width: 150px;
     }
     #order_now{
-        background-color: #e61c24;
-        margin-right: 180px;
-        color: #f0f0f0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        text-align: center;
-        border-radius: 25px;
-        margin-top: 50px;
-        margin-bottom: 100px;
+        margin-right: 180px !important;
     }
     #similar_product_item ul{
-        margin-left: -50px;
+        margin-left: -10px !important;
     }
     #similar_product_item ul li img{
         height: 125px;
         width: 125px;
+    }
+    #sim_prod{
+        margin-bottom: 25px;
     }
     #left_arrow_icon_similar, #right_arrow_icon_similar{
         width: 15px !important;
         height: 20px !important;
     }
 }
-@media screen and (max-width : 900px) {
+@media only screen and (max-width : 900px) {
     #content_body{
         width: 675px;
         margin-left: 60px;
@@ -532,16 +749,42 @@
 
     #content_product_left_image_front{
         height: 400px;
+        width: 350px;
     }
     #content_product_left_image_side_, #content_product_left_image_side, #content_product_left_image_back{
         height: 80px;
+        width: 70px;
+    }
+    #content_product_left_image_side_{
+        margin-left: 120px;
+    }
+    #content_product_left_image_side{
+        margin-left: 35px;
+    }
+    #content_product_left_image_back{
+        margin-left: -50px;
     }
     #similar_product_item ul{
         margin-left: -75px;
     }
+    #aaa{
+        margin-top: -100px;
+    }
+    #right_content{
+        margin-top: 250px;
+    }
+    #similar_product_item ul{
+        padding-left: 25px !important;
+    }
 }
 
-@media screen and (max-width : 400px) {
+@media only screen and (max-width: 780px){
+    #similar_product_item ul{
+        padding-left: 15px !important;
+    }
+}
+
+@media only screen and (max-width : 450px) {
     #content_title{
         width: 275px;
         margin-left: 40px;
@@ -551,41 +794,244 @@
         margin-left: 50px;
     }
     #menu_item{
-        margin-left: -30px;
+        margin-left: -27px;
     }
     #menu_list_item li{
         margin-left: -50px;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 18px;
+        padding-left: 18px;
+        font-size: 13px;
     }
     #content_product_left_image_front{
-        height: 350px;
+        height: 300px;
     }
-    #position_chair{
-        margin-left: -30px;
+    #content_product_left_image_side_{
+        margin-left: -40px;
+        height: 60px;
     }
-    #content_product_left_image_side_, #content_product_left_image_side, #content_product_left_image_back{
-        height: 75px;
-        width: 75px;
+    #content_product_left_image_side{
+        margin-left: -20px;
+        height: 60px;
     }
-    #aaa{
-        margin-top: 100px !important;
+    #content_product_left_image_back{
+        margin-left: 0px;
+        height: 60px;
     }
-    #similar_product_item ul{
-        margin-left: -50px;
+
+    /*CHOSE MATERIAL*/
+    .arrow_logo{
+        margin-top: -2px;
     }
-    #similar_product_item ul li img{
-        height: 50px;
-        width: 50px;
+
+    #left_arrow_icon{
+        margin-left: -5px;
+        margin-right: -15px;
+        cursor: pointer;
     }
-    #similar_product_item ul li{
-        padding: 0px;
+
+    .material_text{
+        margin-top: 5px;
+        font-family: Lato;
+        font-size: 9px;
     }
-    #left_arrow_icon_similar{
-        margin-right: 0px;
+
+    #right_arrow_icon{
+        margin-left: 105px;
+        cursor: pointer;
+    }
+
+    .image_list_choose_material{
+        display: block;
+    }
+
+    .image_list_choose_material ul{
+        margin: 0;
+        margin-top:25px;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+
+    .image_list_choose_material ul li{
+        text-decoration: none;
+        list-style-type: none;
+        display: inline;
+        padding: 2px;
+    }
+
+    #wool_icon, #cotton_icon, #linen_icon, #tweed_icon{
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    #wool_icon{
         margin-left: 25px;
     }
-    .product_similar{
-        margin-right: 0px;
+
+    .material_logo1{
+        width: 50px;
+        opacity: 0;
+    }
+
+    #wool_icon1{
+        margin-left: -45px;
+    }
+    #cotton_icon1{
+        margin-left: -45px;
+    }
+    #linen_icon1{
+        margin-left: -45px;
+    }
+    #tweed_icon1{
+        margin-left: -45px;
+    }
+
+    #wool_material span{
+        background: #e61c24;
+        display: block;
+        left: 40px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: -45px;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+    }
+
+    #cotton_material span{
+        background: #e61c24;
+        display: block;
+        left: 99px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: -45px;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+    }
+
+    #linen_material span{
+        background: #e61c24;
+        display: block;
+        left: 158px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: -45px;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+    }
+
+    #tweed_material span{
+        background: #e61c24;
+        display: block;
+        left: 218px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: -45px;
+        opacity: 0.4;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+    }
+
+    #wool_material:hover #wool_icon1{
+        opacity: 1;
+        cursor: pointer;
+    }
+    #cotton_material:hover #cotton_icon1{
+        opacity: 1;
+        cursor: pointer;
+    }
+    #linen_material:hover #linen_icon1{
+        opacity: 1;
+        cursor: pointer;
+    }
+    #tweed_material:hover #tweed_icon1{
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    #wool_material:hover span {
+        display: none;
+    }
+    #cotton_material:hover span {
+        display: none;
+    }
+    #linen_material:hover span {
+        display: none;
+    }
+    #tweed_material:hover span {
+        display: none;
+    }
+
+    .bld{
+        font-weight: bold;
+    }
+
+    .big{
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .image_list_choose_material_text{
+        margin-top: -20px;
+        margin-left: 30px;
+        font-size: 10px;
+    }
+
+    .image_list_choose_material_text ul{
+        margin: 0;
+        padding: 10px;
+    }
+
+    .image_list_choose_material_text ul li{
+        list-style-type: none;
+        text-decoration: none;
+        display: inline;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+
+    #linen_text, #tweed_text{
+        margin-left: 10 px;
+    }
+    #order_now{
+        margin-right: 130px !important;
+        font-size: 12px;
+    }
+    #content_product_proses{
+        margin-top: -50px;
+    }
+    #similar_product_text{
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #left_arrow_icon_similar, #right_arrow_icon_similar{
+        width: 10px !important;
+        height: 15px !important;
+    }
+    #similar_product_item{
+        margin-top: -50px;
+        margin-left: 35px !important;
+    }
+    #similar_product_item ul li img{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    #sim_prod{
+        margin-bottom: 50px;
     }
 }
